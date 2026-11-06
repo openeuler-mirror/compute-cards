@@ -1,0 +1,1266 @@
+[
+ {
+  "imageId": "17da20d1c2b6493cb38765adeba85884",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\ngit clone https://github.com/Ascend/cann-container-image.git\ncd cann-container-image\nexport CANN_REPO=my-cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n#需安装buildx\ndocker buildx build -t $CANN_REPO:$CANN_TAG -f cann/$CANN_TAG/Dockerfile .\n```\n\n---"
+ },
+ {
+  "imageId": "17da20d1c2b6493cb38765adeba85884",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\ngit clone https://github.com/Ascend/cann-container-image.git\ncd cann-container-image\nexport CANN_REPO=my-cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n#需安装buildx\ndocker buildx build -t $CANN_REPO:$CANN_TAG -f cann/$CANN_TAG/Dockerfile .\n```\n\n---"
+ },
+ {
+  "imageId": "17da20d1c2b6493cb38765adeba85884",
+  "os": "openEuler 22.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\ngit clone https://github.com/Ascend/cann-container-image.git\ncd cann-container-image\nexport CANN_REPO=my-cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n#需安装buildx\ndocker buildx build -t $CANN_REPO:$CANN_TAG -f cann/$CANN_TAG/Dockerfile .\n```\n\n---"
+ },
+ {
+  "imageId": "17da20d1c2b6493cb38765adeba85884",
+  "os": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\ngit clone https://github.com/Ascend/cann-container-image.git\ncd cann-container-image\nexport CANN_REPO=my-cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n#需安装buildx\ndocker buildx build -t $CANN_REPO:$CANN_TAG -f cann/$CANN_TAG/Dockerfile .\n```\n\n---"
+ },
+ {
+  "imageId": "f1690465f39847a8b0a1f9e5b36a03c4",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "每个 Dockerfile 会在构建时自动 clone 指定分支与 commit 的源码，并在镜像内执行 `build.sh` 安装 `motor` / `ccae_reporter`，**无需本地源码或构建上下文**。将 `<tag>` 替换为目标组合后，在项目根目录执行：\n\n```bash\nTAG=\"3.2.0-sglang0.5.21-a3-ubuntu22.04-py3.12\"\n\ndocker build --network=host \\\n    --platform=linux/arm64 \\\n    -t \"mindie-motor:${TAG}\" \\\n    -f \"docker/mindie-motor-vllm/${TAG}/Dockerfile\" \\\n    .\n```\n\n各 Dockerfile 头部注释中已写明对应的 `--platform`、源码仓库信息与完整 `docker build` 命令，可直接复制使用。\n\n`master` Dockerfile 会在构建阶段安装 gcc / curl / libzmq，由 `build.sh` 探测或 rustup 安装 cargo，把必需的 `libmindie_workload_shm.so` 与（有 libzmq 时的）`kv-conductor` 打进 wheel（缺 `.so` 拒绝出包）。默认 `SKIP_WORKLOAD_SHM_BUILD=0` 与 `SKIP_KV_CONDUCTOR_BUILD=0`，即使构建上下文里已有宿主机编好的 `.so`/二进制也会在镜像内重编（避免 glibc/ABI 不一致）。本地 `bash build.sh` 则是已有产物跳过 cargo。缺 libzmq/pkg-config 时 `build.sh` 会自动跳过 kv-conductor，不会在脚本里 apt 安装 libzmq。即使已有头文件也要跳过时用 `--build-arg SKIP_KV_CONDUCTOR_BUILD=1`。请勿在与运行镜像不同的 OS 上交叉拷贝 `.so`（glibc 可能对不上）。\n\n---"
+ },
+ {
+  "imageId": "f1690465f39847a8b0a1f9e5b36a03c4",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "每个 Dockerfile 会在构建时自动 clone 指定分支与 commit 的源码，并在镜像内执行 `build.sh` 安装 `motor` / `ccae_reporter`，**无需本地源码或构建上下文**。将 `<tag>` 替换为目标组合后，在项目根目录执行：\n\n```bash\nTAG=\"3.2.0-sglang0.5.21-a3-ubuntu22.04-py3.12\"\n\ndocker build --network=host \\\n    --platform=linux/arm64 \\\n    -t \"mindie-motor:${TAG}\" \\\n    -f \"docker/mindie-motor-vllm/${TAG}/Dockerfile\" \\\n    .\n```\n\n各 Dockerfile 头部注释中已写明对应的 `--platform`、源码仓库信息与完整 `docker build` 命令，可直接复制使用。\n\n`master` Dockerfile 会在构建阶段安装 gcc / curl / libzmq，由 `build.sh` 探测或 rustup 安装 cargo，把必需的 `libmindie_workload_shm.so` 与（有 libzmq 时的）`kv-conductor` 打进 wheel（缺 `.so` 拒绝出包）。默认 `SKIP_WORKLOAD_SHM_BUILD=0` 与 `SKIP_KV_CONDUCTOR_BUILD=0`，即使构建上下文里已有宿主机编好的 `.so`/二进制也会在镜像内重编（避免 glibc/ABI 不一致）。本地 `bash build.sh` 则是已有产物跳过 cargo。缺 libzmq/pkg-config 时 `build.sh` 会自动跳过 kv-conductor，不会在脚本里 apt 安装 libzmq。即使已有头文件也要跳过时用 `--build-arg SKIP_KV_CONDUCTOR_BUILD=1`。请勿在与运行镜像不同的 OS 上交叉拷贝 `.so`（glibc 可能对不上）。\n\n---"
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "构建 MindIE 镜像",
+  "body": "在 `docker` 目录下执行构建脚本：\n\n```bash\n# 完整参数示例（whl 包，默认 Python 3.11.10）\nbash build.sh \\\n    --os=ubuntu \\\n    --chip=910 \\\n    --arch=x86_64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0\n\n# 使用 run 包 + 自定义 Python 版本\nbash build.sh \\\n    --os=openeuler \\\n    --chip=310 \\\n    --arch=aarch64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0 \\\n    --type=run \\\n    --python=3.11.6\n\n# 仅校验参数，不执行构建\nbash build.sh \\\n    --os=ubuntu \\\n    --chip=910 \\\n    --arch=x86_64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0 \\\n    --dry-run\n```"
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "2. **并行下载（8 路）** — `download.sh` 并行下载以下组件",
+  "body": "- PTA（torch_npu wheel）\n   - Python 源码包（仅 Ubuntu，openEuler 跳过）\n   - CANN Toolkit\n   - CANN NNAL\n   - CANN Kernels（芯片相关算子包）\n   - MindIE-LLM 包（whl 或 run）\n   - MindIE-SD 包（仅 whl）\n   - MindIE-Motor 包（仅 whl）\n3. **Docker 多阶段构建** — `build_image.sh` 调用 `Dockerfile` 执行 7 阶段构建：\n   - **Stage 1a (base-ubuntu):** Ubuntu 24.04 + 从源码编译 Python\n   - **Stage 1b (base-openeuler):** OpenEuler 24.03 + 预装 Python\n   - **Stage 2 (base):** 动态 OS 选择，导入所有下载包\n   - **Stage 3 (cann):** 安装 CANN Toolkit + Kernels + NNAL\n   - **Stage 4 (pta):** 安装 PyTorch + torch_npu\n   - **Stage 4.5 (mindstudio):** 安装开发工具（git, cmake, gcc, ffmpeg 等）\n   - **Stage 5 (mindie):** 安装 MindIE 组件（LLM / SD / Motor）"
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "构建 MindIE 镜像",
+  "body": "在 `docker` 目录下执行构建脚本：\n\n```bash\n# 完整参数示例（whl 包，默认 Python 3.11.10）\nbash build.sh \\\n    --os=ubuntu \\\n    --chip=910 \\\n    --arch=x86_64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0\n\n# 使用 run 包 + 自定义 Python 版本\nbash build.sh \\\n    --os=openeuler \\\n    --chip=310 \\\n    --arch=aarch64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0 \\\n    --type=run \\\n    --python=3.11.6\n\n# 仅校验参数，不执行构建\nbash build.sh \\\n    --os=ubuntu \\\n    --chip=910 \\\n    --arch=x86_64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0 \\\n    --dry-run\n```"
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "2. **并行下载（8 路）** — `download.sh` 并行下载以下组件",
+  "body": "- PTA（torch_npu wheel）\n   - Python 源码包（仅 Ubuntu，openEuler 跳过）\n   - CANN Toolkit\n   - CANN NNAL\n   - CANN Kernels（芯片相关算子包）\n   - MindIE-LLM 包（whl 或 run）\n   - MindIE-SD 包（仅 whl）\n   - MindIE-Motor 包（仅 whl）\n3. **Docker 多阶段构建** — `build_image.sh` 调用 `Dockerfile` 执行 7 阶段构建：\n   - **Stage 1a (base-ubuntu):** Ubuntu 24.04 + 从源码编译 Python\n   - **Stage 1b (base-openeuler):** OpenEuler 24.03 + 预装 Python\n   - **Stage 2 (base):** 动态 OS 选择，导入所有下载包\n   - **Stage 3 (cann):** 安装 CANN Toolkit + Kernels + NNAL\n   - **Stage 4 (pta):** 安装 PyTorch + torch_npu\n   - **Stage 4.5 (mindstudio):** 安装开发工具（git, cmake, gcc, ffmpeg 等）\n   - **Stage 5 (mindie):** 安装 MindIE 组件（LLM / SD / Motor）"
+ },
+ {
+  "imageId": "07a016975cc341f3a5ae131f2b52399d",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "如何构建容器镜像",
+  "body": "```bash\n# 在宿主机上任意目录下 clone 代码, 并进入 docker 目录, 获取dockerfile替换 {cann version} 为实际版本, 替换 {your_repo} 为实际镜像仓库\ngit clone https://gitcode.com/Ascend/text-embeddings-inference.git && cd text-embeddings-inference/docker\n\ndocker build --network host --build-arg CANN_VERSION={cann version} -t {your_repo}/mis-tei:latest -f Dockerfile.<芯片系列>.<操作系统> .\n```\n\n---"
+ },
+ {
+  "imageId": "07a016975cc341f3a5ae131f2b52399d",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "如何构建容器镜像",
+  "body": "```bash\n# 在宿主机上任意目录下 clone 代码, 并进入 docker 目录, 获取dockerfile替换 {cann version} 为实际版本, 替换 {your_repo} 为实际镜像仓库\ngit clone https://gitcode.com/Ascend/text-embeddings-inference.git && cd text-embeddings-inference/docker\n\ndocker build --network host --build-arg CANN_VERSION={cann version} -t {your_repo}/mis-tei:latest -f Dockerfile.<芯片系列>.<操作系统> .\n```\n\n---"
+ },
+ {
+  "imageId": "e26da9266559438b93354792f25b2f4a",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "自定义构建基础镜像",
+  "body": "构建脚本 `image_build.sh` 支持多种参数配置，默认值与最新发布的镜像 Tag 保持一致，可根据实际需求覆盖：\n\n| 参数 | 说明                                  | 默认值 |\n| ------ |-------------------------------------| ------------ |\n| `-t, --npu-type` | NPU 类型：`910b`、`a3` 或 `950`                | `910b` |\n| `-o, --os` | 操作系统：`openeuler24.03`或`ubuntu22.04` | `openeuler24.03` |\n| `--no-cache` | 构建时不使用 Docker 构建缓存                          | 无 |\n| `--mindspeed-llm-branch` | MindSpeed LLM 版本标识，同时作为 Git 分支名称    | `26.1.0` |\n| `--mindspeed-branch` | MindSpeed 版本标识，同时作为 Git 分支名称        | `26.1.0_core_r0.12.1` |\n| `--megatron-branch` | Megatron-LM 版本标识，同时作为 Git 分支名称      | `core_v0.12.1` |\n| `--python-version` | Python 版本                           | `3.12` |\n| `--torch-version` | PyTorch 版本                          | `2.7.1` |\n| `--torch-npu-version` | TorchNPU 安装包版本                            | `2.7.1.post8` |\n| `--triton-ascend-version` | Triton-Ascend 版本                        | `3.2.2` |\n| `--fla-npu-branch` | flash-linear-attention-npu 分支       | `v26.1.0` |\n| `--base-image-version` | 基础镜像 CANN 版本                        | `9.1.0` |\n| `--base-image` | 完整基础镜像名称，当设置不为空时会原样传入拉取镜像           | 无 |\n| `--cleanup-on-fail` | 构建失败时清理悬空的镜像和容器           | 无 |\n\n**提示：** 最新发布的镜像 Tag 和 `image_build.sh` 构建脚本均支持 `910b`（Atlas A2训练系列产品）、`a3`（Atlas A3训练系列产品）和 `950`（Ascend 950PR&950DT系列产品）。"
+ },
+ {
+  "imageId": "e26da9266559438b93354792f25b2f4a",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "基础构建示例",
+  "body": "仅需传入想要修改的参数，未指定的参数会自动使用上表中的默认值。\n\n```bash\ncd docker\n\n# 使用全部默认值构建（910b + openEuler24.03）\nbash image_build.sh\n\n# 自定义 NPU 类型和操作系统\nbash image_build.sh -t 950 -o ubuntu22.04\n\n# 自定义 CANN、PyTorch 和 TorchNPU 软件包版本\nbash image_build.sh \\\n  --base-image-version 9.1.0 \\\n  --torch-version 2.7.1 \\\n  --torch-npu-version 2.7.1.post8\n\n# 修改源码分支\nbash image_build.sh \\\n  --mindspeed-llm-branch 26.1.0 \\\n  --mindspeed-branch 26.1.0_core_r0.12.1 \\\n  --megatron-branch core_v0.12.1\n\n# 修改输出镜像名称\nbash image_build.sh -i myproject/mindspeed-llm:custom\n```"
+ },
+ {
+  "imageId": "e26da9266559438b93354792f25b2f4a",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "flash-linear-attention-npu 算子编译",
+  "body": "镜像构建过程中会在 clone `flash-linear-attention-npu` 后自动 source CANN 环境，并编译安装 GDN 相关自定义算子 run 包和 `torch_custom/fla_npu` whl 包。\n\n`--soc` 默认按机型自动映射：\n\n| 机型 | FLA NPU `--soc` |\n| ------ | ------ |\n| `910b` | `ascend910b` |\n| `a3` | `ascend910_93` |\n| `950` | `ascend950` |\n\n如需覆盖默认映射，可通过构建参数指定：\n\n```bash\nbash image_build.sh --fla-npu-soc ascend910_93\n```\n\nFLA NPU 算子列表在 `docker/image_build.sh` 的 `FLA_NPU_OPS` 数组中统一维护。后续如需新增算子，只需向该数组追加算子名称即可，脚本会自动拼接为 `build.sh --ops` 所需的逗号分隔参数。"
+ },
+ {
+  "imageId": "e26da9266559438b93354792f25b2f4a",
+  "os": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "自定义构建基础镜像",
+  "body": "构建脚本 `image_build.sh` 支持多种参数配置，默认值与最新发布的镜像 Tag 保持一致，可根据实际需求覆盖：\n\n| 参数 | 说明                                  | 默认值 |\n| ------ |-------------------------------------| ------------ |\n| `-t, --npu-type` | NPU 类型：`910b`、`a3` 或 `950`                | `910b` |\n| `-o, --os` | 操作系统：`openeuler24.03`或`ubuntu22.04` | `openeuler24.03` |\n| `--no-cache` | 构建时不使用 Docker 构建缓存                          | 无 |\n| `--mindspeed-llm-branch` | MindSpeed LLM 版本标识，同时作为 Git 分支名称    | `26.1.0` |\n| `--mindspeed-branch` | MindSpeed 版本标识，同时作为 Git 分支名称        | `26.1.0_core_r0.12.1` |\n| `--megatron-branch` | Megatron-LM 版本标识，同时作为 Git 分支名称      | `core_v0.12.1` |\n| `--python-version` | Python 版本                           | `3.12` |\n| `--torch-version` | PyTorch 版本                          | `2.7.1` |\n| `--torch-npu-version` | TorchNPU 安装包版本                            | `2.7.1.post8` |\n| `--triton-ascend-version` | Triton-Ascend 版本                        | `3.2.2` |\n| `--fla-npu-branch` | flash-linear-attention-npu 分支       | `v26.1.0` |\n| `--base-image-version` | 基础镜像 CANN 版本                        | `9.1.0` |\n| `--base-image` | 完整基础镜像名称，当设置不为空时会原样传入拉取镜像           | 无 |\n| `--cleanup-on-fail` | 构建失败时清理悬空的镜像和容器           | 无 |\n\n**提示：** 最新发布的镜像 Tag 和 `image_build.sh` 构建脚本均支持 `910b`（Atlas A2训练系列产品）、`a3`（Atlas A3训练系列产品）和 `950`（Ascend 950PR&950DT系列产品）。"
+ },
+ {
+  "imageId": "e26da9266559438b93354792f25b2f4a",
+  "os": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "基础构建示例",
+  "body": "仅需传入想要修改的参数，未指定的参数会自动使用上表中的默认值。\n\n```bash\ncd docker\n\n# 使用全部默认值构建（910b + openEuler24.03）\nbash image_build.sh\n\n# 自定义 NPU 类型和操作系统\nbash image_build.sh -t 950 -o ubuntu22.04\n\n# 自定义 CANN、PyTorch 和 TorchNPU 软件包版本\nbash image_build.sh \\\n  --base-image-version 9.1.0 \\\n  --torch-version 2.7.1 \\\n  --torch-npu-version 2.7.1.post8\n\n# 修改源码分支\nbash image_build.sh \\\n  --mindspeed-llm-branch 26.1.0 \\\n  --mindspeed-branch 26.1.0_core_r0.12.1 \\\n  --megatron-branch core_v0.12.1\n\n# 修改输出镜像名称\nbash image_build.sh -i myproject/mindspeed-llm:custom\n```"
+ },
+ {
+  "imageId": "e26da9266559438b93354792f25b2f4a",
+  "os": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "flash-linear-attention-npu 算子编译",
+  "body": "镜像构建过程中会在 clone `flash-linear-attention-npu` 后自动 source CANN 环境，并编译安装 GDN 相关自定义算子 run 包和 `torch_custom/fla_npu` whl 包。\n\n`--soc` 默认按机型自动映射：\n\n| 机型 | FLA NPU `--soc` |\n| ------ | ------ |\n| `910b` | `ascend910b` |\n| `a3` | `ascend910_93` |\n| `950` | `ascend950` |\n\n如需覆盖默认映射，可通过构建参数指定：\n\n```bash\nbash image_build.sh --fla-npu-soc ascend910_93\n```\n\nFLA NPU 算子列表在 `docker/image_build.sh` 的 `FLA_NPU_OPS` 数组中统一维护。后续如需新增算子，只需向该数组追加算子名称即可，脚本会自动拼接为 `build.sh --ops` 所需的逗号分隔参数。"
+ },
+ {
+  "imageId": "e26da9266559438b93354792f25b2f4a",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "自定义构建基础镜像",
+  "body": "构建脚本 `image_build.sh` 支持多种参数配置，默认值与最新发布的镜像 Tag 保持一致，可根据实际需求覆盖：\n\n| 参数 | 说明                                  | 默认值 |\n| ------ |-------------------------------------| ------------ |\n| `-t, --npu-type` | NPU 类型：`910b`、`a3` 或 `950`                | `910b` |\n| `-o, --os` | 操作系统：`openeuler24.03`或`ubuntu22.04` | `openeuler24.03` |\n| `--no-cache` | 构建时不使用 Docker 构建缓存                          | 无 |\n| `--mindspeed-llm-branch` | MindSpeed LLM 版本标识，同时作为 Git 分支名称    | `26.1.0` |\n| `--mindspeed-branch` | MindSpeed 版本标识，同时作为 Git 分支名称        | `26.1.0_core_r0.12.1` |\n| `--megatron-branch` | Megatron-LM 版本标识，同时作为 Git 分支名称      | `core_v0.12.1` |\n| `--python-version` | Python 版本                           | `3.12` |\n| `--torch-version` | PyTorch 版本                          | `2.7.1` |\n| `--torch-npu-version` | TorchNPU 安装包版本                            | `2.7.1.post8` |\n| `--triton-ascend-version` | Triton-Ascend 版本                        | `3.2.2` |\n| `--fla-npu-branch` | flash-linear-attention-npu 分支       | `v26.1.0` |\n| `--base-image-version` | 基础镜像 CANN 版本                        | `9.1.0` |\n| `--base-image` | 完整基础镜像名称，当设置不为空时会原样传入拉取镜像           | 无 |\n| `--cleanup-on-fail` | 构建失败时清理悬空的镜像和容器           | 无 |\n\n**提示：** 最新发布的镜像 Tag 和 `image_build.sh` 构建脚本均支持 `910b`（Atlas A2训练系列产品）、`a3`（Atlas A3训练系列产品）和 `950`（Ascend 950PR&950DT系列产品）。"
+ },
+ {
+  "imageId": "e26da9266559438b93354792f25b2f4a",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "基础构建示例",
+  "body": "仅需传入想要修改的参数，未指定的参数会自动使用上表中的默认值。\n\n```bash\ncd docker\n\n# 使用全部默认值构建（910b + openEuler24.03）\nbash image_build.sh\n\n# 自定义 NPU 类型和操作系统\nbash image_build.sh -t 950 -o ubuntu22.04\n\n# 自定义 CANN、PyTorch 和 TorchNPU 软件包版本\nbash image_build.sh \\\n  --base-image-version 9.1.0 \\\n  --torch-version 2.7.1 \\\n  --torch-npu-version 2.7.1.post8\n\n# 修改源码分支\nbash image_build.sh \\\n  --mindspeed-llm-branch 26.1.0 \\\n  --mindspeed-branch 26.1.0_core_r0.12.1 \\\n  --megatron-branch core_v0.12.1\n\n# 修改输出镜像名称\nbash image_build.sh -i myproject/mindspeed-llm:custom\n```"
+ },
+ {
+  "imageId": "e26da9266559438b93354792f25b2f4a",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 3,
+  "title": "flash-linear-attention-npu 算子编译",
+  "body": "镜像构建过程中会在 clone `flash-linear-attention-npu` 后自动 source CANN 环境，并编译安装 GDN 相关自定义算子 run 包和 `torch_custom/fla_npu` whl 包。\n\n`--soc` 默认按机型自动映射：\n\n| 机型 | FLA NPU `--soc` |\n| ------ | ------ |\n| `910b` | `ascend910b` |\n| `a3` | `ascend910_93` |\n| `950` | `ascend950` |\n\n如需覆盖默认映射，可通过构建参数指定：\n\n```bash\nbash image_build.sh --fla-npu-soc ascend910_93\n```\n\nFLA NPU 算子列表在 `docker/image_build.sh` 的 `FLA_NPU_OPS` 数组中统一维护。后续如需新增算子，只需向该数组追加算子名称即可，脚本会自动拼接为 `build.sh --ops` 所需的逗号分隔参数。"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 Ascend Device Plugin 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t ascend-k8sdeviceplugin:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 Ascend Device Plugin 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64\n   ```\n\n3. 切换至解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t ascend-k8sdeviceplugin:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t ascend-k8sdeviceplugin:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t ascend-k8sdeviceplugin:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 Ascend Device Plugin 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t ascend-k8sdeviceplugin:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 Ascend Device Plugin 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64\n   ```\n\n3. 切换至解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t ascend-k8sdeviceplugin:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t ascend-k8sdeviceplugin:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t ascend-k8sdeviceplugin:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 NPU Exporter 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t npu-exporter:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 NPU Exporter 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t npu-exporter:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t npu-exporter:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t npu-exporter:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 NPU Exporter 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t npu-exporter:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 NPU Exporter 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t npu-exporter:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t npu-exporter:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t npu-exporter:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "昇腾 NPU 调度插件 v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建基于 Alpine latest、架构为 linux-aarch64 的 Volcano v1.9.0 组件镜像，镜像内置昇腾 NPU 调度插件 v26.2.0。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile-scheduler.alpine 和 Dockerfile-controller.alpine\n   链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.alpine\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.alpine\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建基于 Alpine latest、架构为 linux-aarch64 的 Volcano v1.9.0 组件镜像，镜像内置昇腾 NPU 调度插件 v26.0.0。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-volcano_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-volcano_26.0.0_linux-aarch64/volcano-v1.9.0\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller\n   ```\n\n> **注意**：\n>\n> - TARGETPLATFORM 是 Docker BuildKit 提供的全局内置参数，用于获取当前构建的目标平台（如 linux/amd64、linux/arm64）。\n> - 只有启用 BuildKit，才会自动注入这个变量。旧版 Docker / 默认关闭 BuildKit\n    的环境，构建时不存在这个变量，需要在运行构建指令前通过 <b>export DOCKER_BUILDKIT=1</b> 临时启用。"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile-scheduler.alpine 和 Dockerfile-controller.alpine\n   链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.alpine\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.alpine\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller\n   ```\n\n> **注意**：\n>\n> - TARGETPLATFORM 是 Docker BuildKit 提供的全局内置参数，用于获取当前构建的目标平台（如 linux/amd64、linux/arm64）。\n> - 只有启用 BuildKit，才会自动注入这个变量。旧版 Docker / 默认关闭 BuildKit\n    的环境，构建时不存在这个变量，需要在运行构建指令前通过 <b>export DOCKER_BUILDKIT=1</b> 临时启用。"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "昇腾 NPU 调度插件 v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建基于 Alpine latest、架构为 linux-aarch64 的 Volcano v1.9.0 组件镜像，镜像内置昇腾 NPU 调度插件 v26.2.0。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile-scheduler.alpine 和 Dockerfile-controller.alpine\n   链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.alpine\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.alpine\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建基于 Alpine latest、架构为 linux-aarch64 的 Volcano v1.9.0 组件镜像，镜像内置昇腾 NPU 调度插件 v26.0.0。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-volcano_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-volcano_26.0.0_linux-aarch64/volcano-v1.9.0\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller\n   ```\n\n> **注意**：\n>\n> - TARGETPLATFORM 是 Docker BuildKit 提供的全局内置参数，用于获取当前构建的目标平台（如 linux/amd64、linux/arm64）。\n> - 只有启用 BuildKit，才会自动注入这个变量。旧版 Docker / 默认关闭 BuildKit\n    的环境，构建时不存在这个变量，需要在运行构建指令前通过 <b>export DOCKER_BUILDKIT=1</b> 临时启用。"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile-scheduler.alpine 和 Dockerfile-controller.alpine\n   链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.alpine\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.alpine\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller\n   ```\n\n> **注意**：\n>\n> - TARGETPLATFORM 是 Docker BuildKit 提供的全局内置参数，用于获取当前构建的目标平台（如 linux/amd64、linux/arm64）。\n> - 只有启用 BuildKit，才会自动注入这个变量。旧版 Docker / 默认关闭 BuildKit\n    的环境，构建时不存在这个变量，需要在运行构建指令前通过 <b>export DOCKER_BUILDKIT=1</b> 临时启用。"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "昇腾 NPU 调度插件 v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建基于 Alpine latest、架构为 linux-aarch64 的 Volcano v1.9.0 组件镜像，镜像内置昇腾 NPU 调度插件 v26.2.0。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile-scheduler.alpine 和 Dockerfile-controller.alpine\n   链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.alpine\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.alpine\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建基于 Alpine latest、架构为 linux-aarch64 的 Volcano v1.9.0 组件镜像，镜像内置昇腾 NPU 调度插件 v26.0.0。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-volcano_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-volcano_26.0.0_linux-aarch64/volcano-v1.9.0\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller\n   ```\n\n> **注意**：\n>\n> - TARGETPLATFORM 是 Docker BuildKit 提供的全局内置参数，用于获取当前构建的目标平台（如 linux/amd64、linux/arm64）。\n> - 只有启用 BuildKit，才会自动注入这个变量。旧版 Docker / 默认关闭 BuildKit\n    的环境，构建时不存在这个变量，需要在运行构建指令前通过 <b>export DOCKER_BUILDKIT=1</b> 临时启用。"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile-scheduler.alpine 和 Dockerfile-controller.alpine\n   链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.alpine\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.alpine\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller\n   ```\n\n> **注意**：\n>\n> - TARGETPLATFORM 是 Docker BuildKit 提供的全局内置参数，用于获取当前构建的目标平台（如 linux/amd64、linux/arm64）。\n> - 只有启用 BuildKit，才会自动注入这个变量。旧版 Docker / 默认关闭 BuildKit\n    的环境，构建时不存在这个变量，需要在运行构建指令前通过 <b>export DOCKER_BUILDKIT=1</b> 临时启用。"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "昇腾 NPU 调度插件 v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建基于 Alpine latest、架构为 linux-aarch64 的 Volcano v1.9.0 组件镜像，镜像内置昇腾 NPU 调度插件 v26.2.0。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile-scheduler.alpine 和 Dockerfile-controller.alpine\n   链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.alpine\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.alpine\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建基于 Alpine latest、架构为 linux-aarch64 的 Volcano v1.9.0 组件镜像，镜像内置昇腾 NPU 调度插件 v26.0.0。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-volcano_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-volcano_26.0.0_linux-aarch64/volcano-v1.9.0\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller\n   ```\n\n> **注意**：\n>\n> - TARGETPLATFORM 是 Docker BuildKit 提供的全局内置参数，用于获取当前构建的目标平台（如 linux/amd64、linux/arm64）。\n> - 只有启用 BuildKit，才会自动注入这个变量。旧版 Docker / 默认关闭 BuildKit\n    的环境，构建时不存在这个变量，需要在运行构建指令前通过 <b>export DOCKER_BUILDKIT=1</b> 临时启用。"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile-scheduler.alpine 和 Dockerfile-controller.alpine\n   链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.alpine\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.alpine\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller\n   ```\n\n> **注意**：\n>\n> - TARGETPLATFORM 是 Docker BuildKit 提供的全局内置参数，用于获取当前构建的目标平台（如 linux/amd64、linux/arm64）。\n> - 只有启用 BuildKit，才会自动注入这个变量。旧版 Docker / 默认关闭 BuildKit\n    的环境，构建时不存在这个变量，需要在运行构建指令前通过 <b>export DOCKER_BUILDKIT=1</b> 临时启用。"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 NodeD 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t noded:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 NodeD 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-noded_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-noded_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-noded_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-noded_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t noded:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t noded:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-noded_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t noded:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 NodeD 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t noded:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 NodeD 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-noded_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-noded_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-noded_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-noded_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t noded:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t noded:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-noded_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t noded:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "构建 TorchNPU 镜像",
+  "body": "以构建2.14.0-a3-ubuntu22.04-py3.12镜像为例：\n\n```bash\ndocker build \\\n  --build-arg CHIP_ARCH=a3 \\\n  --build-arg OS=ubuntu \\\n  --build-arg OS_VERSION=22.04 \\\n  --build-arg PY_VERSION=3.11 \\\n  --build-arg CANN_VERSION=9.2.0 \\\n  --build-arg ARCH=arm \\\n  --build-arg PY_TAG=cp311 \\\n  --build-arg TORCH_NPU_RELEASE_TAG=v26.2.0-pytorch2.14.0 \\\n  --build-arg TORCH_NPU_PATCH_TAG=2.14.0 \\\n  -t image_name:tag \\\n  -f Dockerfile .\n```\n\n**注意**：若构建环境需要配置代理，需通过 `--build-arg` 传入代理变量，例如：\n\n```bash\ndocker build \\\n  --build-arg HTTP_PROXY=http://proxy.example.com:8080 \\\n  --build-arg HTTPS_PROXY=http://proxy.example.com:8080 \\\n  --build-arg NO_PROXY=localhost,127.0.0.1 \\\n  ... \\\n  -f Dockerfile .\n```\n\n代理地址和端口请替换为实际环境的值。"
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "构建 TorchNPU 镜像",
+  "body": "以构建2.14.0-a3-ubuntu22.04-py3.12镜像为例：\n\n```bash\ndocker build \\\n  --build-arg CHIP_ARCH=a3 \\\n  --build-arg OS=ubuntu \\\n  --build-arg OS_VERSION=22.04 \\\n  --build-arg PY_VERSION=3.11 \\\n  --build-arg CANN_VERSION=9.2.0 \\\n  --build-arg ARCH=arm \\\n  --build-arg PY_TAG=cp311 \\\n  --build-arg TORCH_NPU_RELEASE_TAG=v26.2.0-pytorch2.14.0 \\\n  --build-arg TORCH_NPU_PATCH_TAG=2.14.0 \\\n  -t image_name:tag \\\n  -f Dockerfile .\n```\n\n**注意**：若构建环境需要配置代理，需通过 `--build-arg` 传入代理变量，例如：\n\n```bash\ndocker build \\\n  --build-arg HTTP_PROXY=http://proxy.example.com:8080 \\\n  --build-arg HTTPS_PROXY=http://proxy.example.com:8080 \\\n  --build-arg NO_PROXY=localhost,127.0.0.1 \\\n  ... \\\n  -f Dockerfile .\n```\n\n代理地址和端口请替换为实际环境的值。"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 Ascend Operator 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t ascend-operator:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 Ascend Operator 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t ascend-operator:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t ascend-operator:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t ascend-operator:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 Ascend Operator 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t ascend-operator:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 Ascend Operator 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t ascend-operator:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t ascend-operator:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t ascend-operator:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "基础构建示例",
+  "body": "```bash\ncd docker\n\n# 构建 A3 + openEuler 镜像\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11\n\n# 构建 910B + Ubuntu 镜像\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-910b-ubuntu22.04-py3.11\n\n# 构建 950 + openEuler 镜像，并指定 conda base 环境为 Python 3.12\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.1.0-950-openeuler24.03-py3.12 --python-version 3.12\n\n# 指定 PyTorch 版本构建\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 --torch-version 2.7.1 --torch-npu-version 2.7.1.post4\n\n# 指定版本构建\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 -v 26.1.0\n\n# 构建 CI 镜像（在 dev 镜像基础上，tag 追加 -ci）\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 --build-ci\n```"
+ },
+ {
+  "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "自动识别基础镜像",
+  "body": "构建脚本会自动从基础镜像 tag 中识别关键信息（`--base-image` 参数为必选）：\n\n1. **CANN 版本识别**：从镜像 tag 中提取 CANN 版本号（如 `9.0.0`）\n2. **NPU 类型识别**：从镜像 tag 中识别 NPU 类型（如 `a3`）\n3. **操作系统识别**：从镜像 tag 中识别 `openeuler24.03` 或 `ubuntu22.04`\n4. **Python 版本识别**：从镜像 tag 中的 `py<x.y>` 字段提取 Python 版本（如 `3.11`）\n5. **自动生成镜像 tag**：基于识别到的信息自动生成符合命名规则的镜像 tag"
+ },
+ {
+  "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "最佳实践示例",
+  "body": "以下示例展示了如何使用自定义基础镜像构建 MindSpeed MM 镜像：\n\n```bash\n#!/bin/bash\nSCRIPT_DIR=\"$(cd \"$(dirname \"${BASH_SOURCE[0]}\")\" && pwd)\"\n\n# 自定义配置\nBASE_IMAGE=\"swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.1.0-910b-openeuler24.03-py3.12\"\nTORCH_VERSION=\"2.7.1\"\nTORCH_NPU_VERSION=\"2.7.1.post8\"\nMINDSPEED_MM_VERSION=\"26.1.0\"\nPYTHON_VERSION=\"3.11\"\n\n# 执行构建\nbash \"${SCRIPT_DIR}/build.sh\" \\\n    --base-image \"$BASE_IMAGE\" \\\n    --torch-version \"$TORCH_VERSION\" \\\n    --torch-npu-version \"$TORCH_NPU_VERSION\" \\\n    -v \"$MINDSPEED_MM_VERSION\" \\\n    --python-version \"$PYTHON_VERSION\" \\\n    --cleanup-on-fail\n```\n\n**关键特性说明：**\n\n1. **自动识别**：脚本会自动从 `BASE_IMAGE` 中识别 CANN 版本（9.1.0）、NPU 类型（910b）和操作系统（openeuler24.03）。如果`BASE_IMAGE`在系统中不存在，会自动拉取。\n2. **指定 Python 版本**：`--python-version` 用于指定模型运行 Python 版本。\n3. **自动生成 tag**：基于识别结果自动生成符合命名规则的镜像 tag（如 `v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.11-aarch64`）。\n4. **自动下载**：如果本地没有 Miniconda 安装器或 decord 依赖，脚本会自动下载\n5. **失败清理**：`--cleanup-on-fail` 参数确保构建失败时清理悬空资源"
+ },
+ {
+  "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 4,
+  "title": "二次开发",
+  "body": "基于此镜像创建自定义 Dockerfile：\n\n```dockerfile\nFROM mindspeed-mm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-a3-openeuler24.03-py3.11\n\nRUN pip install your-package==1.0.0\n\nCOPY . /workspace/your-project\n\nWORKDIR /workspace/your-project\n```\n\n构建并运行（示例：设备 /dev/davinci1）：\n\n```bash\n# 根据实际情况修改 ascend-toolkit 路径\ndocker build -t my-mindspeed-app:latest .\ndocker run -it --rm \\\n    --device=/dev/davinci1 \\\n    --device=/dev/davinci_manager \\\n    --device=/dev/devmm_svm \\\n    --device=/dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    my-mindspeed-app:latest bash\n```"
+ },
+ {
+  "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "基础构建示例",
+  "body": "```bash\ncd docker\n\n# 构建 A3 + openEuler 镜像\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11\n\n# 构建 910B + Ubuntu 镜像\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-910b-ubuntu22.04-py3.11\n\n# 构建 950 + openEuler 镜像，并指定 conda base 环境为 Python 3.12\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.1.0-950-openeuler24.03-py3.12 --python-version 3.12\n\n# 指定 PyTorch 版本构建\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 --torch-version 2.7.1 --torch-npu-version 2.7.1.post4\n\n# 指定版本构建\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 -v 26.1.0\n\n# 构建 CI 镜像（在 dev 镜像基础上，tag 追加 -ci）\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 --build-ci\n```"
+ },
+ {
+  "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "自动识别基础镜像",
+  "body": "构建脚本会自动从基础镜像 tag 中识别关键信息（`--base-image` 参数为必选）：\n\n1. **CANN 版本识别**：从镜像 tag 中提取 CANN 版本号（如 `9.0.0`）\n2. **NPU 类型识别**：从镜像 tag 中识别 NPU 类型（如 `a3`）\n3. **操作系统识别**：从镜像 tag 中识别 `openeuler24.03` 或 `ubuntu22.04`\n4. **Python 版本识别**：从镜像 tag 中的 `py<x.y>` 字段提取 Python 版本（如 `3.11`）\n5. **自动生成镜像 tag**：基于识别到的信息自动生成符合命名规则的镜像 tag"
+ },
+ {
+  "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 3,
+  "title": "最佳实践示例",
+  "body": "以下示例展示了如何使用自定义基础镜像构建 MindSpeed MM 镜像：\n\n```bash\n#!/bin/bash\nSCRIPT_DIR=\"$(cd \"$(dirname \"${BASH_SOURCE[0]}\")\" && pwd)\"\n\n# 自定义配置\nBASE_IMAGE=\"swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.1.0-910b-openeuler24.03-py3.12\"\nTORCH_VERSION=\"2.7.1\"\nTORCH_NPU_VERSION=\"2.7.1.post8\"\nMINDSPEED_MM_VERSION=\"26.1.0\"\nPYTHON_VERSION=\"3.11\"\n\n# 执行构建\nbash \"${SCRIPT_DIR}/build.sh\" \\\n    --base-image \"$BASE_IMAGE\" \\\n    --torch-version \"$TORCH_VERSION\" \\\n    --torch-npu-version \"$TORCH_NPU_VERSION\" \\\n    -v \"$MINDSPEED_MM_VERSION\" \\\n    --python-version \"$PYTHON_VERSION\" \\\n    --cleanup-on-fail\n```\n\n**关键特性说明：**\n\n1. **自动识别**：脚本会自动从 `BASE_IMAGE` 中识别 CANN 版本（9.1.0）、NPU 类型（910b）和操作系统（openeuler24.03）。如果`BASE_IMAGE`在系统中不存在，会自动拉取。\n2. **指定 Python 版本**：`--python-version` 用于指定模型运行 Python 版本。\n3. **自动生成 tag**：基于识别结果自动生成符合命名规则的镜像 tag（如 `v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.11-aarch64`）。\n4. **自动下载**：如果本地没有 Miniconda 安装器或 decord 依赖，脚本会自动下载\n5. **失败清理**：`--cleanup-on-fail` 参数确保构建失败时清理悬空资源"
+ },
+ {
+  "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 4,
+  "title": "二次开发",
+  "body": "基于此镜像创建自定义 Dockerfile：\n\n```dockerfile\nFROM mindspeed-mm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-a3-openeuler24.03-py3.11\n\nRUN pip install your-package==1.0.0\n\nCOPY . /workspace/your-project\n\nWORKDIR /workspace/your-project\n```\n\n构建并运行（示例：设备 /dev/davinci1）：\n\n```bash\n# 根据实际情况修改 ascend-toolkit 路径\ndocker build -t my-mindspeed-app:latest .\ndocker run -it --rm \\\n    --device=/dev/davinci1 \\\n    --device=/dev/davinci_manager \\\n    --device=/dev/devmm_svm \\\n    --device=/dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    my-mindspeed-app:latest bash\n```"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 ClusterD 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t clusterd:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 ClusterD 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-clusterd_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-clusterd_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-clusterd_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-clusterd_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t clusterd:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t clusterd:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-clusterd_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t clusterd:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 ClusterD 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t clusterd:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 ClusterD 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-clusterd_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-clusterd_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-clusterd_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-clusterd_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t clusterd:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t clusterd:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-clusterd_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t clusterd:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\ndocker buildx build \\\n    -t drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 \\\n    -f docker/26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11/Dockerfile .\n```"
+ },
+ {
+  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\ndocker buildx build \\\n    -t drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 \\\n    -f docker/26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11/Dockerfile .\n```"
+ },
+ {
+  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
+  "os": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\ndocker buildx build \\\n    -t drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 \\\n    -f docker/26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11/Dockerfile .\n```"
+ },
+ {
+  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
+  "os": "openEuler 22.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\ndocker buildx build \\\n    -t drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 \\\n    -f docker/26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11/Dockerfile .\n```"
+ },
+ {
+  "imageId": "7f91c3663b5d4a97b3ae40e3cabbb3a2",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "3.5 如何本地构建",
+  "body": "```bash\ndocker build -t {your_repo}/index:latest -f Dockerfile .\n```"
+ },
+ {
+  "imageId": "7f91c3663b5d4a97b3ae40e3cabbb3a2",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "3.5 如何本地构建",
+  "body": "```bash\ndocker build -t {your_repo}/index:latest -f Dockerfile .\n```"
+ },
+ {
+  "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "构建 MindSpore 镜像",
+  "body": "以构建2.11.0-cann9.2.0-910b-ubuntu22.04-py3.12镜像为例\n\n```bash\ndocker build \\\n    --build-arg CANN_VERSION=9.2.0 \\\n    --build-arg CHIP_ARCH=910b \\\n    --build-arg OS_SYSTEM=ubuntu22.04 \\\n    --build-arg PY_VERSION=py3.12 \\\n    --build-arg MINDSPORE_VERSION=2.11.0 \\\n    --build-arg PIP_INDEX_URL=https://mirrors.huaweicloud.com/repository/pypi/simple \\\n    -t mindspore:2.11.0-cann9.2.0-910b-ubuntu22.04-py3.12 \\\n    -f Dockerfile .\n```"
+ },
+ {
+  "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "构建 MindSpore 镜像",
+  "body": "以构建2.11.0-cann9.2.0-910b-ubuntu22.04-py3.12镜像为例\n\n```bash\ndocker build \\\n    --build-arg CANN_VERSION=9.2.0 \\\n    --build-arg CHIP_ARCH=910b \\\n    --build-arg OS_SYSTEM=ubuntu22.04 \\\n    --build-arg PY_VERSION=py3.12 \\\n    --build-arg MINDSPORE_VERSION=2.11.0 \\\n    --build-arg PIP_INDEX_URL=https://mirrors.huaweicloud.com/repository/pypi/simple \\\n    -t mindspore:2.11.0-cann9.2.0-910b-ubuntu22.04-py3.12 \\\n    -f Dockerfile .\n```"
+ },
+ {
+  "imageId": "b875f781df984480b0385a96fa1b03c9",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\n# 在宿主机上任意目录下 clone 代码, 并进入 docker 目录, 根据目标芯片和操作系统选择 Dockerfile, 替换 {your_repo} 为实际镜像仓库\ngit clone https://gitcode.com/Ascend/RAGSDK.git && cd RAGSDK/docker\n\ndocker build --network host -t {your_repo}/ragsdk:<ragsdk版本>-<芯片系列>-<操作系统>-<python版本> -f Dockerfile.<芯片系列>.<操作系统> .\n\n```\n\n> [!NOTE]\n> CANN 基础镜像版本由所选 Dockerfile 的 `FROM` 指令指定，请选择与目标芯片和操作系统匹配的 Dockerfile。"
+ },
+ {
+  "imageId": "b875f781df984480b0385a96fa1b03c9",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\n# 在宿主机上任意目录下 clone 代码, 并进入 docker 目录, 根据目标芯片和操作系统选择 Dockerfile, 替换 {your_repo} 为实际镜像仓库\ngit clone https://gitcode.com/Ascend/RAGSDK.git && cd RAGSDK/docker\n\ndocker build --network host -t {your_repo}/ragsdk:<ragsdk版本>-<芯片系列>-<操作系统>-<python版本> -f Dockerfile.<芯片系列>.<操作系统> .\n\n```\n\n> [!NOTE]\n> CANN 基础镜像版本由所选 Dockerfile 的 `FROM` 指令指定，请选择与目标芯片和操作系统匹配的 Dockerfile。"
+ },
+ {
+  "imageId": "e0081aa3c4dd441dbd6a379bee8cc4c9",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\ndocker build -t {your_repo}/multimodal:latest -f Dockerfile.<芯片系列>.<操作系统> .\n```"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 Infer Operator 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t infer-operator:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 Infer Operator 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t infer-operator:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t infer-operator:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t infer-operator:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "v26.1.0 及更高版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.2.0 版本、基于 Ubuntu 22.04 的 Infer Operator 组件镜像。\n\n1. 获取对应架构的 Dockerfile\n\n   前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。\n\n2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t infer-operator:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "v26.1.0 之前版本本地镜像构建流程",
+  "body": "示例场景：构建 linux-aarch64 架构、v26.0.0 版本、基于 Ubuntu 22.04 的 Infer Operator 组件镜像。\n\n1. 下载官方发布的组件安装包\n\n   ```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64.zip\n   ```\n\n2. 解压安装包至自定义目录\n\n   ```shell\n   unzip Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64\n   ```\n\n3. 进入解压后的工作目录\n\n   ```shell\n   cd Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64\n   ```\n\n4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）\n\n   ```bash\n   docker build --no-cache -t infer-operator:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 3,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 4,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t infer-operator:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> **重要注意事项**\n> 若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 5,
+  "title": "1. 下载官方发布的组件安装包",
+  "body": "```shell\n   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64.zip\n   ```"
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 6,
+  "title": "4. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t infer-operator:v26.0.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "构建 Ubuntu 镜像",
+  "body": "```bash\ncd docker\n\ndocker build \\\n  -f Dockerfile.ubuntu \\\n  --build-arg VERSION={version} \\\n  --build-arg TAG={tag} \\\n  --build-arg TARGETARCH={arch} \\\n  -t {msinsight_tag} .\n```"
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "构建 openEuler 镜像",
+  "body": "```bash\ncd docker\n\ndocker build \\\n  -f Dockerfile.openEuler \\\n  --build-arg VERSION={version} \\\n  --build-arg TAG={tag} \\\n  --build-arg TARGETARCH={arch} \\\n  -t {msinsight_tag} .\n```"
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "构建 Ubuntu 镜像",
+  "body": "```bash\ncd docker\n\ndocker build \\\n  -f Dockerfile.ubuntu \\\n  --build-arg VERSION={version} \\\n  --build-arg TAG={tag} \\\n  --build-arg TARGETARCH={arch} \\\n  -t {msinsight_tag} .\n```"
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "构建 openEuler 镜像",
+  "body": "```bash\ncd docker\n\ndocker build \\\n  -f Dockerfile.openEuler \\\n  --build-arg VERSION={version} \\\n  --build-arg TAG={tag} \\\n  --build-arg TARGETARCH={arch} \\\n  -t {msinsight_tag} .\n```"
+ },
+ {
+  "imageId": "c98c978f3a274ecbb0c844ed8405ab80",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "1. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile\n   链接章节（如 [Dockerfile.ubuntu](https://gitcode.com/Ascend/mind-cluster/blob/master/docker/k8s-rdma-shared-dev-plugin/v26.2.0/Dockerfile.ubuntu)\n   ），打开目标版本对应的 Dockerfile.ubuntu 链接，保存文件至 aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "c98c978f3a274ecbb0c844ed8405ab80",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "2. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t k8s-rdma-shared-dev-plugin:v26.2.0 ./ -f Dockerfile.ubuntu\n   ```\n\n> [!NOTE]\n>\n>若 Docker 版本低于 18.09，或未手动开启 BuildKit，构建镜像时将无法读取 TARGETPLATFORM 变量，会造成镜像构建失败。\n>\n> 1. TARGETPLATFORM 为 Docker BuildKit 内置全局变量，用于识别当前构建目标平台，示例：linux/amd64、linux/arm64。\n> 2. 该变量仅在 BuildKit 启用后自动注入；老旧 Docker 环境、默认关闭 BuildKit 的环境无法使用此参数。\n> 3. 构建前可执行以下命令临时开启 BuildKit：\n>\n> ```bash\n> export DOCKER_BUILDKIT=1\n> ```"
+ },
+ {
+  "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "本地构建",
+  "body": "使用 `build_image.sh` 脚本构建：\n\n```bash\n# 基础构建\nbash docker/build_image.sh --tag v3.1-20260522-master\n\n# 指定 OS 和 Python 版本\nbash docker/build_image.sh --tag v3.1-20260522-master --os ubuntu22.04 --py-version py310\n\n# 构建并推送到远程仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1\n\n# 构建、推送并上传离线包到 OBS\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1 --upload 1\n\n# 使用缓存构建（加速重复构建）\nbash docker/build_image.sh --tag v3.1-20260522-master --use-cache 1\n\n# 指定自定义镜像仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --hub-repo docker.io/myuser/myimage\n```"
+ },
+ {
+  "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "本地构建",
+  "body": "使用 `build_image.sh` 脚本构建：\n\n```bash\n# 基础构建\nbash docker/build_image.sh --tag v3.1-20260522-master\n\n# 指定 OS 和 Python 版本\nbash docker/build_image.sh --tag v3.1-20260522-master --os ubuntu22.04 --py-version py310\n\n# 构建并推送到远程仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1\n\n# 构建、推送并上传离线包到 OBS\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1 --upload 1\n\n# 使用缓存构建（加速重复构建）\nbash docker/build_image.sh --tag v3.1-20260522-master --use-cache 1\n\n# 指定自定义镜像仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --hub-repo docker.io/myuser/myimage\n```"
+ },
+ {
+  "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
+  "os": "openEuler 22.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "本地构建",
+  "body": "使用 `build_image.sh` 脚本构建：\n\n```bash\n# 基础构建\nbash docker/build_image.sh --tag v3.1-20260522-master\n\n# 指定 OS 和 Python 版本\nbash docker/build_image.sh --tag v3.1-20260522-master --os ubuntu22.04 --py-version py310\n\n# 构建并推送到远程仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1\n\n# 构建、推送并上传离线包到 OBS\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1 --upload 1\n\n# 使用缓存构建（加速重复构建）\nbash docker/build_image.sh --tag v3.1-20260522-master --use-cache 1\n\n# 指定自定义镜像仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --hub-repo docker.io/myuser/myimage\n```"
+ },
+ {
+  "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
+  "os": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "本地构建",
+  "body": "使用 `build_image.sh` 脚本构建：\n\n```bash\n# 基础构建\nbash docker/build_image.sh --tag v3.1-20260522-master\n\n# 指定 OS 和 Python 版本\nbash docker/build_image.sh --tag v3.1-20260522-master --os ubuntu22.04 --py-version py310\n\n# 构建并推送到远程仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1\n\n# 构建、推送并上传离线包到 OBS\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1 --upload 1\n\n# 使用缓存构建（加速重复构建）\nbash docker/build_image.sh --tag v3.1-20260522-master --use-cache 1\n\n# 指定自定义镜像仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --hub-repo docker.io/myuser/myimage\n```"
+ },
+ {
+  "imageId": "45564313da53416dbd14f214d80e33b3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "在 Faiss 仓库根目录执行。以下示例构建 Ascend 910B、Ubuntu 22.04 对应的镜像：\n\n```bash\ndocker build --platform linux/arm64 \\\n  -f faiss/npu/docker/Dockerfile.910b.ubuntu \\\n  -t faiss-ascend:1.13.2-26.2.0-cann9.2.0-910b-ubuntu22.04-py3.12-aarch64 \\\n  .\n```\n\n构建时可通过 `--build-arg` 调整以下参数：\n\n| 构建参数 | 默认值 | 说明 |\n| --- | --- | --- |\n| `CANN_VERSION` | `9.2.0` | 更换版本前确认对应基础镜像 Tag 已发布，并同步更新 `-t` 中的 CANN 版本字段 |\n| `FAISS_BUILD_JOBS` | `min(nproc, 32)` | 必须为正整数 |\n| `FAISS_PIP_INDEX_URL` | `https://repo.huaweicloud.com/repository/pypi/simple` | Python 构建依赖下载源 |\n| `FAISS_PIP_DEFAULT_TIMEOUT` | `120` | pip 网络套接字超时秒数，必须为正整数 |\n| `FAISS_PIP_RETRIES` | `10` | pip 每个连接的重试次数，必须为非负整数 |\n\n如需使用其他 CANN 版本，可通过 `CANN_VERSION` 指定。该参数只替换基础镜像 Tag 中的 CANN 版本字段，因此必须确认对应芯片、操作系统和 Python 组合的镜像已经发布，并同步修改本地镜像 Tag。以下使用当前默认版本演示参数位置：\n\n```bash\ndocker build --platform linux/arm64 \\\n  --build-arg CANN_VERSION=9.2.0 \\\n  -f faiss/npu/docker/Dockerfile.a3.openeuler \\\n  -t faiss-ascend:9.2.0-a3-openeuler24.03-py3.12-aarch64 \\\n  .\n```\n\n默认构建并行度为 `min(nproc, 32)`。可使用正整数 `FAISS_BUILD_JOBS` 覆盖该值：\n\n```bash\ndocker build --platform linux/arm64 \\\n  --build-arg FAISS_BUILD_JOBS=16 \\\n  -f faiss/npu/docker/Dockerfile.910b.ubuntu \\\n  -t faiss-ascend:9.2.0-910b-ubuntu22.04-py3.12-aarch64 \\\n  .\n```\n\n如果默认 Python 包索引访问较慢或不适用于当前网络，可覆盖索引地址、超时时间和重试次数。例如：\n\n```bash\ndocker build --platform linux/arm64 \\\n  --build-arg FAISS_PIP_INDEX_URL=https://pypi.org/simple \\\n  --build-arg FAISS_PIP_DEFAULT_TIMEOUT=180 \\\n  --build-arg FAISS_PIP_RETRIES=5 \\\n  -f faiss/npu/docker/Dockerfile.910b.ubuntu \\\n  -t faiss-ascend:9.2.0-910b-ubuntu22.04-py3.12-aarch64 \\\n  .\n```"
+ },
+ {
+  "imageId": "08f948dc1dd745fd896501377ce73b2c",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "1. 获取构建产物",
+  "body": "在源码仓的 `component/dpu-exporter/build` 目录下执行 `build.sh`，产物目录 `output` 中将生成\n   `dpu-exporter` 二进制、`config.json` 以及部署 YAML 文件。"
+ },
+ {
+  "imageId": "08f948dc1dd745fd896501377ce73b2c",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "2. 获取对应架构的 Dockerfile",
+  "body": "前往支持的 Tags 及 Dockerfile 链接章节，打开目标版本对应的 Dockerfile 链接，将其与构建产物一同保存至\n   aarch64 架构环境的本地目录。"
+ },
+ {
+  "imageId": "08f948dc1dd745fd896501377ce73b2c",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "3. 本地构建 Docker 镜像（禁用缓存，保证构建纯净度）",
+  "body": "```bash\n   docker build --no-cache -t dpu-exporter:v26.2.0 ./ -f Dockerfile\n   ```"
+ },
+ {
+  "imageId": "66155ae6a2f34eff9142f069612da088",
+  "os": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "本地构建镜像",
+  "body": "开发人员可自行在当前系统环境中本地打包构建业务镜像，Dockerfile 已内置软件包的下载与安装逻辑，无需额外准备外部资源。用户可根据需要自行修改 Dockerfile 中的软件包版本（CANN软件包版本及RecSDK软件包版本）。\n\n- **PyTorch 镜像（以 ubuntu22.04 为例）**\n\n```bash\n# 构建时通过 --build-arg CORE_TYPE 指定芯片平台，tag 中对应替换 {chip} 为 910/a3/950\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_pt:26.1.0-cann9.1.0-910-ubuntu22.04-py3.11-pt -f docker/Dockerfile.26.1.0-cann9.1.0-ubuntu22.04-py3.11-pt .\n```\n\n- **TensorFlow 镜像（以 ubuntu20.04 为例）**\n\n```bash\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_tf:26.1.0-cann9.1.0-910-ubuntu20.04-py3.7-tf -f docker/Dockerfile.26.1.0-cann9.1.0-ubuntu20.04-py3.7-tf .\n```\n\n若您在编译算子或载入框架包时需要强制适配特定核心类型，可以在构建中通过 `CORE_TYPE` 参数显式声明（默认为 `a2`）：\n\n| CORE_TYPE | 适用平台 | tag 芯片标识 |\n|-----------|----------|-------------|\n| `a2` | Atlas 800T A2 训练服务器 | `910` |\n| `a3` | Atlas 800T A3 超节点服务器 | `a3` |\n| `a5` | 昇腾950代际产品 | `950` |\n\n```bash\n# CORE_TYPE可选a2/a3/a5，以下以 TensorFlow 镜像为例，PyTorch 镜像同理\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_tf:26.1.0-cann9.1.0-910-ubuntu20.04-py3.7-tf -f docker/Dockerfile.26.1.0-cann9.1.0-ubuntu20.04-py3.7-tf .\n```\n\n- **openEuler 镜像**\n\nopenEuler 22.03 镜像的构建方式与上述 Ubuntu 示例一致。"
+ },
+ {
+  "imageId": "66155ae6a2f34eff9142f069612da088",
+  "os": "openEuler 22.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "本地构建镜像",
+  "body": "开发人员可自行在当前系统环境中本地打包构建业务镜像，Dockerfile 已内置软件包的下载与安装逻辑，无需额外准备外部资源。用户可根据需要自行修改 Dockerfile 中的软件包版本（CANN软件包版本及RecSDK软件包版本）。\n\n- **PyTorch 镜像（以 ubuntu22.04 为例）**\n\n```bash\n# 构建时通过 --build-arg CORE_TYPE 指定芯片平台，tag 中对应替换 {chip} 为 910/a3/950\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_pt:26.1.0-cann9.1.0-910-ubuntu22.04-py3.11-pt -f docker/Dockerfile.26.1.0-cann9.1.0-ubuntu22.04-py3.11-pt .\n```\n\n- **TensorFlow 镜像（以 ubuntu20.04 为例）**\n\n```bash\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_tf:26.1.0-cann9.1.0-910-ubuntu20.04-py3.7-tf -f docker/Dockerfile.26.1.0-cann9.1.0-ubuntu20.04-py3.7-tf .\n```\n\n若您在编译算子或载入框架包时需要强制适配特定核心类型，可以在构建中通过 `CORE_TYPE` 参数显式声明（默认为 `a2`）：\n\n| CORE_TYPE | 适用平台 | tag 芯片标识 |\n|-----------|----------|-------------|\n| `a2` | Atlas 800T A2 训练服务器 | `910` |\n| `a3` | Atlas 800T A3 超节点服务器 | `a3` |\n| `a5` | 昇腾950代际产品 | `950` |\n\n```bash\n# CORE_TYPE可选a2/a3/a5，以下以 TensorFlow 镜像为例，PyTorch 镜像同理\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_tf:26.1.0-cann9.1.0-910-ubuntu20.04-py3.7-tf -f docker/Dockerfile.26.1.0-cann9.1.0-ubuntu20.04-py3.7-tf .\n```\n\n- **openEuler 镜像**\n\nopenEuler 22.03 镜像的构建方式与上述 Ubuntu 示例一致。"
+ },
+ {
+  "imageId": "9e0edaf9488b447b951072c5c61ce8f1",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\ndocker build -t {your_repo}/vision:latest -f Dockerfile.<芯片系列>.<操作系统> .\n```"
+ },
+ {
+  "imageId": "9e0edaf9488b447b951072c5c61ce8f1",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "如何本地构建",
+  "body": "```bash\ndocker build -t {your_repo}/vision:latest -f Dockerfile.<芯片系列>.<操作系统> .\n```"
+ },
+ {
+  "imageId": "f1b460e88aae4993b8522b611af07100",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "构建 MindSpore Transformers 镜像",
+  "body": "```bash\ndocker build \\\n--build-arg CANN_VERSION=8.5.0 \\\n--build-arg CHIP_ARCH=910b \\\n--build-arg OS_SYSTEM=ubuntu22.04 \\\n--build-arg PY_VERSION=py3.11 \\\n--build-arg MINDSPORE_VERSION=2.7.2 \\\n--build-arg MINDFORMERS_VERSION=1.8.0 \\\n--build-arg PIP_INDEX_URL=https://mirrors.huaweicloud.com/repository/pypi/simple \\\n-t mindformers:1.8.0-910b-ubuntu22.04-py3.11 \\\n-f Dockerfile .\n```"
+ },
+ {
+  "imageId": "f1b460e88aae4993b8522b611af07100",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "构建 MindSpore Transformers 镜像",
+  "body": "```bash\ndocker build \\\n--build-arg CANN_VERSION=8.5.0 \\\n--build-arg CHIP_ARCH=910b \\\n--build-arg OS_SYSTEM=ubuntu22.04 \\\n--build-arg PY_VERSION=py3.11 \\\n--build-arg MINDSPORE_VERSION=2.7.2 \\\n--build-arg MINDFORMERS_VERSION=1.8.0 \\\n--build-arg PIP_INDEX_URL=https://mirrors.huaweicloud.com/repository/pypi/simple \\\n-t mindformers:1.8.0-910b-ubuntu22.04-py3.11 \\\n-f Dockerfile .\n```"
+ }
+]

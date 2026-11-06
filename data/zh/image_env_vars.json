@@ -1,0 +1,44 @@
+[
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`ASCEND_TOOLKIT_HOME`",
+  "defaultValue": null,
+  "description": "CANN 工具链安装路径",
+  "sortOrder": 1
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`MINDIE_LLM_HOME_PATH`",
+  "defaultValue": null,
+  "description": "MindIE-LLM 服务安装路径",
+  "sortOrder": 2
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`MIES_INSTALL_PATH`",
+  "defaultValue": null,
+  "description": "MindIE-Motor（mindie-service）安装路径",
+  "sortOrder": 3
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`ATB_SPEED_HOME_PATH`",
+  "defaultValue": null,
+  "description": "ATB-LLM 加速库路径",
+  "sortOrder": 4
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`MINDIE_LLM_CONTINUOUS_BATCHING`",
+  "defaultValue": null,
+  "description": "连续批处理开关（默认 1）",
+  "sortOrder": 5
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`ASCEND_GLOBAL_LOG_LEVEL`",
+  "defaultValue": null,
+  "description": "全局日志级别（默认 3）",
+  "sortOrder": 6
+ }
+]

@@ -1,0 +1,170 @@
+[
+ {
+  "cardId": "atlas-300i-duo",
+  "frameworkId": "vllm",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "frameworkId": "mindie",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "frameworkId": "mindspeed",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "frameworkId": "mindspore",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "frameworkId": "vllm",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "frameworkId": "mindie",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "frameworkId": "mindspeed",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "frameworkId": "mindspore",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "frameworkId": "vllm",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "frameworkId": "mindie",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "frameworkId": "mindspeed",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "frameworkId": "mindspore",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "vllm",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "mindie",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "mindspeed",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "mindspore",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "frameworkId": "vllm",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "frameworkId": "mindie",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "frameworkId": "mindspeed",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "frameworkId": "mindspore",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "frameworkId": "vllm",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "frameworkId": "mindie",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "frameworkId": "mindspeed",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "frameworkId": "mindspore",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "frameworkId": "vllm",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "frameworkId": "mindie",
+  "status": "unsupported",
+  "statusNote": null
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "frameworkId": "mindspeed",
+  "status": "adapted",
+  "statusNote": null
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "frameworkId": "mindspore",
+  "status": "adapted",
+  "statusNote": null
+ }
+]

@@ -1,0 +1,3442 @@
+[
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "cohere-transcribe"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-v4-flash"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-v4-flash"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-v4-flash"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-v4-pro"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-v4-pro"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-v4-pro"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-v4-1-flash"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-v4-1-flash"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm-5-1"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "glm-5-1"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "glm-5-1"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm-5-2"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "glm-5-2"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "glm-5-2"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm-5-3-flash"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "glm-5-3-flash"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "glm-5-3-flash"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "gemma4"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "gemma4"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "gemma4"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "minimax-m3"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "minimax-m3"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-vl"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-vl"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-vl"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-30b-a3b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-30b-a3b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-30b-a3b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-dense"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-dense"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-dense"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-vl-30b-a3b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-vl-30b-a3b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-6-27b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-6-27b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-6-27b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-6-27b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-5-397b-a17b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-5-397b-a17b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-5-397b-a17b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-6-35b-a3b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-6-35b-a3b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-6-35b-a3b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-6-35b-a3b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-8-27b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-8-flash-next"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "siglip2"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-r1-distill-llama-8b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-r1-distill-llama-8b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "deepseek-r1-distill-llama-8b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-r1-distill-llama-70b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-r1-distill-llama-70b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-r1-distill-qwen-14b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-r1-distill-qwen-14b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "deepseek-r1-distill-qwen-14b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-r1-distill-qwen-32b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-r1-distill-qwen-32b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "deepseek-r1-distill-qwen-32b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-v3-0324"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-v3-0324"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-r1-0528"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-r1-0528"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-v3-1"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-v3-1"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-v3-1-terminus"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-v3-1-terminus"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "deepseek-v3-2"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "deepseek-v3-2"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-7b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-7b-instruct"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen2-7b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-72b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-72b-instruct"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen2-72b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-5-7b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-5-7b-instruct"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen2-5-7b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-5-14b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-5-14b-instruct"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen2-5-14b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-5-32b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-5-32b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-14b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-14b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-14b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-32b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-32b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-32b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-235b-a22b-instruct-2507"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-235b-a22b-instruct-2507"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-235b-a22b-instruct-2507"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-coder-30b-a3b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-coder-30b-a3b-instruct"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-coder-30b-a3b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-coder-480b-a35b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-coder-480b-a35b-instruct"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-coder-480b-a35b-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "llama3-70b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "llama3-70b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "llama3-1-8b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "llama3-1-8b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "llama3-1-8b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "llama3-1-70b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "llama3-1-70b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "llama3-1-405b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "llama3-1-405b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "ernie-4-5-300b-a47b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "ernie-4-5-300b-a47b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "kimi-k2-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "kimi-k2-instruct"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "kimi-k2-thinking"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "kimi-k2-thinking"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "chatglm2-6b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "chatglm2-6b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "chatglm2-6b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "chatglm3-6b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "chatglm3-6b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "chatglm3-6b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "glm4-9b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "glm4-9b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "glm4-9b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "glm-4-5"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "glm-4-5"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "baichuan2-7b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "baichuan2-7b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "baichuan2-7b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "baichuan2-13b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "baichuan2-13b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "baichuan2-13b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-vl-2b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-vl-2b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-vl-7b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-vl-7b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-vl-72b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-vl-72b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-5-vl-3b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-5-vl-3b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen2-5-vl-3b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-5-vl-7b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-5-vl-7b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen2-5-vl-7b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-5-vl-32b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-5-vl-32b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen2-5-vl-32b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen2-5-vl-72b"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen2-5-vl-72b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen2-5-vl-72b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-vl-8b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-vl-8b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-vl-32b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-vl-32b"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "qwen3-vl-30b-a3b"
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "glm-4-1v-9b-thinking"
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "glm-4-1v-9b-thinking"
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "modelId": "glm-4-1v-9b-thinking"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "aquila-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "aquila-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "aquila-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "aquila-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "aquila2-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "aquila2-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "aquila2-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "aquila2-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "aquila2-34b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "aquila2-34b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "aquila2-34b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "aquila2-34b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "baichuan-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "baichuan-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "baichuan-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "baichuan-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "baichuan-13b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "baichuan-13b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "baichuan-13b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "baichuan-13b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "baichuan2-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "baichuan2-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "baichuan2-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "baichuan2-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "baichuan2-13b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "baichuan2-13b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "baichuan2-13b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "baichuan2-13b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "bloom-7b1"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "bloom-7b1"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "bloom-7b1"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "bloom-7b1"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "bloom-176b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "bloom-176b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "bloom-176b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "bloom-176b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "chatglm3-6b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "chatglm3-6b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "chatglm3-6b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "chatglm3-6b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "glm4-9b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "glm4-9b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "glm4-9b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm4-9b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "codellama-34b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "codellama-34b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "codellama-34b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "codellama-34b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "internlm-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "internlm-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "internlm-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "internlm-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "internlm-65b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "internlm-65b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "internlm-65b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "internlm-65b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "internlm2-20b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "internlm2-20b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "internlm2-20b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "internlm2-20b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "internlm2-5-1-8b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "internlm2-5-1-8b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "internlm2-5-1-8b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "internlm2-5-1-8b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "internlm2-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "internlm2-5-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "internlm2-5-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "internlm2-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "internlm2-5-20b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "internlm2-5-20b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "internlm2-5-20b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "internlm2-5-20b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "internlm3-8b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "internlm3-8b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "internlm3-8b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "internlm3-8b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama-13b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama-13b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama-13b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama-13b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama-33b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama-33b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama-33b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama-33b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama-65b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama-65b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama-65b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama-65b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama2-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama2-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama2-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama2-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama2-13b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama2-13b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama2-13b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama2-13b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama2-34b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama2-34b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama2-34b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama2-34b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama2-70b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama2-70b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama2-70b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama2-70b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-8b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-8b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-8b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-8b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-70b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-70b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-70b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-70b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-1-8b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-1-8b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-1-8b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-1-8b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-1-50b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-1-50b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-1-50b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-1-50b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-1-70b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-1-70b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-1-70b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-1-70b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-1-200b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-1-200b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-1-200b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-1-200b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-1-405b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-1-405b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-1-405b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-1-405b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-2-1b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-2-1b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-2-1b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-2-1b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-2-3b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-2-3b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-2-3b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-2-3b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-3-70b-instruct"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-3-70b-instruct"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-3-70b-instruct"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-3-70b-instruct"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen-14b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen-14b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen-14b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen-14b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen-72b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen-72b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen-72b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen-72b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen1-5-0-5b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen1-5-0-5b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen1-5-0-5b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen1-5-0-5b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen1-5-1-8b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen1-5-1-8b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen1-5-1-8b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen1-5-1-8b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen1-5-4b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen1-5-4b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen1-5-4b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen1-5-4b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen1-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen1-5-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen1-5-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen1-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen1-5-14b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen1-5-14b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen1-5-14b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen1-5-14b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen1-5-32b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen1-5-32b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen1-5-32b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen1-5-32b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen1-5-72b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen1-5-72b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen1-5-72b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen1-5-72b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen1-5-110b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen1-5-110b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen1-5-110b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen1-5-110b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "codeqwen1-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "codeqwen1-5-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "codeqwen1-5-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "codeqwen1-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-0-5b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-0-5b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-0-5b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-0-5b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-1-5b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-1-5b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-1-5b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-1-5b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-72b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-72b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-72b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-72b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-0-5b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-5-0-5b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-5-0-5b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-5-0-5b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-1-5b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-5-1-5b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-5-1-5b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-5-1-5b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-3b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-5-3b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-5-3b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-5-3b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-5-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-5-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-14b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-5-14b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-5-14b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-5-14b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-32b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-5-32b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-5-32b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-5-32b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-72b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-5-72b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-5-72b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-5-72b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-0-6b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3-0-6b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-0-6b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-0-6b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-1-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3-1-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-1-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-1-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-4b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3-4b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-4b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-4b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-8b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3-8b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-8b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-8b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-14b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3-14b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-14b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-14b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-32b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3-32b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-32b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-32b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwq-32b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwq-32b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwq-32b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwq-32b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-math-1-5b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-5-math-1-5b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-5-math-1-5b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-5-math-1-5b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-math-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-5-math-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-5-math-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-5-math-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-math-72b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-5-math-72b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-5-math-72b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-5-math-72b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "codeqwen2-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "codeqwen2-5-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "codeqwen2-5-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "codeqwen2-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "yi-9b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "yi-9b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "yi-9b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "yi-9b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "yi-34b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "yi-34b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "yi-34b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "yi-34b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "yi1-5-6b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "yi1-5-6b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "yi1-5-6b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "yi1-5-6b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "yi1-5-9b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "yi1-5-9b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "yi1-5-9b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "yi1-5-9b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "yi1-5-34b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "yi1-5-34b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "yi1-5-34b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "yi1-5-34b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "mistral-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "mistral-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "mistral-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "mistral-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "gemma-2b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "gemma-2b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "gemma-2b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "gemma-2b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "gemma-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "gemma-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "gemma-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "gemma-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "gemma2-9b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "gemma2-9b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "gemma2-9b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "gemma2-9b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "gemma2-27b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "gemma2-27b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "gemma2-27b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "gemma2-27b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "minicpm-2b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "minicpm-2b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "minicpm-2b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "minicpm-2b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "minicpm3-4b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "minicpm3-4b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "minicpm3-4b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "minicpm3-4b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "phi3-5-mini-instruct"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "phi3-5-mini-instruct"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "phi3-5-mini-instruct"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "phi3-5-mini-instruct"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-math-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-math-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-math-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-math-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-r1-distill-qwen-1-5b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-r1-distill-qwen-1-5b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-r1-distill-qwen-1-5b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-r1-distill-qwen-1-5b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-r1-distill-qwen-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-r1-distill-qwen-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-r1-distill-qwen-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-r1-distill-qwen-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-r1-distill-qwen-14b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-r1-distill-qwen-14b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-r1-distill-qwen-14b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-r1-distill-qwen-14b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-r1-distill-qwen-32b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-r1-distill-qwen-32b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-r1-distill-qwen-32b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-r1-distill-qwen-32b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-r1-distill-llama-8b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-r1-distill-llama-8b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-r1-distill-llama-8b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-r1-distill-llama-8b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-r1-distill-llama-70b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-r1-distill-llama-70b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-r1-distill-llama-70b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-r1-distill-llama-70b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "seed-oss-36b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "seed-oss-36b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "seed-oss-36b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "seed-oss-36b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "magistral-24b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "magistral-24b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "magistral-24b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "magistral-24b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "plm-1-8b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "plm-1-8b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "plm-1-8b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "plm-1-8b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-30b-a3b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3-30b-a3b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-30b-a3b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-30b-a3b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-235b-a22b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3-235b-a22b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-235b-a22b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-235b-a22b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-next-80b-a3b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3-next-80b-a3b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-next-80b-a3b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-next-80b-a3b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-coder-next-80b-a3b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3-coder-next-80b-a3b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-coder-next-80b-a3b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-coder-next-80b-a3b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-57b-a14b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-57b-a14b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-57b-a14b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-57b-a14b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "grok-1-40b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "grok-1-40b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "grok-1-40b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "grok-1-40b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "mixtral-8x7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "mixtral-8x7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "mixtral-8x7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "mixtral-8x7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "mixtral-8x22b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "mixtral-8x22b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "mixtral-8x22b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "mixtral-8x22b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-v2-236b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-v2-236b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-v2-236b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-v2-236b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-v2-coder-236b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-v2-coder-236b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-v2-coder-236b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-v2-coder-236b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-v2-lite-16b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-v2-lite-16b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-v2-lite-16b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-v2-lite-16b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-v2-5-236b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-v2-5-236b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-v2-5-236b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-v2-5-236b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-v3-671b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-v3-671b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-v3-671b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-v3-671b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-v3-2-671b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-v3-2-671b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-v3-2-671b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-v3-2-671b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-v4-flash-284b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-v4-flash-284b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-v4-flash-284b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-v4-flash-284b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "minicpm-8x2b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "minicpm-8x2b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "minicpm-8x2b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "minicpm-8x2b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "ling-mini-2-0-16b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "ling-mini-2-0-16b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "ling-mini-2-0-16b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "ling-mini-2-0-16b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "ring-1t"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "ring-1t"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "ring-1t"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "ring-1t"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "phi3-5-moe-instruct"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "phi3-5-moe-instruct"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "phi3-5-moe-instruct"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "phi3-5-moe-instruct"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "hunyuan-389b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "hunyuan-389b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "hunyuan-389b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "hunyuan-389b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "gpt4-moe-175b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "gpt4-moe-175b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "gpt4-moe-175b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "gpt4-moe-175b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "glm4-5-air-moe-106b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "glm4-5-air-moe-106b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "glm4-5-air-moe-106b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm4-5-air-moe-106b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "glm5-moe-744b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "glm5-moe-744b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "glm5-moe-744b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm5-moe-744b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "glm5-2-moe-744b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "glm5-2-moe-744b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "glm5-2-moe-744b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm5-2-moe-744b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "step3-5-flash-moe-196b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "step3-5-flash-moe-196b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "step3-5-flash-moe-196b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "step3-5-flash-moe-196b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "longcat-moe-560b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "longcat-moe-560b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "longcat-moe-560b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "longcat-moe-560b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "gpt-oss-moe-20b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "gpt-oss-moe-20b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "gpt-oss-moe-20b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "gpt-oss-moe-20b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "minimax-m2-7-moe-229b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "minimax-m2-7-moe-229b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "minimax-m2-7-moe-229b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "minimax-m2-7-moe-229b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "mamba2-2-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "mamba2-2-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "mamba2-2-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "mamba2-2-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "mamba2-8b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "mamba2-8b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "mamba2-8b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "mamba2-8b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "mamba2hybrid-8b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "mamba2hybrid-8b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "mamba2hybrid-8b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "mamba2hybrid-8b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "mamba3"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "mamba3"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "mamba3"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "mamba3"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "telechat3-36b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "telechat3-36b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "telechat3-36b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "telechat3-36b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "telechat3-moe-105b-a4-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "telechat3-moe-105b-a4-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "telechat3-moe-105b-a4-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "telechat3-moe-105b-a4-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-moe"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen3-moe"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-moe"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen3-moe"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "glm4-5"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "glm4-5"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "glm4-5"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm4-5"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2-5"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2-5"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2-5"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "telechat2"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "telechat2"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "telechat2"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "telechat2"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-1"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-1"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-1"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-1"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "cogvlm2-image-19b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "cogvlm2-image-19b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "cogvlm2-image-19b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "cogvlm2-image-19b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "cogvlm2-video-13b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "cogvlm2-video-13b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "cogvlm2-video-13b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "cogvlm2-video-13b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-coder-v1-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-coder-v1-5-7b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-coder-v1-5-7b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-coder-v1-5-7b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "deepseek-coder-33b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "deepseek-coder-33b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "deepseek-coder-33b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "deepseek-coder-33b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "glm3-32k-6b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "glm3-32k-6b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "glm3-32k-6b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm3-32k-6b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "glm3-6b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "glm3-6b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "glm3-6b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm3-6b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "internlm2"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "internlm2"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "internlm2"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "internlm2"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-2-vision-11b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3-2-vision-11b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3-2-vision-11b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3-2-vision-11b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama3"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama3"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama3"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen2"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen2"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen2"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen1-5"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen1-5"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen1-5"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen1-5"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen-vl-9-6b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen-vl-9-6b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen-vl-9-6b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen-vl-9-6b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "telechat"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "telechat"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "telechat"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "telechat"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "whisper-1-5b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "whisper-1-5b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "whisper-1-5b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "whisper-1-5b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "yi"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "yi"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "yi"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "yi"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "yizhao-12b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "yizhao-12b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "yizhao-12b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "yizhao-12b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama2"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama2"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama2"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama2"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "baichuan2"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "baichuan2"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "baichuan2"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "baichuan2"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "glm2-6b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "glm2-6b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "glm2-6b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm2-6b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "gpt2"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "gpt2"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "gpt2"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "gpt2"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "internlm"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "internlm"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "internlm"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "internlm"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "qwen"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "qwen"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "codegeex2-6b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "codegeex2-6b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "codegeex2-6b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "codegeex2-6b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "wizardcoder-15b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "wizardcoder-15b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "wizardcoder-15b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "wizardcoder-15b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "baichuan"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "baichuan"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "baichuan"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "baichuan"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "blip2-8-1b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "blip2-8-1b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "blip2-8-1b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "blip2-8-1b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "bloom"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "bloom"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "bloom"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "bloom"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "clip"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "clip"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "clip"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "clip"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "codegeex-13b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "codegeex-13b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "codegeex-13b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "codegeex-13b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "glm-6b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "glm-6b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "glm-6b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "glm-6b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "iflytekspark-13b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "iflytekspark-13b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "iflytekspark-13b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "iflytekspark-13b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "llama"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "llama"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "llama"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "mae-86m"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "mae-86m"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "mae-86m"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "mae-86m"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "mengzi3-13b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "mengzi3-13b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "mengzi3-13b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "mengzi3-13b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "pangualpha"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "pangualpha"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "pangualpha"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "pangualpha"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "sam"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "sam"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "sam"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "sam"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "skywork-13b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "skywork-13b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "skywork-13b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "skywork-13b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "swin-88m"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "swin-88m"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "swin-88m"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "swin-88m"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "t5"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "t5"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "t5"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "t5"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "visualglm-6b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "visualglm-6b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "visualglm-6b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "visualglm-6b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "ziya-13b"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "ziya-13b"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "ziya-13b"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "ziya-13b"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "bert"
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "modelId": "bert"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "bert"
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "modelId": "bert"
+ }
+]
