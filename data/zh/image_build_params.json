@@ -1,0 +1,470 @@
+[
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`--os`",
+  "defaultValue": null,
+  "description": "服务器操作系统",
+  "required": null,
+  "example": null,
+  "sortOrder": 1
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`--chip`",
+  "defaultValue": null,
+  "description": "昇腾设备型号",
+  "required": null,
+  "example": null,
+  "sortOrder": 2
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`--arch`",
+  "defaultValue": null,
+  "description": "系统架构",
+  "required": null,
+  "example": null,
+  "sortOrder": 3
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`--mindie`",
+  "defaultValue": null,
+  "description": "MindIE 版本号（驱动 LLM / SD / Motor）",
+  "required": null,
+  "example": null,
+  "sortOrder": 4
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`--cann`",
+  "defaultValue": null,
+  "description": "CANN 版本号",
+  "required": null,
+  "example": null,
+  "sortOrder": 5
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`--pta-tag`",
+  "defaultValue": null,
+  "description": "PTA 发布 Tag",
+  "required": null,
+  "example": null,
+  "sortOrder": 6
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`--type`",
+  "defaultValue": "`whl`",
+  "description": "包类型",
+  "required": null,
+  "example": null,
+  "sortOrder": 7
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`--python`",
+  "defaultValue": "`3.11.10`",
+  "description": "Python 版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 8
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "name": "`--dry-run`",
+  "defaultValue": "`false`",
+  "description": "仅校验参数并展示配置",
+  "required": null,
+  "example": null,
+  "sortOrder": 9
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "name": "CHIP_ARCH",
+  "defaultValue": "910b / 310p / a3 / 950",
+  "description": "昇腾芯片架构标识",
+  "required": null,
+  "example": null,
+  "sortOrder": 10
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "name": "OS",
+  "defaultValue": "ubuntu / openeuler",
+  "description": "基础镜像操作系统",
+  "required": null,
+  "example": null,
+  "sortOrder": 11
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "name": "OS_VERSION",
+  "defaultValue": "22.04 / 24.03",
+  "description": "操作系统版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 12
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "name": "PY_VERSION",
+  "defaultValue": "3.11",
+  "description": "基础镜像内置 Python 版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 13
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "name": "CANN_VERSION",
+  "defaultValue": "9.2.0",
+  "description": "昇腾 CANN 工具包版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 14
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "name": "ARCH",
+  "defaultValue": "arm / x86",
+  "description": "宿主机硬件架构",
+  "required": null,
+  "example": null,
+  "sortOrder": 15
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "name": "PY_TAG",
+  "defaultValue": "cp311",
+  "description": "Python 包 ABI 标签（cp + 版本号）",
+  "required": null,
+  "example": null,
+  "sortOrder": 16
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "name": "TORCH_NPU_RELEASE_VERSION",
+  "defaultValue": "v26.2.0-pytorch2.14.0",
+  "description": "TorchNPU 官方发布 Tag（含 pytorch 版本）",
+  "required": null,
+  "example": null,
+  "sortOrder": 17
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "name": "TORCH_NPU_PATCH_TAG",
+  "defaultValue": "2.14.0",
+  "description": "TorchNPU 官方发布包名里的版本号",
+  "required": null,
+  "example": null,
+  "sortOrder": 18
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "name": "MANYLINUX_VER",
+  "defaultValue": "manylinux_2_28",
+  "description": "PyPI 包兼容系统版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 19
+ },
+ {
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
+  "name": "PIP_MIRROR_URL",
+  "defaultValue": "https://pypi.tuna.tsinghua.edu.cn/simple",
+  "description": "pip 安装源地址（默认清华源）",
+  "required": null,
+  "example": null,
+  "sortOrder": 20
+ },
+ {
+  "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
+  "name": "CANN_VERSION",
+  "defaultValue": null,
+  "description": "昇腾 CANN 工具包版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 21
+ },
+ {
+  "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
+  "name": "CHIP_ARCH",
+  "defaultValue": null,
+  "description": "昇腾芯片架构标识",
+  "required": null,
+  "example": null,
+  "sortOrder": 22
+ },
+ {
+  "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
+  "name": "OS_SYSTEM",
+  "defaultValue": null,
+  "description": "基础镜像操作系统及版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 23
+ },
+ {
+  "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
+  "name": "PY_VERSION",
+  "defaultValue": null,
+  "description": "基础镜像内置 Python 版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 24
+ },
+ {
+  "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
+  "name": "MINDSPORE_VERSION",
+  "defaultValue": null,
+  "description": "MindSpore 版本号",
+  "required": null,
+  "example": null,
+  "sortOrder": 25
+ },
+ {
+  "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
+  "name": "PIP_INDEX_URL",
+  "defaultValue": null,
+  "description": "pip 安装源地址（默认华为云源）",
+  "required": null,
+  "example": null,
+  "sortOrder": 26
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "name": "`VERSION`",
+  "defaultValue": "`26.2.0`",
+  "description": "MindStudio Insight 软件包版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 27
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "name": "`TAG`",
+  "defaultValue": "`26.2.0`",
+  "description": "MindStudio Insight 发布 Tag",
+  "required": null,
+  "example": null,
+  "sortOrder": 28
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "name": "`TARGETARCH`",
+  "defaultValue": "`amd64` 或 `arm64`",
+  "description": "Docker 构建目标架构，由 BuildKit/buildx 注入",
+  "required": null,
+  "example": null,
+  "sortOrder": 29
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "name": "Docker `TARGETARCH`",
+  "defaultValue": null,
+  "description": "发布包架构",
+  "required": null,
+  "example": null,
+  "sortOrder": 30
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "name": "------",
+  "defaultValue": null,
+  "description": "------",
+  "required": null,
+  "example": null,
+  "sortOrder": 31
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "name": "`amd64`",
+  "defaultValue": null,
+  "description": "`x86_64`",
+  "required": null,
+  "example": null,
+  "sortOrder": 32
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "name": "`arm64`",
+  "defaultValue": null,
+  "description": "`aarch64`",
+  "required": null,
+  "example": null,
+  "sortOrder": 33
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`-t, --npu-type`",
+  "defaultValue": "`910b`",
+  "description": "NPU 类型：`a3`、`910b` 或 `950`",
+  "required": null,
+  "example": null,
+  "sortOrder": 34
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`-o, --os`",
+  "defaultValue": "`openeuler24.03`",
+  "description": "操作系统：`openeuler24.03` 或 `ubuntu22.04`",
+  "required": null,
+  "example": null,
+  "sortOrder": 35
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`-a, --arch`",
+  "defaultValue": "当前宿主机架构",
+  "description": "目标架构：`aarch64` 或 `x86_64`",
+  "required": null,
+  "example": null,
+  "sortOrder": 36
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`--base-image-version`",
+  "defaultValue": "`9.1.0`",
+  "description": "CANN 基础镜像版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 37
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`--base-image`",
+  "defaultValue": "空",
+  "description": "完整 CANN 基础镜像名，优先级高于 `--base-image-version`；会原样传入",
+  "required": null,
+  "example": null,
+  "sortOrder": 38
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`--python-version`",
+  "defaultValue": "`3.12`",
+  "description": "CANN 基础镜像中的 Python 标签",
+  "required": null,
+  "example": null,
+  "sortOrder": 39
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`--torch-version`",
+  "defaultValue": "`2.7.1`",
+  "description": "PyTorch 版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 40
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`--torch-npu-version`",
+  "defaultValue": "`2.7.1.post8`",
+  "description": "torch_npu 版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 41
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`--numpy-version`",
+  "defaultValue": "`1.26.0`",
+  "description": "所有依赖安装完成后恢复的 NumPy 版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 42
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`--mindspeed-branch`",
+  "defaultValue": "`v26.1.0_core_r0.12.1`",
+  "description": "克隆 MindSpeed 使用的分支、标签或 ref",
+  "required": null,
+  "example": null,
+  "sortOrder": 43
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`--megatron-branch`",
+  "defaultValue": "`core_v0.12.1`",
+  "description": "checkout Megatron-LM 使用的分支、标签或 ref",
+  "required": null,
+  "example": null,
+  "sortOrder": 44
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "name": "`--image-version`",
+  "defaultValue": "`v26.1.0_core_r0.12.1`",
+  "description": "默认镜像 tag 中使用的 MindSpeed 版本字段",
+  "required": null,
+  "example": null,
+  "sortOrder": 45
+ },
+ {
+  "imageId": "f1b460e88aae4993b8522b611af07100",
+  "name": "CANN_VERSION",
+  "defaultValue": null,
+  "description": "昇腾 CANN 工具包版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 46
+ },
+ {
+  "imageId": "f1b460e88aae4993b8522b611af07100",
+  "name": "CHIP_ARCH",
+  "defaultValue": null,
+  "description": "昇腾芯片架构标识",
+  "required": null,
+  "example": null,
+  "sortOrder": 47
+ },
+ {
+  "imageId": "f1b460e88aae4993b8522b611af07100",
+  "name": "OS_SYSTEM",
+  "defaultValue": null,
+  "description": "基础镜像操作系统及版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 48
+ },
+ {
+  "imageId": "f1b460e88aae4993b8522b611af07100",
+  "name": "PY_VERSION",
+  "defaultValue": null,
+  "description": "基础镜像内置 Python 版本",
+  "required": null,
+  "example": null,
+  "sortOrder": 49
+ },
+ {
+  "imageId": "f1b460e88aae4993b8522b611af07100",
+  "name": "MINDSPORE_VERSION",
+  "defaultValue": null,
+  "description": "MindSpore 版本号",
+  "required": null,
+  "example": null,
+  "sortOrder": 50
+ },
+ {
+  "imageId": "f1b460e88aae4993b8522b611af07100",
+  "name": "MINDFORMERS_VERSION",
+  "defaultValue": null,
+  "description": "MindSpore Transformers 版本号",
+  "required": null,
+  "example": null,
+  "sortOrder": 51
+ },
+ {
+  "imageId": "f1b460e88aae4993b8522b611af07100",
+  "name": "PIP_INDEX_URL",
+  "defaultValue": null,
+  "description": "pip 安装源地址（默认华为云源）",
+  "required": null,
+  "example": null,
+  "sortOrder": 52
+ }
+]

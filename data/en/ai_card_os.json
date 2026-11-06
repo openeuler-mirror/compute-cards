@@ -1,0 +1,110 @@
+[
+ {
+  "cardId": "atlas-300i-duo",
+  "osVersion": "openEuler 20.03",
+  "arch": "aarch64",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "osVersion": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "osVersion": "openEuler 22.03 LTS SP4",
+  "arch": "aarch64",
+  "sortOrder": 3
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "osVersion": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "arch": "aarch64",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "osVersion": "openEuler 22.03 SP4",
+  "arch": "aarch64",
+  "sortOrder": 3
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "arch": "aarch64",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "osVersion": "openEuler 22.03 LTS SP4",
+  "arch": "aarch64",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "osVersion": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "osVersion": "openEuler 22.03 LTS SP2",
+  "arch": "aarch64",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "osVersion": "openEuler 22.03 LTS SP4",
+  "arch": "aarch64",
+  "sortOrder": 3
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "arch": "aarch64",
+  "sortOrder": 4
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "osVersion": "openEuler 22.03 LTS SP4",
+  "arch": "aarch64",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "arch": "aarch64",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "osVersion": "openEuler 22.03 LTS SP4",
+  "arch": "aarch64",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "arch": "aarch64",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "osVersion": "openEuler 22.03 LTS SP1",
+  "arch": "aarch64",
+  "sortOrder": 3
+ },
+ {
+  "cardId": "ascend-950dt-pr",
+  "osVersion": "openEuler 24.03 LTS SP4",
+  "arch": null,
+  "sortOrder": 1
+ }
+]

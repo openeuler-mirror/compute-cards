@@ -1,0 +1,47 @@
+{
+ "version": "2026-11-05",
+ "generatedAt": "2026-11-06T16:09:10",
+ "frameworkSeats": {
+  "vllm": "infer",
+  "mindie": "infer",
+  "mindspeed": "train",
+  "mindspore": "train"
+ },
+ "counts": {
+  "aiCardPlannedOs": 0,
+  "aiCardProducts": 7,
+  "cardFrameworkOs": 15,
+  "cardFrameworks": 28,
+  "cardImages": 106,
+  "cardOs": 18,
+  "cards": 7,
+  "driverVersionOs": 111,
+  "driverVersions": 51,
+  "frameworks": 4,
+  "imageBuildParams": 52,
+  "imageBuildSteps": 158,
+  "imageDockerfiles": 52,
+  "imageEnvVars": 6,
+  "imageLayers": 2805,
+  "imageTags": 561,
+  "imageVariants": 66,
+  "imageVerifySteps": 12,
+  "images": 32,
+  "inferCommands": 212,
+  "inferDeployCommands": 448,
+  "models": 223,
+  "quantLevels": 5,
+  "series": 161,
+  "supports": 860,
+  "trainCommands": 728,
+  "trainDeployCommands": 2912
+ },
+ "sources": {
+  "vllm": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/",
+  "mindie": "https://mindie-llm-doc.readthedocs.io/zh-cn/latest/user_guide/model_support_list/",
+  "mindspeed": "https://www.hiascend.com/document/detail/zh/MindSpeed/latest/LLM/model_usage/docs/zh/pytorch/models/supported_models.md",
+  "mindformers": "https://www.mindspore.cn/mindformers/docs/zh-CN/master/introduction/models.html",
+  "cards": "https://www.hiascend.com/hardware/compatibility",
+  "images": "https://www.hiascend.com/developer/ascendhub"
+ }
+}

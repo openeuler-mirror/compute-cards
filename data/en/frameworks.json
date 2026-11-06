@@ -1,0 +1,26 @@
+[
+ {
+  "id": "vllm",
+  "name": "vLLM",
+  "workload": "infer",
+  "sortOrder": 1
+ },
+ {
+  "id": "mindie",
+  "name": "MindIE",
+  "workload": "infer",
+  "sortOrder": 2
+ },
+ {
+  "id": "mindspeed",
+  "name": "MindSpeed",
+  "workload": "train",
+  "sortOrder": 3
+ },
+ {
+  "id": "mindspore",
+  "name": "MindSpore",
+  "workload": "train",
+  "sortOrder": 4
+ }
+]

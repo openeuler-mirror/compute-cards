@@ -1,0 +1,98 @@
+[
+ {
+  "imageId": "07a016975cc341f3a5ae131f2b52399d",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "接口测试样例",
+  "body": "可通过执行如下命令测试各模型服务功能是否正常运行\n\n- **排序模型测试**:\n\n```bash\ncurl 127.0.0.1:8080/v1/rerank \\\n    -X POST \\\n    -d '{\"query\":\"What is Deep Learning?\", \"documents\": [\"Deep Learning is not...\", \"Deep learning is...\"]}' \\\n    -H 'Content-Type: application/json'\n```\n\n```bash\ncurl 127.0.0.1:8080/rerank \\\n    -X POST \\\n    -d '{\"query\":\"What is Deep Learning?\", \"texts\": [\"Deep Learning is not...\", \"Deep learning is...\"]}' \\\n    -H 'Content-Type: application/json'\n```\n\n- **稠密向量模型测试**:\n\n```bash\ncurl 127.0.0.1:8080/v1/embeddings \\\n    -X POST \\\n    -d '{\"input\":[\"The capital of China is Beijing.\"]}' \\\n    -H 'Content-Type: application/json'\n```\n\n```bash\ncurl 127.0.0.1:8080/embed \\\n    -X POST \\\n    -d '{\"inputs\":[\"The capital of China is Beijing.\"]}' \\\n    -H 'Content-Type: application/json'\n```\n\n- **序列分类模型测试**\n\n```bash\ncurl 127.0.0.1:8080/predict \\\n    -X POST \\\n    -d '{\"inputs\":\"I like you.\"}' \\\n    -H 'Content-Type: application/json'\n```\n\n- **稀疏向量模型测试**\n\n```bash\ncurl 127.0.0.1:8080/embed_sparse \\\n    -X POST \\\n    -d '{\"inputs\":\"I like you.\"}' \\\n    -H 'Content-Type: application/json'\n```"
+ },
+ {
+  "imageId": "07a016975cc341f3a5ae131f2b52399d",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "接口测试样例",
+  "body": "可通过执行如下命令测试各模型服务功能是否正常运行\n\n- **排序模型测试**:\n\n```bash\ncurl 127.0.0.1:8080/v1/rerank \\\n    -X POST \\\n    -d '{\"query\":\"What is Deep Learning?\", \"documents\": [\"Deep Learning is not...\", \"Deep learning is...\"]}' \\\n    -H 'Content-Type: application/json'\n```\n\n```bash\ncurl 127.0.0.1:8080/rerank \\\n    -X POST \\\n    -d '{\"query\":\"What is Deep Learning?\", \"texts\": [\"Deep Learning is not...\", \"Deep learning is...\"]}' \\\n    -H 'Content-Type: application/json'\n```\n\n- **稠密向量模型测试**:\n\n```bash\ncurl 127.0.0.1:8080/v1/embeddings \\\n    -X POST \\\n    -d '{\"input\":[\"The capital of China is Beijing.\"]}' \\\n    -H 'Content-Type: application/json'\n```\n\n```bash\ncurl 127.0.0.1:8080/embed \\\n    -X POST \\\n    -d '{\"inputs\":[\"The capital of China is Beijing.\"]}' \\\n    -H 'Content-Type: application/json'\n```\n\n- **序列分类模型测试**\n\n```bash\ncurl 127.0.0.1:8080/predict \\\n    -X POST \\\n    -d '{\"inputs\":\"I like you.\"}' \\\n    -H 'Content-Type: application/json'\n```\n\n- **稀疏向量模型测试**\n\n```bash\ncurl 127.0.0.1:8080/embed_sparse \\\n    -X POST \\\n    -d '{\"inputs\":\"I like you.\"}' \\\n    -H 'Content-Type: application/json'\n```"
+ },
+ {
+  "imageId": "7f91c3663b5d4a97b3ae40e3cabbb3a2",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "3.4 入门用例测试",
+  "body": "[demo用例](https://gitcode.com/Ascend/IndexSDK/blob/master/docs/zh/03_quick_start.md#%E6%AD%A5%E9%AA%A4-4%E7%94%A8%E4%BE%8B%E6%B5%8B%E8%AF%95)"
+ },
+ {
+  "imageId": "7f91c3663b5d4a97b3ae40e3cabbb3a2",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "3.4 入门用例测试",
+  "body": "[demo用例](https://gitcode.com/Ascend/IndexSDK/blob/master/docs/zh/03_quick_start.md#%E6%AD%A5%E9%AA%A4-4%E7%94%A8%E4%BE%8B%E6%B5%8B%E8%AF%95)"
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "os": "openEuler 24.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "HTTP 模式运行（仅适合开发、测试或临时访问）",
+  "body": "```bash\n# 示例中将容器 80 端口映射到宿主机 9880 端口，可按需替换宿主机端口\ndocker run -d \\\n  -p <host_http_port>:80 \\\n  -v /path/to/profile_data:/opt/insight/data \\\n  --name msinsight \\\n  msinsight:26.2.0-ubuntu22.04-py3.10\n```\n\n例如使用宿主机端口 `9880` 时，浏览器访问：\n\n```text\nhttp://<host_ip>:9880\n```\n\n> **注意：** HTTP 模式不提供传输层加密，也不适合作为生产环境默认使用方式。"
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "HTTP 模式运行（仅适合开发、测试或临时访问）",
+  "body": "```bash\n# 示例中将容器 80 端口映射到宿主机 9880 端口，可按需替换宿主机端口\ndocker run -d \\\n  -p <host_http_port>:80 \\\n  -v /path/to/profile_data:/opt/insight/data \\\n  --name msinsight \\\n  msinsight:26.2.0-ubuntu22.04-py3.10\n```\n\n例如使用宿主机端口 `9880` 时，浏览器访问：\n\n```text\nhttp://<host_ip>:9880\n```\n\n> **注意：** HTTP 模式不提供传输层加密，也不适合作为生产环境默认使用方式。"
+ },
+ {
+  "imageId": "66155ae6a2f34eff9142f069612da088",
+  "os": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 1,
+  "title": "端到端验证流程示例",
+  "body": "以下以 TensorFlow 镜像为例，展示从构建到验证的完整流程：\n\n```bash\n# 1. 构建镜像\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_tf:26.1.0-cann9.1.0-910-ubuntu20.04-py3.7-tf \\\n  -f docker/Dockerfile.26.1.0-cann9.1.0-ubuntu20.04-py3.7-tf .\n\n# 2. 启动容器\ndocker run -it --name recsdk_test \\\n  --net=host \\\n  -m 300g \\\n  -e ASCEND_VISIBLE_DEVICES=0-7 \\\n  -v /usr/local/Ascend/driver:/usr/local/Ascend/driver:ro \\\n  -v /etc/ascend_install.info:/etc/ascend_install.info \\\n  recsdk_tf:26.1.0-cann9.1.0-910-ubuntu20.04-py3.7-tf /bin/bash\n\n# 3. 容器内验证 NPU 可用\nnpu-smi info\n\n# 4. 激活环境并运行 little demo\nsource /opt/buildtools/tf1_env/bin/activate\n# 参考下方 little demo 链接运行验证\n```"
+ },
+ {
+  "imageId": "66155ae6a2f34eff9142f069612da088",
+  "os": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 2,
+  "title": "TensorFlow镜像验证",
+  "body": "可参考[little demo](https://gitcode.com/Ascend/RecSDK/blob/develop_examples_and_tools/examples/demo/README.md)进行little demo验证，验证前可通过[章节 - 二次开发与底层环境切换](#二次开发与底层环境切换)切换容器内python虚拟环境。"
+ },
+ {
+  "imageId": "66155ae6a2f34eff9142f069612da088",
+  "os": "openEuler 22.03",
+  "arch": "aarch64",
+  "sortOrder": 3,
+  "title": "PyTorch镜像验证",
+  "body": "可参考[little demo](https://gitcode.com/Ascend/RecSDK/blob/develop_examples_and_tools/torch_examples/little_demo/README.md)进行little demo验证，验证前可通过[章节 - 二次开发与底层环境切换](#二次开发与底层环境切换)切换容器内python虚拟环境。"
+ },
+ {
+  "imageId": "66155ae6a2f34eff9142f069612da088",
+  "os": "openEuler 22.03",
+  "arch": "x86_64",
+  "sortOrder": 1,
+  "title": "端到端验证流程示例",
+  "body": "以下以 TensorFlow 镜像为例，展示从构建到验证的完整流程：\n\n```bash\n# 1. 构建镜像\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_tf:26.1.0-cann9.1.0-910-ubuntu20.04-py3.7-tf \\\n  -f docker/Dockerfile.26.1.0-cann9.1.0-ubuntu20.04-py3.7-tf .\n\n# 2. 启动容器\ndocker run -it --name recsdk_test \\\n  --net=host \\\n  -m 300g \\\n  -e ASCEND_VISIBLE_DEVICES=0-7 \\\n  -v /usr/local/Ascend/driver:/usr/local/Ascend/driver:ro \\\n  -v /etc/ascend_install.info:/etc/ascend_install.info \\\n  recsdk_tf:26.1.0-cann9.1.0-910-ubuntu20.04-py3.7-tf /bin/bash\n\n# 3. 容器内验证 NPU 可用\nnpu-smi info\n\n# 4. 激活环境并运行 little demo\nsource /opt/buildtools/tf1_env/bin/activate\n# 参考下方 little demo 链接运行验证\n```"
+ },
+ {
+  "imageId": "66155ae6a2f34eff9142f069612da088",
+  "os": "openEuler 22.03",
+  "arch": "x86_64",
+  "sortOrder": 2,
+  "title": "TensorFlow镜像验证",
+  "body": "可参考[little demo](https://gitcode.com/Ascend/RecSDK/blob/develop_examples_and_tools/examples/demo/README.md)进行little demo验证，验证前可通过[章节 - 二次开发与底层环境切换](#二次开发与底层环境切换)切换容器内python虚拟环境。"
+ },
+ {
+  "imageId": "66155ae6a2f34eff9142f069612da088",
+  "os": "openEuler 22.03",
+  "arch": "x86_64",
+  "sortOrder": 3,
+  "title": "PyTorch镜像验证",
+  "body": "可参考[little demo](https://gitcode.com/Ascend/RecSDK/blob/develop_examples_and_tools/torch_examples/little_demo/README.md)进行little demo验证，验证前可通过[章节 - 二次开发与底层环境切换](#二次开发与底层环境切换)切换容器内python虚拟环境。"
+ }
+]

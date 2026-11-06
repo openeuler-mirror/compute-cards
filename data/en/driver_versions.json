@@ -1,0 +1,818 @@
+[
+ {
+  "id": 1,
+  "cardId": "atlas-300i-duo",
+  "version": "26.1.0",
+  "status": "certified",
+  "recommended": true,
+  "certifiedOn": null,
+  "sortOrder": 1,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "01cb28b08cc446f29d4c714a9f28748b",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 2,
+  "cardId": "atlas-300i-duo",
+  "version": "26.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 2,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "4aa735751511482bbc06f8375a9c64c3",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 3,
+  "cardId": "atlas-300i-duo",
+  "version": "25.3.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 3,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "71844a7d488042cc9e1fe8622928f83a",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 4,
+  "cardId": "atlas-300i-duo",
+  "version": "25.2.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 4,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "585c339b0d7344b4a07d5c6f93820d66",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 5,
+  "cardId": "atlas-300i-duo",
+  "version": "25.1.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 5,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "c5b8ed4e2c804f70906a0cdffee12b9f",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 6,
+  "cardId": "atlas-300i-duo",
+  "version": "25.0.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 6,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "95660a4d75cf44a49463373d356c1a78",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 7,
+  "cardId": "atlas-300i-duo",
+  "version": "24.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 7,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "30612d961f7741b1a95f87775a9b2bcb",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 8,
+  "cardId": "atlas-300i-duo",
+  "version": "24.0.RC3",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 8,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "4f0929885dcb40a7a12be5704f5ccb15",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 9,
+  "cardId": "atlas-300i-duo",
+  "version": "24.0.RC2",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 9,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "e61cfe776f1f4a84925d853055ee059c",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 10,
+  "cardId": "atlas-300i-duo",
+  "version": "24.0.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 10,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "3b6d40b14b96433a8c5e40ed08e4b83e",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 11,
+  "cardId": "atlas-300i-duo",
+  "version": "23.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 11,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "170c32ca7d3d4b429172e647f2d4dd3c",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 12,
+  "cardId": "atlas-800i-a2",
+  "version": "26.1.0",
+  "status": "certified",
+  "recommended": true,
+  "certifiedOn": null,
+  "sortOrder": 1,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "01cb28b08cc446f29d4c714a9f28748b",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 13,
+  "cardId": "atlas-800i-a2",
+  "version": "26.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 2,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "4aa735751511482bbc06f8375a9c64c3",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 14,
+  "cardId": "atlas-800i-a2",
+  "version": "25.3.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 3,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "71844a7d488042cc9e1fe8622928f83a",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 15,
+  "cardId": "atlas-800i-a2",
+  "version": "25.2.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 4,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "585c339b0d7344b4a07d5c6f93820d66",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 16,
+  "cardId": "atlas-800i-a2",
+  "version": "25.1.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 5,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "c5b8ed4e2c804f70906a0cdffee12b9f",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 17,
+  "cardId": "atlas-800i-a2",
+  "version": "25.0.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 6,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "95660a4d75cf44a49463373d356c1a78",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 18,
+  "cardId": "atlas-800i-a2",
+  "version": "24.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 7,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "30612d961f7741b1a95f87775a9b2bcb",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 19,
+  "cardId": "atlas-800i-a2",
+  "version": "24.0.RC3",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 8,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "4f0929885dcb40a7a12be5704f5ccb15",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 20,
+  "cardId": "atlas-800i-a2",
+  "version": "24.0.RC2",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 9,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "e61cfe776f1f4a84925d853055ee059c",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 21,
+  "cardId": "atlas-800i-a2",
+  "version": "24.0.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 10,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "3b6d40b14b96433a8c5e40ed08e4b83e",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 22,
+  "cardId": "atlas-800i-a3",
+  "version": "26.1.0",
+  "status": "certified",
+  "recommended": true,
+  "certifiedOn": null,
+  "sortOrder": 1,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "01cb28b08cc446f29d4c714a9f28748b",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 23,
+  "cardId": "atlas-800i-a3",
+  "version": "26.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 2,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "4aa735751511482bbc06f8375a9c64c3",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 24,
+  "cardId": "atlas-800i-a3",
+  "version": "25.3.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 3,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "71844a7d488042cc9e1fe8622928f83a",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 25,
+  "cardId": "atlas-800i-a3",
+  "version": "25.2.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 4,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "585c339b0d7344b4a07d5c6f93820d66",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 26,
+  "cardId": "atlas-800t-a2",
+  "version": "26.1.0",
+  "status": "certified",
+  "recommended": true,
+  "certifiedOn": null,
+  "sortOrder": 1,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "01cb28b08cc446f29d4c714a9f28748b",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 27,
+  "cardId": "atlas-800t-a2",
+  "version": "26.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 2,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "4aa735751511482bbc06f8375a9c64c3",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 28,
+  "cardId": "atlas-800t-a2",
+  "version": "25.3.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 3,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "71844a7d488042cc9e1fe8622928f83a",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 29,
+  "cardId": "atlas-800t-a2",
+  "version": "25.2.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 4,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "585c339b0d7344b4a07d5c6f93820d66",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 30,
+  "cardId": "atlas-800t-a2",
+  "version": "25.1.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 5,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "c5b8ed4e2c804f70906a0cdffee12b9f",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 31,
+  "cardId": "atlas-800t-a2",
+  "version": "25.0.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 6,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "95660a4d75cf44a49463373d356c1a78",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 32,
+  "cardId": "atlas-800t-a2",
+  "version": "24.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 7,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "30612d961f7741b1a95f87775a9b2bcb",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 33,
+  "cardId": "atlas-800t-a2",
+  "version": "24.0.RC3",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 8,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "4f0929885dcb40a7a12be5704f5ccb15",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 34,
+  "cardId": "atlas-800t-a2",
+  "version": "24.0.RC2",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 9,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "e61cfe776f1f4a84925d853055ee059c",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 35,
+  "cardId": "atlas-800t-a2",
+  "version": "24.0.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 10,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "3b6d40b14b96433a8c5e40ed08e4b83e",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 36,
+  "cardId": "atlas-800t-a2",
+  "version": "23.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 11,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "170c32ca7d3d4b429172e647f2d4dd3c",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 37,
+  "cardId": "atlas-800t-a3",
+  "version": "26.1.0",
+  "status": "certified",
+  "recommended": true,
+  "certifiedOn": null,
+  "sortOrder": 1,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "01cb28b08cc446f29d4c714a9f28748b",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 38,
+  "cardId": "atlas-800t-a3",
+  "version": "26.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 2,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "4aa735751511482bbc06f8375a9c64c3",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 39,
+  "cardId": "atlas-800t-a3",
+  "version": "25.3.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 3,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "71844a7d488042cc9e1fe8622928f83a",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 40,
+  "cardId": "atlas-800t-a3",
+  "version": "25.2.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 4,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "585c339b0d7344b4a07d5c6f93820d66",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 41,
+  "cardId": "atlas-800t-a3",
+  "version": "25.1.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 5,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "c5b8ed4e2c804f70906a0cdffee12b9f",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 42,
+  "cardId": "atlas-800t-a3",
+  "version": "25.0.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 6,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "95660a4d75cf44a49463373d356c1a78",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 43,
+  "cardId": "atlas-800t-a3",
+  "version": "24.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 7,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "30612d961f7741b1a95f87775a9b2bcb",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 44,
+  "cardId": "atlas-900-a3-superpod",
+  "version": "26.1.0",
+  "status": "certified",
+  "recommended": true,
+  "certifiedOn": null,
+  "sortOrder": 1,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "01cb28b08cc446f29d4c714a9f28748b",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 45,
+  "cardId": "atlas-900-a3-superpod",
+  "version": "26.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 2,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "4aa735751511482bbc06f8375a9c64c3",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 46,
+  "cardId": "atlas-900-a3-superpod",
+  "version": "25.3.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 3,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "71844a7d488042cc9e1fe8622928f83a",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 47,
+  "cardId": "atlas-900-a3-superpod",
+  "version": "25.2.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 4,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "585c339b0d7344b4a07d5c6f93820d66",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 48,
+  "cardId": "atlas-900-a3-superpod",
+  "version": "25.1.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 5,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "c5b8ed4e2c804f70906a0cdffee12b9f",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 49,
+  "cardId": "atlas-900-a3-superpod",
+  "version": "25.0.RC1",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 6,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "95660a4d75cf44a49463373d356c1a78",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 50,
+  "cardId": "atlas-900-a3-superpod",
+  "version": "24.0.0",
+  "status": "certified",
+  "recommended": false,
+  "certifiedOn": null,
+  "sortOrder": 7,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "30612d961f7741b1a95f87775a9b2bcb",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ },
+ {
+  "id": 51,
+  "cardId": "ascend-950dt-pr",
+  "version": "26.1.0",
+  "status": "certified",
+  "recommended": true,
+  "certifiedOn": null,
+  "sortOrder": 1,
+  "driverName": "Ascend HDK",
+  "downloadUrl": null,
+  "source": {
+   "url": "https://www.hiascend.com/hardware/compatibility",
+   "solutionId": "01cb28b08cc446f29d4c714a9f28748b",
+   "note": "Derived from the compatibility tool's Solution Version (Ascend HDK) and its openEuler rows"
+  }
+ }
+]

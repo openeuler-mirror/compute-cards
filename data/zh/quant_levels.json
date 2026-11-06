@@ -1,0 +1,32 @@
+[
+ {
+  "id": "bf16",
+  "name": "BF16",
+  "description": null,
+  "sortOrder": 1
+ },
+ {
+  "id": "w8a8",
+  "name": "W8A8",
+  "description": null,
+  "sortOrder": 2
+ },
+ {
+  "id": "w4a8",
+  "name": "W4A8",
+  "description": null,
+  "sortOrder": 3
+ },
+ {
+  "id": "w8a16",
+  "name": "W8A16",
+  "description": null,
+  "sortOrder": 4
+ },
+ {
+  "id": "mxfp8",
+  "name": "MXFP8",
+  "description": "OCP 微缩放浮点格式：元素 FP8(E4M3)，每 32 元素共享一个 E8M0 缩放因子；950 代际使用，通常与 MXFP4 权重搭配（4 位权重 / 8 位激活）",
+  "sortOrder": 5
+ }
+]

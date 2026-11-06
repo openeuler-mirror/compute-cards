@@ -1,0 +1,125 @@
+[
+ {
+  "id": "atlas-300i-duo",
+  "vendor": "Huawei",
+  "model": "Atlas 300I Duo",
+  "chip": "Ascend 310P",
+  "driverName": "Ascend NPU 驱动",
+  "sdk": null,
+  "downloadUrl": null,
+  "recordedOn": null,
+  "product": "310p",
+  "primaryOs": "openEuler 22.03 LTS SP4",
+  "osVersions": [
+   "openEuler 20.03",
+   "openEuler 22.03",
+   "openEuler 22.03 LTS SP4"
+  ],
+  "source": "https://www.hiascend.com/hardware/compatibility"
+ },
+ {
+  "id": "atlas-800i-a2",
+  "vendor": "Huawei",
+  "model": "Atlas 800I A2",
+  "chip": "Ascend 910B",
+  "driverName": "Ascend NPU 驱动",
+  "sdk": null,
+  "downloadUrl": null,
+  "recordedOn": null,
+  "product": "910b",
+  "primaryOs": "openEuler 24.03 LTS SP1",
+  "osVersions": [
+   "openEuler 22.03",
+   "openEuler 24.03 LTS SP1",
+   "openEuler 22.03 SP4"
+  ],
+  "source": "https://www.hiascend.com/hardware/compatibility"
+ },
+ {
+  "id": "atlas-800i-a3",
+  "vendor": "Huawei",
+  "model": "Atlas 800I A3",
+  "chip": "Ascend 910C",
+  "driverName": "Ascend NPU 驱动",
+  "sdk": null,
+  "downloadUrl": null,
+  "recordedOn": null,
+  "product": "a3",
+  "primaryOs": "openEuler 24.03 LTS SP1",
+  "osVersions": [
+   "openEuler 24.03 LTS SP1",
+   "openEuler 22.03 LTS SP4"
+  ],
+  "source": "https://www.hiascend.com/hardware/compatibility"
+ },
+ {
+  "id": "atlas-800t-a2",
+  "vendor": "Huawei",
+  "model": "Atlas 800T A2",
+  "chip": "Ascend 910B",
+  "driverName": "Ascend NPU 驱动",
+  "sdk": null,
+  "downloadUrl": null,
+  "recordedOn": null,
+  "product": "910b",
+  "primaryOs": "openEuler 24.03 LTS SP1",
+  "osVersions": [
+   "openEuler 22.03",
+   "openEuler 22.03 LTS SP2",
+   "openEuler 22.03 LTS SP4",
+   "openEuler 24.03 LTS SP1"
+  ],
+  "source": "https://www.hiascend.com/hardware/compatibility"
+ },
+ {
+  "id": "atlas-800t-a3",
+  "vendor": "Huawei",
+  "model": "Atlas 800T A3",
+  "chip": "Ascend 910C",
+  "driverName": "Ascend NPU 驱动",
+  "sdk": null,
+  "downloadUrl": null,
+  "recordedOn": null,
+  "product": "a3",
+  "primaryOs": "openEuler 24.03 LTS SP1",
+  "osVersions": [
+   "openEuler 22.03 LTS SP4",
+   "openEuler 24.03 LTS SP1"
+  ],
+  "source": "https://www.hiascend.com/hardware/compatibility"
+ },
+ {
+  "id": "atlas-900-a3-superpod",
+  "vendor": "Huawei",
+  "model": "Atlas 900 A3 SuperPoD",
+  "chip": "Ascend 910C",
+  "driverName": "Ascend NPU 驱动",
+  "sdk": null,
+  "downloadUrl": null,
+  "recordedOn": null,
+  "product": "a3",
+  "primaryOs": "openEuler 24.03 LTS SP1",
+  "osVersions": [
+   "openEuler 22.03 LTS SP4",
+   "openEuler 24.03 LTS SP1",
+   "openEuler 22.03 LTS SP1"
+  ],
+  "source": "https://www.hiascend.com/hardware/compatibility"
+ },
+ {
+  "id": "ascend-950dt-pr",
+  "vendor": "Huawei",
+  "model": "Ascend 950DT&PR",
+  "chip": "Ascend 950",
+  "driverName": "Ascend NPU 驱动",
+  "sdk": null,
+  "downloadUrl": null,
+  "recordedOn": null,
+  "product": "950",
+  "primaryOs": "openEuler 24.03 LTS SP4",
+  "osVersions": [
+   "openEuler 24.03 LTS SP4"
+  ],
+  "source": "https://www.hiascend.com/hardware/compatibility"
+ }
+]
