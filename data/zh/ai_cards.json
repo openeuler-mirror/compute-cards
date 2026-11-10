@@ -7,7 +7,7 @@
   "driverName": "Ascend NPU 驱动",
   "sdk": null,
   "downloadUrl": null,
-  "recordedOn": null,
+  "recordedOn": "2026-11-09",
   "product": "310p",
   "primaryOs": "openEuler 22.03 LTS SP4",
   "osVersions": [
@@ -25,7 +25,7 @@
   "driverName": "Ascend NPU 驱动",
   "sdk": null,
   "downloadUrl": null,
-  "recordedOn": null,
+  "recordedOn": "2026-11-09",
   "product": "910b",
   "primaryOs": "openEuler 24.03 LTS SP1",
   "osVersions": [
@@ -43,7 +43,7 @@
   "driverName": "Ascend NPU 驱动",
   "sdk": null,
   "downloadUrl": null,
-  "recordedOn": null,
+  "recordedOn": "2026-11-09",
   "product": "a3",
   "primaryOs": "openEuler 24.03 LTS SP1",
   "osVersions": [
@@ -60,7 +60,7 @@
   "driverName": "Ascend NPU 驱动",
   "sdk": null,
   "downloadUrl": null,
-  "recordedOn": null,
+  "recordedOn": "2026-11-09",
   "product": "910b",
   "primaryOs": "openEuler 24.03 LTS SP1",
   "osVersions": [
@@ -79,7 +79,7 @@
   "driverName": "Ascend NPU 驱动",
   "sdk": null,
   "downloadUrl": null,
-  "recordedOn": null,
+  "recordedOn": "2026-11-09",
   "product": "a3",
   "primaryOs": "openEuler 24.03 LTS SP1",
   "osVersions": [
@@ -96,7 +96,7 @@
   "driverName": "Ascend NPU 驱动",
   "sdk": null,
   "downloadUrl": null,
-  "recordedOn": null,
+  "recordedOn": "2026-11-09",
   "product": "a3",
   "primaryOs": "openEuler 24.03 LTS SP1",
   "osVersions": [
@@ -114,7 +114,7 @@
   "driverName": "Ascend NPU 驱动",
   "sdk": null,
   "downloadUrl": null,
-  "recordedOn": null,
+  "recordedOn": "2026-11-09",
   "product": "950",
   "primaryOs": "openEuler 24.03 LTS SP4",
   "osVersions": [

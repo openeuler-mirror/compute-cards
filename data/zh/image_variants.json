@@ -1,464 +1,254 @@
 [
  {
-  "imageId": "17da20d1c2b6493cb38765adeba85884",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "export CANN_REPO=swr.cn-south-1.myhuaweicloud.com/ascendhub/cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n\ndocker run \\\n    --name cann_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it $CANN_REPO:$CANN_TAG bash",
-  "tagCount": 268
- },
- {
-  "imageId": "17da20d1c2b6493cb38765adeba85884",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "export CANN_REPO=swr.cn-south-1.myhuaweicloud.com/ascendhub/cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n\ndocker run \\\n    --name cann_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it $CANN_REPO:$CANN_TAG bash",
-  "tagCount": 268
- },
- {
-  "imageId": "17da20d1c2b6493cb38765adeba85884",
-  "os": "openEuler 22.03",
-  "arch": "x86_64",
-  "runCommand": "export CANN_REPO=swr.cn-south-1.myhuaweicloud.com/ascendhub/cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n\ndocker run \\\n    --name cann_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it $CANN_REPO:$CANN_TAG bash",
-  "tagCount": 22
- },
- {
-  "imageId": "17da20d1c2b6493cb38765adeba85884",
-  "os": "openEuler 22.03",
-  "arch": "aarch64",
-  "runCommand": "export CANN_REPO=swr.cn-south-1.myhuaweicloud.com/ascendhub/cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n\ndocker run \\\n    --name cann_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it $CANN_REPO:$CANN_TAG bash",
-  "tagCount": 22
- },
- {
-  "imageId": "f1690465f39847a8b0a1f9e5b36a03c4",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 34
- },
- {
-  "imageId": "f1690465f39847a8b0a1f9e5b36a03c4",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": null,
-  "tagCount": 34
- },
- {
-  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 36
- },
- {
-  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": null,
-  "tagCount": 34
- },
- {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
   "os": "openEuler 24.03",
-  "arch": "aarch64",
+  "arch": "x86_64 / aarch64",
   "runCommand": "export MODEL_DIR=/home/HwHiAiUser/model\ndocker run \\\n    -u <user> \\\n    --net host \\\n    --name tei_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -e MODEL_DIR=$MODEL_DIR \\\n    -v $MODEL_DIR:$MODEL_DIR \\\n    -e PYTORCH_NPU_ALLOC_CONF=max_split_size_mb:256 \\\n    -itd swr.cn-south-1.myhuaweicloud.com/ascendhub/mis-tei:<tag> --model-id $MODEL_DIR/<model_name> --hostname <listen_ip> --port <listen_port>",
-  "tagCount": 3
- },
- {
-  "imageId": "07a016975cc341f3a5ae131f2b52399d",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "export MODEL_DIR=/home/HwHiAiUser/model\ndocker run \\\n    -u <user> \\\n    --net host \\\n    --name tei_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -e MODEL_DIR=$MODEL_DIR \\\n    -v $MODEL_DIR:$MODEL_DIR \\\n    -e PYTORCH_NPU_ALLOC_CONF=max_split_size_mb:256 \\\n    -itd swr.cn-south-1.myhuaweicloud.com/ascendhub/mis-tei:<tag> --model-id $MODEL_DIR/<model_name> --hostname <listen_ip> --port <listen_port>",
-  "tagCount": 3
- },
- {
-  "imageId": "e26da9266559438b93354792f25b2f4a",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "# 基本运行\ndocker run -it \\\n  mindspeed-llm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.12 bash\n\n# 使用 NPU 设备运行（示例：设备 /dev/davinci1）\n# 假设您的 NPU 设备安装在 /dev/davinci1 上，并且 NPU 驱动程序安装在 /usr/local/Ascend 上：\ndocker run -it \\\n  --name mindspeed-llm \\\n  --privileged \\\n  --network host \\\n  --ipc=host \\\n  --device=/dev/davinci1 \\\n  --device=/dev/davinci_manager \\\n  --device=/dev/hisi_hdc \\\n  --device=/dev/devmm_svm \\\n  -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \\\n  -v /usr/local/dcmi:/usr/local/dcmi \\\n  -v /usr/local/sbin/npu-smi:/usr/local/sbin/npu-smi \\\n  -v /etc/ascend_install.info:/etc/ascend_install.info \\\n  -v /home/:/home/ \\\n  -v /data:/data \\\n  -v /mnt:/mnt \\\n  mindspeed-llm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.12 \\\n  /bin/bash\n\n# 进入已启动容器\ndocker exec -it mindspeed-llm /bin/bash",
-  "tagCount": 5
- },
- {
-  "imageId": "e26da9266559438b93354792f25b2f4a",
-  "os": "openEuler 22.03",
-  "arch": "aarch64",
-  "runCommand": "# 基本运行\ndocker run -it \\\n  mindspeed-llm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.12 bash\n\n# 使用 NPU 设备运行（示例：设备 /dev/davinci1）\n# 假设您的 NPU 设备安装在 /dev/davinci1 上，并且 NPU 驱动程序安装在 /usr/local/Ascend 上：\ndocker run -it \\\n  --name mindspeed-llm \\\n  --privileged \\\n  --network host \\\n  --ipc=host \\\n  --device=/dev/davinci1 \\\n  --device=/dev/davinci_manager \\\n  --device=/dev/hisi_hdc \\\n  --device=/dev/devmm_svm \\\n  -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \\\n  -v /usr/local/dcmi:/usr/local/dcmi \\\n  -v /usr/local/sbin/npu-smi:/usr/local/sbin/npu-smi \\\n  -v /etc/ascend_install.info:/etc/ascend_install.info \\\n  -v /home/:/home/ \\\n  -v /data:/data \\\n  -v /mnt:/mnt \\\n  mindspeed-llm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.12 \\\n  /bin/bash\n\n# 进入已启动容器\ndocker exec -it mindspeed-llm /bin/bash",
-  "tagCount": 4
- },
- {
-  "imageId": "e26da9266559438b93354792f25b2f4a",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "# 基本运行\ndocker run -it \\\n  mindspeed-llm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.12 bash\n\n# 使用 NPU 设备运行（示例：设备 /dev/davinci1）\n# 假设您的 NPU 设备安装在 /dev/davinci1 上，并且 NPU 驱动程序安装在 /usr/local/Ascend 上：\ndocker run -it \\\n  --name mindspeed-llm \\\n  --privileged \\\n  --network host \\\n  --ipc=host \\\n  --device=/dev/davinci1 \\\n  --device=/dev/davinci_manager \\\n  --device=/dev/hisi_hdc \\\n  --device=/dev/devmm_svm \\\n  -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \\\n  -v /usr/local/dcmi:/usr/local/dcmi \\\n  -v /usr/local/sbin/npu-smi:/usr/local/sbin/npu-smi \\\n  -v /etc/ascend_install.info:/etc/ascend_install.info \\\n  -v /home/:/home/ \\\n  -v /data:/data \\\n  -v /mnt:/mnt \\\n  mindspeed-llm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.12 \\\n  /bin/bash\n\n# 进入已启动容器\ndocker exec -it mindspeed-llm /bin/bash",
-  "tagCount": 3
- },
- {
-  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 9
- },
- {
-  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": null,
-  "tagCount": 9
- },
- {
-  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 9
- },
- {
-  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": null,
-  "tagCount": 9
- },
- {
-  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "docker run \\\n    --name pta_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it ascend/pta:tag bash",
-  "tagCount": 64
- },
- {
-  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "docker run \\\n    --name pta_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it ascend/pta:tag bash",
-  "tagCount": 64
- },
- {
-  "imageId": "a066319600634cf6a1e522856a63a1c5",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "a066319600634cf6a1e522856a63a1c5",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "# 使用 NPU 设备 & 挂载数据目录运行 （示例：设备 /dev/davinci1）\n# 根据实际情况修改 ascend-toolkit 路径\n# 假设您的 NPU 设备安装在 /dev/davinci1 上，并且 NPU 驱动程序安装在 /usr/local/Ascend 上：\ndocker run -it \\\n    --name mm_container \\\n    --device=/dev/davinci1 \\\n    --device=/dev/davinci_manager \\\n    --device=/dev/devmm_svm \\\n    --device=/dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -v /path/to/data:/data \\\n    -v /path/to/weights:/weights \\\n    mindspeed-mm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-a3-openeuler24.03-py3.11 bash",
-  "tagCount": 5
- },
- {
-  "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "# 使用 NPU 设备 & 挂载数据目录运行 （示例：设备 /dev/davinci1）\n# 根据实际情况修改 ascend-toolkit 路径\n# 假设您的 NPU 设备安装在 /dev/davinci1 上，并且 NPU 驱动程序安装在 /usr/local/Ascend 上：\ndocker run -it \\\n    --name mm_container \\\n    --device=/dev/davinci1 \\\n    --device=/dev/davinci_manager \\\n    --device=/dev/devmm_svm \\\n    --device=/dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -v /path/to/data:/data \\\n    -v /path/to/weights:/weights \\\n    mindspeed-mm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-a3-openeuler24.03-py3.11 bash",
-  "tagCount": 3
- },
- {
-  "imageId": "b554929b470747448924bc786b5ab95d",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "b554929b470747448924bc786b5ab95d",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "docker run \\\n    --name drivingsdk_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend:/usr/local/Ascend \\\n    -it drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 bash",
-  "tagCount": 15
- },
- {
-  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "docker run \\\n    --name drivingsdk_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend:/usr/local/Ascend \\\n    -it drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 bash",
-  "tagCount": 14
- },
- {
-  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
-  "os": "openEuler 22.03",
-  "arch": "aarch64",
-  "runCommand": "docker run \\\n    --name drivingsdk_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend:/usr/local/Ascend \\\n    -it drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 bash",
-  "tagCount": 1
- },
- {
-  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
-  "os": "openEuler 22.03",
-  "arch": "x86_64",
-  "runCommand": "docker run \\\n    --name drivingsdk_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend:/usr/local/Ascend \\\n    -it drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 bash",
-  "tagCount": 1
- },
- {
-  "imageId": "7f91c3663b5d4a97b3ae40e3cabbb3a2",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "docker run \\\n    --name index_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it ascend/index:tag bash",
-  "tagCount": 10
- },
- {
-  "imageId": "7f91c3663b5d4a97b3ae40e3cabbb3a2",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "docker run \\\n    --name index_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it ascend/index:tag bash",
-  "tagCount": 11
- },
- {
-  "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "docker run \\\n    --privileged \\\n    --name mindspore_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it mindspore:{tag} bash",
-  "tagCount": 6
- },
- {
-  "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "docker run \\\n    --privileged \\\n    --name mindspore_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it mindspore:{tag} bash",
-  "tagCount": 6
- },
- {
-  "imageId": "b875f781df984480b0385a96fa1b03c9",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "docker run -itd --name=rag_sdk_demo --network=host \\\n     --device=/dev/davinci_manager \\\n     --device=/dev/hisi_hdc \\\n     --device=/dev/devmm_svm \\\n     --device=/dev/davinci0 \\\n     -v /usr/local/Ascend/driver:/usr/local/Ascend/driver:ro \\\n     -v /usr/local/sbin:/usr/local/sbin:ro \\\n     -v /path/to/model:/path/to/model:ro \\\n     {镜像名称}:{镜像tag} bash",
-  "tagCount": 3
- },
- {
-  "imageId": "b875f781df984480b0385a96fa1b03c9",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "docker run -itd --name=rag_sdk_demo --network=host \\\n     --device=/dev/davinci_manager \\\n     --device=/dev/hisi_hdc \\\n     --device=/dev/devmm_svm \\\n     --device=/dev/davinci0 \\\n     -v /usr/local/Ascend/driver:/usr/local/Ascend/driver:ro \\\n     -v /usr/local/sbin:/usr/local/sbin:ro \\\n     -v /path/to/model:/path/to/model:ro \\\n     {镜像名称}:{镜像tag} bash",
-  "tagCount": 3
- },
- {
-  "imageId": "e0081aa3c4dd441dbd6a379bee8cc4c9",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "docker run \\\n    --name multimodal_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it ascend/multimodal:tag bash",
-  "tagCount": 4
- },
- {
-  "imageId": "13f3dee71712420d8b583b9275c04899",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "13f3dee71712420d8b583b9275c04899",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "# 示例中将容器 443 端口映射到宿主机 9443 端口，可按需替换宿主机端口\ndocker run -d \\\n  -p <host_https_port>:443 \\\n  -v /path/to/profile_data:/opt/insight/data \\\n  -v /path/to/certs:/etc/nginx/certs:ro \\\n  --name msinsight \\\n  msinsight:26.2.0-ubuntu22.04-py3.10",
-  "tagCount": 2
- },
- {
-  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "# 示例中将容器 443 端口映射到宿主机 9443 端口，可按需替换宿主机端口\ndocker run -d \\\n  -p <host_https_port>:443 \\\n  -v /path/to/profile_data:/opt/insight/data \\\n  -v /path/to/certs:/etc/nginx/certs:ro \\\n  --name msinsight \\\n  msinsight:26.2.0-ubuntu22.04-py3.10",
-  "tagCount": 2
- },
- {
-  "imageId": "c98c978f3a274ecbb0c844ed8405ab80",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 3
- },
- {
-  "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "# docker run --name ${你的容器名称} -it -d --net=host \\\n#  -w /benchmark \\\n#  --ipc=host \\\n#  -v ${宿主机数据集路径}:${容器内数据集路径}\n#  ${IMAGE ID} \\\n#  bash\n\ndocker run --name ais_bench_container -it -d --net=host \\\n -w /benchmark \\\n --ipc=host \\\n -v /data/datasets:/datasets \\\n 81a36d90beed \\\n bash",
-  "tagCount": 2
- },
- {
-  "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "# docker run --name ${你的容器名称} -it -d --net=host \\\n#  -w /benchmark \\\n#  --ipc=host \\\n#  -v ${宿主机数据集路径}:${容器内数据集路径}\n#  ${IMAGE ID} \\\n#  bash\n\ndocker run --name ais_bench_container -it -d --net=host \\\n -w /benchmark \\\n --ipc=host \\\n -v /data/datasets:/datasets \\\n 81a36d90beed \\\n bash",
-  "tagCount": 2
- },
- {
-  "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
-  "os": "openEuler 22.03",
-  "arch": "x86_64",
-  "runCommand": "# docker run --name ${你的容器名称} -it -d --net=host \\\n#  -w /benchmark \\\n#  --ipc=host \\\n#  -v ${宿主机数据集路径}:${容器内数据集路径}\n#  ${IMAGE ID} \\\n#  bash\n\ndocker run --name ais_bench_container -it -d --net=host \\\n -w /benchmark \\\n --ipc=host \\\n -v /data/datasets:/datasets \\\n 81a36d90beed \\\n bash",
-  "tagCount": 2
- },
- {
-  "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
-  "os": "openEuler 22.03",
-  "arch": "aarch64",
-  "runCommand": "# docker run --name ${你的容器名称} -it -d --net=host \\\n#  -w /benchmark \\\n#  --ipc=host \\\n#  -v ${宿主机数据集路径}:${容器内数据集路径}\n#  ${IMAGE ID} \\\n#  bash\n\ndocker run --name ais_bench_container -it -d --net=host \\\n -w /benchmark \\\n --ipc=host \\\n -v /data/datasets:/datasets \\\n 81a36d90beed \\\n bash",
-  "tagCount": 2
- },
- {
-  "imageId": "72825ebadb23432ba55dea3f58e68a69",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "docker run --name your_container_name \\\n    --hostname agent \\\n    --network host \\\n    -it -d --shm-size=500g \\\n    --device=/dev/davinci0 --device=/dev/davinci1 \\\n    --device=/dev/davinci2 --device=/dev/davinci3 \\\n    --device=/dev/davinci4 --device=/dev/davinci5 \\\n    --device=/dev/davinci6 --device=/dev/davinci7 \\\n    --device=/dev/davinci8 --device=/dev/davinci9 \\\n    --device=/dev/davinci10 --device=/dev/davinci11 \\\n    --device=/dev/davinci12 --device=/dev/davinci13 \\\n    --device=/dev/davinci14 --device=/dev/davinci15 \\\n    --device=/dev/davinci_manager \\\n    --device=/dev/hisi_hdc \\\n    --device=/dev/devmm_svm \\\n    -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -v /usr/share/zoneinfo/Asia/Shanghai:/etc/localtime \\\n    -v /usr/local/sbin:/usr/local/sbin \\\n    your_image_name:your_image_tag  \\\n    sleep infinity",
-  "tagCount": 4
- },
- {
-  "imageId": "72825ebadb23432ba55dea3f58e68a69",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "docker run --name your_container_name \\\n    --hostname agent \\\n    --network host \\\n    -it -d --shm-size=500g \\\n    --device=/dev/davinci0 --device=/dev/davinci1 \\\n    --device=/dev/davinci2 --device=/dev/davinci3 \\\n    --device=/dev/davinci4 --device=/dev/davinci5 \\\n    --device=/dev/davinci6 --device=/dev/davinci7 \\\n    --device=/dev/davinci8 --device=/dev/davinci9 \\\n    --device=/dev/davinci10 --device=/dev/davinci11 \\\n    --device=/dev/davinci12 --device=/dev/davinci13 \\\n    --device=/dev/davinci14 --device=/dev/davinci15 \\\n    --device=/dev/davinci_manager \\\n    --device=/dev/hisi_hdc \\\n    --device=/dev/devmm_svm \\\n    -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -v /usr/share/zoneinfo/Asia/Shanghai:/etc/localtime \\\n    -v /usr/local/sbin:/usr/local/sbin \\\n    your_image_name:your_image_tag  \\\n    sleep infinity",
-  "tagCount": 4
- },
- {
-  "imageId": "45564313da53416dbd14f214d80e33b3",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "docker run \\\n    --name faiss_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it faiss-ascend:tag bash",
-  "tagCount": 2
- },
- {
-  "imageId": "08f948dc1dd745fd896501377ce73b2c",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 1
- },
- {
-  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "docker run -it -d \\\n  --name mindspeed-core \\\n  --privileged \\\n  --network host \\\n  --ipc=host \\\n  -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \\\n  -v /usr/local/dcmi:/usr/local/dcmi \\\n  -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n  -v /etc/ascend_install.info:/etc/ascend_install.info \\\n  -v {path-to-data}:/data \\\n  -v {path-to-weights}:/weights \\\n  swr.cn-south-1.myhuaweicloud.com/ascendhub/mindspeed-core:v26.1.0_core_r0.12.1-cann9.1.0-torch_npu2.7.1.post8-a3-openeuler24.03-py3.12 \\\n  /bin/bash",
-  "tagCount": 5
- },
- {
-  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
-  "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "docker run -it -d \\\n  --name mindspeed-core \\\n  --privileged \\\n  --network host \\\n  --ipc=host \\\n  -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \\\n  -v /usr/local/dcmi:/usr/local/dcmi \\\n  -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n  -v /etc/ascend_install.info:/etc/ascend_install.info \\\n  -v {path-to-data}:/data \\\n  -v {path-to-weights}:/weights \\\n  swr.cn-south-1.myhuaweicloud.com/ascendhub/mindspeed-core:v26.1.0_core_r0.12.1-cann9.1.0-torch_npu2.7.1.post8-a3-openeuler24.03-py3.12 \\\n  /bin/bash",
-  "tagCount": 3
- },
- {
-  "imageId": "66155ae6a2f34eff9142f069612da088",
-  "os": "openEuler 22.03",
-  "arch": "aarch64",
-  "runCommand": "docker run -it \\\n    --name {容器名} \\\n    --net=host \\\n    -m 300g \\\n    -e ASCEND_VISIBLE_DEVICES=0-7 \\\n    -v /usr/local/Ascend/driver:/usr/local/Ascend/driver:ro \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -v {挂载目录}:{挂载目录} \\\n    {镜像名}:{镜像tag} \\\n    /bin/bash",
-  "tagCount": 6
- },
- {
-  "imageId": "66155ae6a2f34eff9142f069612da088",
-  "os": "openEuler 22.03",
-  "arch": "x86_64",
-  "runCommand": "docker run -it \\\n    --name {容器名} \\\n    --net=host \\\n    -m 300g \\\n    -e ASCEND_VISIBLE_DEVICES=0-7 \\\n    -v /usr/local/Ascend/driver:/usr/local/Ascend/driver:ro \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -v {挂载目录}:{挂载目录} \\\n    {镜像名}:{镜像tag} \\\n    /bin/bash",
-  "tagCount": 6
+  "tagCount": null
  },
  {
   "imageId": "0bc31428b0984445a39496fdcfce7c2b",
   "os": "openEuler 24.03",
   "arch": "aarch64",
   "runCommand": "docker run -it -d --net=host --shm-size=1g \\  \n   --name <container-name> \\\n   --device=/dev/davinci_manager:rwm \\\n   --device=/dev/hisi_hdc:rwm \\\n   --device=/dev/devmm_svm:rwm \\\n   --device=/dev/davinci0:rwm \\\n   -v /usr/local/Ascend/driver:/usr/local/Ascend/driver:ro \\\n   -v /usr/local/Ascend/firmware/:/usr/local/Ascend/firmware:ro \\\n   -v /usr/local/sbin:/usr/local/sbin:ro \\\n   -v /path-to-weights:/path-to-weights:ro \\\n   torch-onnx-inference:cann8.3.rc1_torch2.1.0-800I-A2-openeuler24.03-py3.11-aarch64 bash",
-  "tagCount": 2
+  "tagCount": null
  },
  {
-  "imageId": "9e0edaf9488b447b951072c5c61ce8f1",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "docker run \\\n    --name vision_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it ascend/vision:tag bash",
-  "tagCount": 2
+  "imageId": "17da20d1c2b6493cb38765adeba85884",
+  "os": "openEuler 22.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "export CANN_REPO=swr.cn-south-1.myhuaweicloud.com/ascendhub/cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n\ndocker run \\\n    --name cann_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it $CANN_REPO:$CANN_TAG bash",
+  "tagCount": null
  },
  {
-  "imageId": "9e0edaf9488b447b951072c5c61ce8f1",
+  "imageId": "17da20d1c2b6493cb38765adeba85884",
   "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "docker run \\\n    --name vision_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it ascend/vision:tag bash",
-  "tagCount": 2
+  "arch": "x86_64 / aarch64",
+  "runCommand": "export CANN_REPO=swr.cn-south-1.myhuaweicloud.com/ascendhub/cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n\ndocker run \\\n    --name cann_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it $CANN_REPO:$CANN_TAG bash",
+  "tagCount": null
  },
  {
-  "imageId": "f1b460e88aae4993b8522b611af07100",
+  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
   "os": "openEuler 24.03",
-  "arch": "x86_64",
-  "runCommand": "docker run \\\n    --privileged \\\n    --name mindformers_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it mindspore:tag bash",
-  "tagCount": 2
- },
- {
-  "imageId": "f1b460e88aae4993b8522b611af07100",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "runCommand": "docker run \\\n    --privileged \\\n    --name mindformers_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it mindspore:tag bash",
-  "tagCount": 2
+  "arch": "x86_64 / aarch64",
+  "runCommand": "docker run \\\n    --name pta_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it ascend/pta:tag bash",
+  "tagCount": null
  },
  {
   "imageId": "39730c7af872464ba25be1c2ce15915f",
   "os": "openEuler 20.03",
-  "arch": "aarch64",
-  "runCommand": null,
-  "tagCount": 8
+  "arch": "x86_64 / aarch64",
+  "runCommand": "   docker run -it -e ASCEND_VISIBLE_DEVICES=0 镜像id  /bin/bash",
+  "tagCount": null
  },
  {
-  "imageId": "39730c7af872464ba25be1c2ce15915f",
-  "os": "openEuler 20.03",
-  "arch": "x86_64",
+  "imageId": "45564313da53416dbd14f214d80e33b3",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "runCommand": "docker run \\\n    --name faiss_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it faiss-ascend:tag bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "4ad248a439a44b4bb72e0534bfda8e2a",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "docker run -it -d \\\n  --name mindspeed-core \\\n  --privileged \\\n  --network host \\\n  --ipc=host \\\n  -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \\\n  -v /usr/local/dcmi:/usr/local/dcmi \\\n  -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n  -v /etc/ascend_install.info:/etc/ascend_install.info \\\n  -v {path-to-data}:/data \\\n  -v {path-to-weights}:/weights \\\n  swr.cn-south-1.myhuaweicloud.com/ascendhub/mindspeed-core:v26.1.0_core_r0.12.1-cann9.1.0-torch_npu2.7.1.post8-a3-openeuler24.03-py3.12 \\\n  /bin/bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "66155ae6a2f34eff9142f069612da088",
+  "os": "openEuler 22.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "docker run -it \\\n    --name {容器名} \\\n    --net=host \\\n    -m 300g \\\n    -e ASCEND_VISIBLE_DEVICES=0-7 \\\n    -v /usr/local/Ascend/driver:/usr/local/Ascend/driver:ro \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -v {挂载目录}:{挂载目录} \\\n    {镜像名}:{镜像tag} \\\n    /bin/bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "    # 基本运行\n    docker run -it --rm \\\n        -e LD_LIBRARY_PATH=\"/usr/local/npu/driver/lib64/driver:/usr/local/npu/driver/lib64/common:$LD_LIBRARY_PATH\" \\\n        mindspeed-mm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-a3-openeuler24.03-py3.11 bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
+  "os": "openEuler 22.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "docker run \\\n    --name drivingsdk_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend:/usr/local/Ascend \\\n    -it drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "docker run \\\n    --name drivingsdk_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend:/usr/local/Ascend \\\n    -it drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "72825ebadb23432ba55dea3f58e68a69",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "docker run --name your_container_name \\\n    --hostname agent \\\n    --network host \\\n    -it -d --shm-size=500g \\\n    --device=/dev/davinci0 --device=/dev/davinci1 \\\n    --device=/dev/davinci2 --device=/dev/davinci3 \\\n    --device=/dev/davinci4 --device=/dev/davinci5 \\\n    --device=/dev/davinci6 --device=/dev/davinci7 \\\n    --device=/dev/davinci8 --device=/dev/davinci9 \\\n    --device=/dev/davinci10 --device=/dev/davinci11 \\\n    --device=/dev/davinci12 --device=/dev/davinci13 \\\n    --device=/dev/davinci14 --device=/dev/davinci15 \\\n    --device=/dev/davinci_manager \\\n    --device=/dev/hisi_hdc \\\n    --device=/dev/devmm_svm \\\n    -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -v /usr/share/zoneinfo/Asia/Shanghai:/etc/localtime \\\n    -v /usr/local/sbin:/usr/local/sbin \\\n    your_image_name:your_image_tag  \\\n    sleep infinity",
+  "tagCount": null
+ },
+ {
+  "imageId": "7f91c3663b5d4a97b3ae40e3cabbb3a2",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "docker run \\\n    --name index_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it ascend/index:tag bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "9e0edaf9488b447b951072c5c61ce8f1",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "docker run \\\n    --name vision_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it ascend/vision:tag bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "b875f781df984480b0385a96fa1b03c9",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": " docker run -itd --name=rag_sdk_demo --network=host \\\n     --device=/dev/davinci_manager \\\n     --device=/dev/hisi_hdc \\\n     --device=/dev/devmm_svm \\\n     --device=/dev/davinci0 \\\n     -v /usr/local/Ascend/driver:/usr/local/Ascend/driver:ro \\\n     -v /usr/local/sbin:/usr/local/sbin:ro \\\n     -v /path/to/model:/path/to/model:ro \\\n     {镜像名称}:{镜像tag} bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
+  "os": "openEuler 22.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "# docker run --name ${你的容器名称} -it -d --net=host \\\n#  -w /benchmark \\\n#  --ipc=host \\\n#  -v ${宿主机数据集路径}:${容器内数据集路径}\n#  ${IMAGE ID} \\\n#  bash\n\ndocker run --name ais_bench_container -it -d --net=host \\\n -w /benchmark \\\n --ipc=host \\\n -v /data/datasets:/datasets \\\n 81a36d90beed \\\n bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "# docker run --name ${你的容器名称} -it -d --net=host \\\n#  -w /benchmark \\\n#  --ipc=host \\\n#  -v ${宿主机数据集路径}:${容器内数据集路径}\n#  ${IMAGE ID} \\\n#  bash\n\ndocker run --name ais_bench_container -it -d --net=host \\\n -w /benchmark \\\n --ipc=host \\\n -v /data/datasets:/datasets \\\n 81a36d90beed \\\n bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "e0081aa3c4dd441dbd6a379bee8cc4c9",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "runCommand": "docker run \\\n    --name multimodal_container \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it ascend/multimodal:tag bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "e26da9266559438b93354792f25b2f4a",
+  "os": "openEuler 22.03",
+  "arch": "aarch64",
+  "runCommand": "# 基本运行\ndocker run -it \\\n  mindspeed-llm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.12 bash\n\n# 使用 NPU 设备运行（示例：设备 /dev/davinci1）\n# 假设您的 NPU 设备安装在 /dev/davinci1 上，并且 NPU 驱动程序安装在 /usr/local/Ascend 上：\ndocker run -it \\\n  --name mindspeed-llm \\\n  --privileged \\\n  --network host \\\n  --ipc=host \\\n  --device=/dev/davinci1 \\\n  --device=/dev/davinci_manager \\\n  --device=/dev/hisi_hdc \\\n  --device=/dev/devmm_svm \\\n  -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \\\n  -v /usr/local/dcmi:/usr/local/dcmi \\\n  -v /usr/local/sbin/npu-smi:/usr/local/sbin/npu-smi \\\n  -v /etc/ascend_install.info:/etc/ascend_install.info \\\n  -v /home/:/home/ \\\n  -v /data:/data \\\n  -v /mnt:/mnt \\\n  mindspeed-llm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.12 \\\n  /bin/bash\n\n# 进入已启动容器\ndocker exec -it mindspeed-llm /bin/bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "e26da9266559438b93354792f25b2f4a",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "# 基本运行\ndocker run -it \\\n  mindspeed-llm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.12 bash\n\n# 使用 NPU 设备运行（示例：设备 /dev/davinci1）\n# 假设您的 NPU 设备安装在 /dev/davinci1 上，并且 NPU 驱动程序安装在 /usr/local/Ascend 上：\ndocker run -it \\\n  --name mindspeed-llm \\\n  --privileged \\\n  --network host \\\n  --ipc=host \\\n  --device=/dev/davinci1 \\\n  --device=/dev/davinci_manager \\\n  --device=/dev/hisi_hdc \\\n  --device=/dev/devmm_svm \\\n  -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \\\n  -v /usr/local/dcmi:/usr/local/dcmi \\\n  -v /usr/local/sbin/npu-smi:/usr/local/sbin/npu-smi \\\n  -v /etc/ascend_install.info:/etc/ascend_install.info \\\n  -v /home/:/home/ \\\n  -v /data:/data \\\n  -v /mnt:/mnt \\\n  mindspeed-llm:v26.1.0-cann9.1.0-torch_npu2.7.1.post8-910b-openeuler24.03-py3.12 \\\n  /bin/bash\n\n# 进入已启动容器\ndocker exec -it mindspeed-llm /bin/bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "docker run \\\n    --privileged \\\n    --name mindspore_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it mindspore:{tag} bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "e40957c8eb4245e3a189b818b2408eb1",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "# 示例中将容器 443 端口映射到宿主机 9443 端口，可按需替换宿主机端口\ndocker run -d \\\n  -p <host_https_port>:443 \\\n  -v /path/to/profile_data:/opt/insight/data \\\n  -v /path/to/certs:/etc/nginx/certs:ro \\\n  --name msinsight \\\n  msinsight:26.2.0-ubuntu22.04-py3.10",
+  "tagCount": null
+ },
+ {
+  "imageId": "f1b460e88aae4993b8522b611af07100",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": "docker run \\\n    --privileged \\\n    --name mindformers_container \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -it mindspore:tag bash",
+  "tagCount": null
+ },
+ {
+  "imageId": "08f948dc1dd745fd896501377ce73b2c",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
   "runCommand": null,
-  "tagCount": 8
+  "tagCount": null
+ },
+ {
+  "imageId": "13f3dee71712420d8b583b9275c04899",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": null,
+  "tagCount": null
+ },
+ {
+  "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": null,
+  "tagCount": null
+ },
+ {
+  "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": null,
+  "tagCount": null
+ },
+ {
+  "imageId": "54545fa4ff9f446e914bf44b85efdb61",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": null,
+  "tagCount": null
+ },
+ {
+  "imageId": "a066319600634cf6a1e522856a63a1c5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": null,
+  "tagCount": null
+ },
+ {
+  "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": null,
+  "tagCount": null
+ },
+ {
+  "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": null,
+  "tagCount": null
+ },
+ {
+  "imageId": "b554929b470747448924bc786b5ab95d",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": null,
+  "tagCount": null
+ },
+ {
+  "imageId": "c98c978f3a274ecbb0c844ed8405ab80",
+  "os": "openEuler 24.03",
+  "arch": "aarch64",
+  "runCommand": null,
+  "tagCount": null
+ },
+ {
+  "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": null,
+  "tagCount": null
+ },
+ {
+  "imageId": "f1690465f39847a8b0a1f9e5b36a03c4",
+  "os": "openEuler 24.03",
+  "arch": "x86_64 / aarch64",
+  "runCommand": null,
+  "tagCount": null
  }
 ]
