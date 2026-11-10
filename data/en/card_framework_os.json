@@ -2,74 +2,206 @@
  {
   "cardId": "atlas-300i-duo",
   "frameworkId": "vllm",
+  "osVersion": "openEuler 20.03",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "frameworkId": "vllm",
+  "osVersion": "openEuler 22.03",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "frameworkId": "vllm",
   "osVersion": "openEuler 22.03 LTS SP4",
+  "sortOrder": 3
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "frameworkId": "mindie",
+  "osVersion": "openEuler 20.03",
   "sortOrder": 1
  },
  {
   "cardId": "atlas-300i-duo",
   "frameworkId": "mindie",
+  "osVersion": "openEuler 22.03",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-300i-duo",
+  "frameworkId": "mindie",
+  "osVersion": "openEuler 22.03 LTS SP4",
+  "sortOrder": 3
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "frameworkId": "vllm",
+  "osVersion": "openEuler 22.03",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "frameworkId": "vllm",
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "frameworkId": "vllm",
+  "osVersion": "openEuler 22.03 SP4",
+  "sortOrder": 3
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "frameworkId": "mindie",
+  "osVersion": "openEuler 22.03",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "frameworkId": "mindie",
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "frameworkId": "mindie",
+  "osVersion": "openEuler 22.03 SP4",
+  "sortOrder": 3
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "frameworkId": "vllm",
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "frameworkId": "vllm",
+  "osVersion": "openEuler 22.03 LTS SP4",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "frameworkId": "mindie",
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "frameworkId": "mindie",
+  "osVersion": "openEuler 22.03 LTS SP4",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "mindspeed",
+  "osVersion": "openEuler 22.03",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "mindspeed",
+  "osVersion": "openEuler 22.03 LTS SP2",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "mindspeed",
+  "osVersion": "openEuler 22.03 LTS SP4",
+  "sortOrder": 3
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "mindspeed",
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "sortOrder": 4
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "mindspore",
+  "osVersion": "openEuler 22.03",
+  "sortOrder": 1
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "mindspore",
+  "osVersion": "openEuler 22.03 LTS SP2",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "mindspore",
+  "osVersion": "openEuler 22.03 LTS SP4",
+  "sortOrder": 3
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "frameworkId": "mindspore",
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "sortOrder": 4
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "frameworkId": "mindspeed",
   "osVersion": "openEuler 22.03 LTS SP4",
   "sortOrder": 1
  },
  {
-  "cardId": "atlas-800i-a2",
-  "frameworkId": "vllm",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 1
- },
- {
-  "cardId": "atlas-800i-a2",
-  "frameworkId": "mindie",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 1
- },
- {
-  "cardId": "atlas-800i-a3",
-  "frameworkId": "vllm",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 1
- },
- {
-  "cardId": "atlas-800i-a3",
-  "frameworkId": "mindie",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 1
- },
- {
-  "cardId": "atlas-800t-a2",
-  "frameworkId": "mindspeed",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 1
- },
- {
-  "cardId": "atlas-800t-a2",
-  "frameworkId": "mindspore",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 1
- },
- {
   "cardId": "atlas-800t-a3",
   "frameworkId": "mindspeed",
   "osVersion": "openEuler 24.03 LTS SP1",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-800t-a3",
+  "frameworkId": "mindspore",
+  "osVersion": "openEuler 22.03 LTS SP4",
   "sortOrder": 1
  },
  {
   "cardId": "atlas-800t-a3",
   "frameworkId": "mindspore",
   "osVersion": "openEuler 24.03 LTS SP1",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "frameworkId": "mindspeed",
+  "osVersion": "openEuler 22.03 LTS SP4",
   "sortOrder": 1
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "frameworkId": "mindspeed",
   "osVersion": "openEuler 24.03 LTS SP1",
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "frameworkId": "mindspeed",
+  "osVersion": "openEuler 22.03 LTS SP1",
+  "sortOrder": 3
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "frameworkId": "mindspore",
+  "osVersion": "openEuler 22.03 LTS SP4",
   "sortOrder": 1
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "frameworkId": "mindspore",
   "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 1
+  "sortOrder": 2
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "frameworkId": "mindspore",
+  "osVersion": "openEuler 22.03 LTS SP1",
+  "sortOrder": 3
  },
  {
   "cardId": "ascend-950dt-pr",

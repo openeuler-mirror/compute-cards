@@ -16,541 +16,76 @@
  },
  {
   "driverVersionId": 2,
-  "osVersion": "openEuler 20.03",
+  "osVersion": "openEuler 22.03",
   "sortOrder": 1
  },
  {
   "driverVersionId": 2,
-  "osVersion": "openEuler 22.03",
+  "osVersion": "openEuler 22.03 SP4",
   "sortOrder": 2
  },
  {
   "driverVersionId": 2,
-  "osVersion": "openEuler 22.03 LTS SP4",
+  "osVersion": "openEuler 24.03 LTS SP1",
   "sortOrder": 3
  },
  {
   "driverVersionId": 3,
-  "osVersion": "openEuler 20.03",
+  "osVersion": "openEuler 24.03 LTS SP1",
   "sortOrder": 1
  },
  {
   "driverVersionId": 3,
-  "osVersion": "openEuler 22.03",
+  "osVersion": "openEuler 22.03 LTS SP4",
   "sortOrder": 2
  },
  {
-  "driverVersionId": 3,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 3
- },
- {
   "driverVersionId": 4,
-  "osVersion": "openEuler 20.03",
+  "osVersion": "openEuler 22.03",
   "sortOrder": 1
  },
  {
   "driverVersionId": 4,
-  "osVersion": "openEuler 22.03",
+  "osVersion": "openEuler 22.03 LTS SP2",
   "sortOrder": 2
  },
  {
   "driverVersionId": 4,
-  "osVersion": "openEuler 22.03 LTS SP4",
+  "osVersion": "openEuler 22.03 SP4",
   "sortOrder": 3
  },
  {
+  "driverVersionId": 4,
+  "osVersion": "openEuler 24.03 LTS SP1",
+  "sortOrder": 4
+ },
+ {
   "driverVersionId": 5,
-  "osVersion": "openEuler 20.03",
+  "osVersion": "openEuler 22.03 LTS SP4",
   "sortOrder": 1
  },
  {
   "driverVersionId": 5,
-  "osVersion": "openEuler 22.03",
+  "osVersion": "openEuler 24.03 LTS SP1",
   "sortOrder": 2
- },
- {
-  "driverVersionId": 5,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 3
  },
  {
   "driverVersionId": 6,
-  "osVersion": "openEuler 20.03",
+  "osVersion": "openEuler 24.03 LTS SP1",
   "sortOrder": 1
  },
  {
   "driverVersionId": 6,
-  "osVersion": "openEuler 22.03",
+  "osVersion": "openEuler 22.03 LTS SP1",
   "sortOrder": 2
+ },
+ {
+  "driverVersionId": 6,
+  "osVersion": "openEuler 22.03 LTS SP4",
+  "sortOrder": 3
  },
  {
   "driverVersionId": 7,
-  "osVersion": "openEuler 20.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 7,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 8,
-  "osVersion": "openEuler 20.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 8,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 9,
-  "osVersion": "openEuler 20.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 9,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 10,
-  "osVersion": "openEuler 20.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 10,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 11,
-  "osVersion": "openEuler 20.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 11,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 12,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 12,
-  "osVersion": "openEuler 22.03 SP4",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 12,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 13,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 13,
-  "osVersion": "openEuler 22.03 SP4",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 13,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 14,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 14,
-  "osVersion": "openEuler 22.03 SP4",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 14,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 15,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 15,
-  "osVersion": "openEuler 22.03 SP4",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 15,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 16,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 16,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 17,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 18,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 19,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 20,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 22,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 22,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 23,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 23,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 24,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 24,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 25,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 25,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 26,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 26,
-  "osVersion": "openEuler 22.03 LTS SP2",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 26,
-  "osVersion": "openEuler 22.03 SP4",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 26,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 4
- },
- {
-  "driverVersionId": 27,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 27,
-  "osVersion": "openEuler 22.03 LTS SP2",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 27,
-  "osVersion": "openEuler 22.03 SP4",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 27,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 4
- },
- {
-  "driverVersionId": 28,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 28,
-  "osVersion": "openEuler 22.03 LTS SP2",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 28,
-  "osVersion": "openEuler 22.03 SP4",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 28,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 4
- },
- {
-  "driverVersionId": 29,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 29,
-  "osVersion": "openEuler 22.03 LTS SP2",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 29,
-  "osVersion": "openEuler 22.03 SP4",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 29,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 4
- },
- {
-  "driverVersionId": 30,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 30,
-  "osVersion": "openEuler 22.03 LTS SP2",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 30,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 31,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 31,
-  "osVersion": "openEuler 22.03 LTS SP2",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 31,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 32,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 32,
-  "osVersion": "openEuler 22.03 LTS SP2",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 32,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 33,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 33,
-  "osVersion": "openEuler 22.03 LTS SP2",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 34,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 34,
-  "osVersion": "openEuler 22.03 LTS SP2",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 35,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 36,
-  "osVersion": "openEuler 22.03",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 37,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 37,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 38,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 38,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 39,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 39,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 40,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 40,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 41,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 42,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 43,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 44,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 44,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 45,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 45,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 45,
-  "osVersion": "openEuler 22.03 LTS SP1",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 46,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 46,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 46,
-  "osVersion": "openEuler 22.03 LTS SP1",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 47,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 47,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 47,
-  "osVersion": "openEuler 22.03 LTS SP1",
-  "sortOrder": 3
- },
- {
-  "driverVersionId": 48,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 48,
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "sortOrder": 2
- },
- {
-  "driverVersionId": 49,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 50,
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "sortOrder": 1
- },
- {
-  "driverVersionId": 51,
   "osVersion": "openEuler 24.03 LTS SP4",
   "sortOrder": 1
  }

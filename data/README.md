@@ -5,6 +5,7 @@
 - 字段统一用 **camelCase**
 - 每个文件是一个 JSON 数组（`manifest.json` 是对象）
 - 与 `数据库与接口设计-2.0.md` 的差异，见仓库根目录的 `接口口径变更说明.md`
+- **`en/` 是 `zh/` 的逐条翻译**：结构、行数、主键一致，命令逐字相同（只翻注释与占位符），`en/` 内不允许出现中文
 
 ## 一、基础枚举
 
@@ -19,12 +20,12 @@
 
 | 文件 | 行数 | 主键 | 说明 |
 |---|---:|---|---|
-| `ai_cards.json` | 7 | `id` | 卡型号；`primaryOs` 是该卡 guide 绑定的主 OS，`recordedOn` 本轮为空 |
+| `ai_cards.json` | 7 | `id` | 卡型号；`primaryOs` 是该卡 guide 绑定的主 OS |
 | `ai_card_os.json` | 18 | `(cardId, osVersion)` | 卡已认证的 OS |
 | `ai_card_products.json` | 7 | `cardId` | 卡所属产品线 |
-| `card_model_supports.json` | 860 | `(cardId, modelId)` | 卡 × 模型支持关系 |
+| `card_model_supports.json` | 860 | `(cardId, modelId)` | 卡 × 模型支持关系；`sortOrder` 为卡内展示顺序（1..N 连续） |
 | `card_frameworks.json` | 28 | `(cardId, frameworkId)` | 卡上有数据的框架 |
-| `card_framework_os.json` | 15 | `(cardId, frameworkId, osVersion)` | 每组合只写 1 行（guide 绑定的主 OS） |
+| `card_framework_os.json` | 37 | `(cardId, frameworkId, osVersion)` | 该框架在该卡上覆盖的**全部** openEuler OS |
 
 ## 三、模型
 
@@ -37,10 +38,10 @@
 
 | 文件 | 行数 | 主键 | 说明 |
 |---|---:|---|---|
-| `infer_commands.json` | 212 | 自增 | 推理命令（短文本） |
+| `infer_commands.json` | 212 | 自增 | 推理命令（短文本）；`recommended` 为推荐量化标记（当前全为 `false`，待补规则） |
 | `train_commands.json` | 728 | 自增 | 训练命令（短文本） |
-| `infer_deploy_commands.json` | 448 | `(modelId, cardId, quantId, mode, scene)` | 推理安装部署指导 |
-| `train_deploy_commands.json` | 2912 | `(modelId, cardId, mode, scene)` | 训练安装部署指导（训练无量化维度） |
+| `infer_deploy_commands.json` | 448 | `(modelId, cardId, quantId, mode, scene)` | 推理安装部署指导；174 条有指导、274 条为空 |
+| `train_deploy_commands.json` | 2912 | `(cardId, modelId, frameworkId, mode, scene, osVersion)` | 训练安装部署指导（训练无量化维度）；**2912 行只有 49 篇不同内容**，去重翻译后按行各存一份，`guideKey` 标记属于哪一篇 |
 
 ### `guideMd` 的约定
 
@@ -74,7 +75,6 @@
 
 - 一条记录只有在 `guideMd` 非空时才计入「部署套数」
 - `osOptions` 只收「至少有一条非空 guideMd」的 OS
-- 推理 448 行中，本轮 174 条有指导、274 条为空
 
 ## 五、场景镜像（Ascend Hub）
 
@@ -83,13 +83,25 @@
 | `images.json` | 32 | `id` | 镜像仓库 |
 | `image_tags.json` | 561 | `(imageId, tag)` | 镜像 tag，只保留 openEuler |
 | `card_images.json` | 106 | `(cardId, imageId)` | 镜像适用于哪些卡 |
-| `image_variants.json` | 66 | `(imageId, os, arch)` | 变体 |
-| `image_build_steps.json` | 158 | `(imageId, os, arch)` | 构建步骤（仓库级，复制到各 variant） |
-| `image_verify_steps.json` | 12 | `(imageId, os, arch)` | 验证步骤，只有少数仓库有 |
-| `image_dockerfiles.json` | 52 | `(imageId, tag)` | Dockerfile 原文 |
+| `image_variants.json` | 36 | `(imageId, os, arch)` | 变体；**同一 (imageId, os) 只有一行** |
+| `image_build_steps.json` | 80 | `(imageId, os, arch, sortOrder)` | 构建步骤（仓库级，复制到各 variant） |
+| `image_verify_steps.json` | 19 | `(imageId, os, arch, sortOrder)` | 验证步骤，只有少数仓库有 |
+| `image_dockerfiles.json` | 50 | `(imageId, tag)` | Dockerfile 原文 |
 | `image_env_vars.json` | 6 | 自增 | 环境变量说明 |
 | `image_build_params.json` | 52 | 自增 | 构建参数 |
 | `image_layers.json` | 2805 | 自增 | 镜像层 |
+
+### `arch` 三态
+
+`image_variants` / `image_build_steps` / `image_verify_steps` 的 `arch` 只允许三个值：
+
+| 取值 | 含义 |
+|---|---|
+| `x86_64` | 仅 x86 |
+| `aarch64` | 仅 ARM |
+| `x86_64 / aarch64` | 同时支持两种（双架构，分隔符为「空格-斜杠-空格」） |
+
+steps 的 `arch` 与其所属 variant 完全一致。
 
 ### `image_dockerfiles` 的来源字段
 
@@ -98,31 +110,48 @@
 | `source` | 原始来源（官网页面 URL） |
 | `sourceUrl` | Dockerfile 文件地址 |
 | `sourceRepo` | 仓库，如 `Ascend/cann-container-image` |
-| `sourceKind` | `cann-baseline`（官方 CANN 基线，4 条）或 `product`（业务仓库自建镜像，48 条） |
+| `sourceKind` | `cann-baseline`（官方 CANN 基线）或 `product`（业务仓库自建镜像） |
 
-这 52 条**不是同一镜像的多个版本**：4 条来自官方 CANN 基线镜像仓库（每个芯片 1 条，选完芯片 + OS 唯一），其余 48 条来自 mind-cluster、DrivingSDK、IndexSDK 等业务仓库。
-
-选片逻辑**保持原样**（卡 + OS + tag），新增字段只用于追溯来源，不参与筛选。
+这些 Dockerfile **不是同一镜像的多个版本**：一部分来自官方 CANN 基线镜像仓库，其余来自 mind-cluster、DrivingSDK、IndexSDK 等业务仓库。
 
 ## 六、驱动
 
 | 文件 | 行数 | 主键 | 说明 |
 |---|---:|---|---|
-| `driver_versions.json` | 51 | `id` | Ascend HDK 解决方案版本，状态只有 `certified` |
-| `driver_version_os.json` | 111 | `(driverVersionId, osVersion)` | 版本与 OS 的对应 |
+| `driver_versions.json` | 7 | `(cardId, version)` | 每张卡当前驱动版本一行 |
+| `driver_version_os.json` | 18 | `(driverVersionId, osVersion)` | 驱动版本覆盖的 OS，**只收 openEuler** |
 
-## 七、其他
+`driver_versions` 的行级字段：
+
+| 字段 | 说明 |
+|---|---|
+| `version` | 驱动版本，如 `26.0.RC1` |
+| `driverName` | `Ascend HDK` |
+| `sdk` | 运行时 / SDK 原文，格式 `CANN {版本} · PyTorch {版本}`，取自版本配套表同一发布批次 |
+| `downloadLabel` | 获取方式文案（zh `驱动下载` / en `Driver download`） |
+| `downloadUrl` | 驱动下载地址 |
+| `certifiedOn` | 该批次的发布日期（来自配套表，不用抓取日期） |
+
+配套表来源：<https://www.hiascend.com/developer/download/compatibility>，原始抓取在仓库外的 `raw/compat/vermatch/`。
+
+## 七、适配进展
+
+| 文件 | 行数 | 主键 | 说明 |
+|---|---:|---|---|
+| `roadmap_items.json` | 34 | `id` | 适配进展条目；`zone` 取 `eco` / `model` / `north` / `south`，含 `status`、`eventOn`、`quarter`、`link` |
+
+## 八、其他
 
 | 文件 | 说明 |
 |---|---|
 | `manifest.json` | 版本号、生成时间、各表行数、数据来源 |
-| `QA_REPORT.md` | 数据质量自检结果 |
 | `ai_card_planned_os.json` | 本轮无数据（兼容性查询助手没有规划状态） |
-| （未生成）`roadmap_items` | 适配进展不在本轮范围 |
+| `card_component_support.json` | 卡 × 解决方案版本 × OS 的组件支持矩阵；**当前未随仓库提供**，本地浏览页见 `work/proto/data_viewer/` |
 
-## 八、已知限制
+## 九、已知限制
 
 1. 卡的认证 OS 与镜像 tag 只保留 openEuler，接口本身仍接受任意 OS
-2. `recordedOn` / `certifiedOn` 全为空——官网没有认证日期，不拿快照日期冒充
+2. `ai_cards.recordedOn` 填的是抓取日期（无官方收录日期可用）；`driver_versions.certifiedOn` 用配套表批次日期
 3. MindIE 没有英文版，逐模型 README 为机器翻译（代码块原样保留）
-4. 训练指导的内容粒度到「框架 × 卡 × 安装方式 × 场景」，同一组合下不同模型的指导相同（官方文档只到框架级）
+4. 训练指导的内容粒度到「框架 × 卡 × 安装方式 × 场景」，同一组合下不同模型的指导相同（官方文档只到框架级），因此 2912 行只有 49 篇不同内容
+5. 驱动只保留当前版本，不保留历史版本
