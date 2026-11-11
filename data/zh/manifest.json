@@ -1,6 +1,6 @@
 {
  "version": "2026-11-05",
- "generatedAt": "2026-11-11T20:54:37",
+ "generatedAt": "2026-11-11T21:34:15",
  "frameworkSeats": {
   "vllm": "infer",
   "mindie": "infer",
