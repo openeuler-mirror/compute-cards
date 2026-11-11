@@ -18,15 +18,15 @@
   "sortOrder": 3
  },
  {
-  "id": "w8a16",
-  "name": "W8A16",
-  "description": "8-bit weights with 16-bit floating-point activations (FP16/BF16); activations are not quantized, trading memory for accuracy",
+  "id": "w4a4",
+  "name": "W4A4",
+  "description": "Both weights and activations are quantized to 4 bits. On the 950 generation, MXFP4 weights fall into this tier (E2M1 elements sharing an E8M0 scale per 32 elements). Weight memory is about one quarter of W8A8 and requires matching hardware and operator support.",
   "sortOrder": 4
  },
  {
-  "id": "mxfp8",
-  "name": "MXFP8",
-  "description": "OCP microscaling floating-point format: FP8 (E4M3) elements sharing one E8M0 scale factor per 32 elements; used by the 950 generation, usually paired with MXFP4 weights (4-bit weights / 8-bit activations)",
+  "id": "w8a16",
+  "name": "W8A16",
+  "description": "8-bit weights with 16-bit floating-point activations (FP16/BF16); activations are not quantized, trading memory for accuracy",
   "sortOrder": 5
  }
 ]

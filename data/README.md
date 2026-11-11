@@ -12,9 +12,9 @@
 | 文件 | 行数 | 主键 | 说明 |
 |---|---:|---|---|
 | `frameworks.json` | 4 | `id` | `vllm` / `mindie` / `mindspeed` / `mindspore`（MindSpore 数据源是 MindFormers 文档） |
-| `quant_levels.json` | 5 | `id` | `bf16` / `w8a8` / `w4a8` / `w8a16` / `mxfp8` |
+| `quant_levels.json` | 5 | `id` | `bf16` / `w8a8` / `w4a8` / `w4a4` / `w8a16`（按位宽划分） |
 
-`mxfp8` 是 OCP 微缩放格式（元素 FP8 E4M3，每 32 元素共享 E8M0 缩放），950 系列官方权重用它，常见组合是 MXFP8 激活 + MXFP4 权重（即 W4A8），**不等同于普通 FP8**。
+量化档一律按**位宽**划分。MXFP8 / MXFP4 是数值格式，不作为档位：`w8a8c8-mxfp8`、`w8a8-mxfp8` 归 `w8a8`；`w4a4-mxfp4`、`w4a4c8-mxfp4` 归 `w4a4`。950 记录的档位以部署段实际加载的权重为准，不看前提条件里的描述。
 
 ## 二、算力卡
 
