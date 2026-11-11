@@ -1,6 +1,6 @@
 {
  "version": "2026-11-05",
- "generatedAt": "2026-11-10T11:33:13",
+ "generatedAt": "2026-11-11T17:45:38",
  "frameworkSeats": {
   "vllm": "infer",
   "mindie": "infer",
@@ -28,8 +28,8 @@
   "imageVariants": 36,
   "imageVerifySteps": 19,
   "images": 32,
-  "inferCommands": 212,
-  "inferDeployCommands": 448,
+  "inferCommands": 120,
+  "inferDeployCommands": 174,
   "series": 161,
   "models": 223,
   "quantLevels": 5,

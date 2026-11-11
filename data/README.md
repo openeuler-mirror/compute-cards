@@ -38,9 +38,9 @@
 
 | 文件 | 行数 | 主键 | 说明 |
 |---|---:|---|---|
-| `infer_commands.json` | 212 | 自增 | 推理命令（短文本）；`recommended` 为推荐量化标记（当前全为 `false`，待补规则） |
+| `infer_commands.json` | 120 | 自增 | 推理命令（短文本）；与 deploy 表一一对应，只保留有 guide 的组合；`recommended` 当前全为 `false` |
 | `train_commands.json` | 728 | 自增 | 训练命令（短文本） |
-| `infer_deploy_commands.json` | 448 | `(modelId, cardId, quantId, mode, scene)` | 推理安装部署指导；174 条有指导、274 条为空 |
+| `infer_deploy_commands.json` | 174 | `(modelId, cardId, quantId, mode, scene)` | 推理安装部署指导；**空 guide 的记录已删除** |
 | `train_deploy_commands.json` | 2912 | `(cardId, modelId, frameworkId, mode, scene, osVersion)` | 训练安装部署指导（训练无量化维度）；**2912 行只有 49 篇不同内容**，去重翻译后按行各存一份，`guideKey` 标记属于哪一篇 |
 
 ### `guideMd` 的约定
@@ -58,18 +58,11 @@
 - 原文没有某节时，该节直接不出现（不写「暂无」「未提供」）
 - 不出现「见第 X 节」「见上文」这类引用——需要的内容直接贴过来
 
-### 空 `guideMd` 的含义
+### 空 guide 的处理
 
-`guideMd` 为空字符串**不是抓取失败**，表示「官方文档没有该卡 × 该量化 × 该安装方式 × 该场景的来源」。
+`guideMd` 为空的记录**不再保留**：抓不到可引用的命令就不进库。
 
-这类记录额外带一个 `guideEmptyReason` 字段说明原因，例如：
-
-- 该卡在该量化下没有官方权重
-- 源码安装小节只有文字、没有可引用的代码块
-- 文档只提供另一种部署场景
-- 特性矩阵不支持该卡
-
-前端建议显示「暂无指导」，不要显示空白区块。
+历史口径（保留行 + `guideEmptyReason`）已废弃，数据里不再出现该字段。
 
 ### 计数口径
 

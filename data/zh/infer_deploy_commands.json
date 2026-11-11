@@ -54,63 +54,6 @@
   }
  },
  {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文没有当前场景的部署小节，950DT部署代码为单机部署"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "裸机安装小节没有可引用的代码块"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "裸机安装小节没有可引用的代码块"
- },
- {
   "cardId": "atlas-800i-a2",
   "modelId": "deepseek-v4-flash",
   "frameworkId": "vllm",
@@ -219,44 +162,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块。"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块。"
- },
- {
   "cardId": "atlas-800i-a3",
   "modelId": "deepseek-v4-flash",
   "frameworkId": "vllm",
@@ -279,25 +184,6 @@
   "modelId": "deepseek-v4-flash",
   "frameworkId": "vllm",
   "quantId": "bf16",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表没有 A3 的 BF16 权重，且 5.2 PD 分离的 A3 标签页无代码块。"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
   "mode": "bare",
   "scene": "single",
   "osVersion": "openEuler 24.03 LTS SP1",
@@ -310,25 +196,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表没有 A3 的 BF16 权重，且 4.2 源码安装没有可引用的代码块。"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -349,82 +216,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "5.2 PD 分离部署的 A3 标签页没有代码块，仅 A2 提供 PD 脚本。"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块。"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装章节只有文字，没有可引用的代码块；容器安装不适用于裸机记录"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "Pro 页面没有单机部署小节，5.1 为多节点部署且 5.2 PD 分离无代码块。"
- },
- {
   "cardId": "ascend-950dt-pr",
   "modelId": "deepseek-v4-pro",
   "frameworkId": "vllm",
@@ -443,63 +234,6 @@
   }
  },
  {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块。"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块。"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=single 对应的部署小节（deploy-miss），同型号的 multi 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
   "cardId": "atlas-800i-a2",
   "modelId": "deepseek-v4-pro",
   "frameworkId": "vllm",
@@ -523,25 +257,6 @@
   "frameworkId": "vllm",
   "quantId": "bf16",
   "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=single 对应的部署小节（deploy-miss），同型号的 multi 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
   "scene": "multi",
   "osVersion": "openEuler 24.03 LTS SP1",
   "guideMd": "## 前提条件\n\n- 硬件：4 个 Atlas 800I A2（64GB × 8）。\n- 权重：DeepSeek-V4-Pro-w4a8-mtp，ModelScope 下载。\n- 路径：建议将模型权重下载到多节点的共享目录中，例如 `/root/.cache/`。\n\n## 安装\n\n```bash\nexport IMAGE=quay.io/ascend/vllm-ascend:v0.30.0\ndocker run --rm \\\n    --name vllm-ascend \\\n    --shm-size=512g \\\n    --net=host \\\n    --privileged=true \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci2 \\\n    --device /dev/davinci3 \\\n    --device /dev/davinci4 \\\n    --device /dev/davinci5 \\\n    --device /dev/davinci6 \\\n    --device /dev/davinci7 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/Ascend/driver/tools/hccn_tool:/usr/local/Ascend/driver/tools/hccn_tool \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -v /etc/hccn.conf:/etc/hccn.conf \\\n    -v /root/.cache:/root/.cache \\\n    -it $IMAGE bash\n```\n\n## 部署\n\n```bash\n# nic_name is the network interface that owns local_ip on the current node.\nnic_name=\"xxx\"\nlocal_ip=\"xxx\"\n\n# node0_ip must be the local_ip of Node0 on every node.\nnode0_ip=\"xxxx\"\n\nexport HCCL_IF_IP=$local_ip\nexport GLOO_SOCKET_IFNAME=$nic_name\nexport TP_SOCKET_IFNAME=$nic_name\nexport HCCL_SOCKET_IFNAME=$nic_name\nexport HCCL_BUFFSIZE=512\nexport ASCEND_RT_VISIBLE_DEVICES=0,1,2,3,4,5,6,7\n\nexport OMP_PROC_BIND=false\nexport OMP_NUM_THREADS=10\nexport PYTORCH_NPU_ALLOC_CONF=expandable_segments:True\nexport ACL_OP_INIT_MODE=1\nexport VLLM_ENGINE_READY_TIMEOUT_S=3600\nexport HCCL_OP_EXPANSION_MODE=\"AIV\"\n\nexport TASK_QUEUE_ENABLE=1\n\nexport HCCL_CONNECT_TIMEOUT=7200\nexport ASCEND_CONNECT_TIMEOUT=10000\nexport ASCEND_TRANSFER_TIMEOUT=10000\n\n# Ensure the model path matches the directory recorded during download\nvllm serve /root/.cache/modelscope/hub/models/vllm-ascend/DeepSeek-V4-Pro-w4a8-mtp \\\n  --host 0.0.0.0 \\\n  --port 8000 \\\n  --data-parallel-address $node0_ip  \\\n  --data-parallel-size 4 \\\n  --data-parallel-size-local 1 \\\n  --tensor-parallel-size 8 \\\n  --enable-expert-parallel \\\n  --served-model-name dsv4 \\\n  --max-model-len 135000 \\\n  --max-num-batched-tokens 4096 \\\n  --max-num-seqs 16 \\\n  --gpu-memory-utilization 0.9 \\\n  --block-size 128 \\\n  --no-enable-prefix-caching \\\n  --tokenizer-mode deepseek_v4 \\\n  --tool-call-parser deepseek_v4 \\\n  --enable-auto-tool-choice \\\n  --reasoning-parser deepseek_v4 \\\n  --attention_config.indexer_kv_dtype int8 \\\n  --model-loader-extra-config '{\n     \"enable_multithread_load\": true,\n     \"num_threads\": 128\n  }' \\\n  --quantization ascend \\\n  --speculative-config '{\n     \"num_speculative_tokens\": 1,\n     \"method\": \"mtp\",\n     \"enforce_eager\": true\n   }' \\\n  --compilation-config '{\n     \"cudagraph_mode\":\"FULL_DECODE_ONLY\"\n  }' \\\n  --additional-config '{\n     \"ascend_compilation_config\":{\n        \"enable_npugraph_ex\":true,\n        \"enable_static_kernel\":false\n     },\n     \"enable_cpu_binding\": true,\n     \"enable_shared_expert_dp\": true,\n     \"enable_flashcomm1\": true,\n     \"multistream_overlap_shared_expert\":true\n  }'\n```\n\n> 来源：https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html（v0.30.0，A2 系列 tab）\n",
@@ -553,101 +268,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=single 对应的部署小节（deploy-miss），同型号的 multi 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表没有 W8A8 行，仅提供 W4A8 与 W4A4C8 权重。"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=single 对应的部署小节（deploy-miss），同型号的 multi 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表没有 W8A8 行，仅提供 W4A8 与 W4A4C8 权重。"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=single 对应的部署小节（deploy-miss），同型号的 multi 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -673,25 +293,6 @@
   "frameworkId": "vllm",
   "quantId": "bf16",
   "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=single 对应的部署小节（deploy-miss），同型号的 multi 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
   "scene": "multi",
   "osVersion": "openEuler 24.03 LTS SP1",
   "guideMd": "## 前提条件\n\n- 硬件：2 个 Atlas 800I A3（128GB × 8）。\n- 权重：DeepSeek-V4-Pro-w4a8-mtp，ModelScope 下载。\n- 路径：建议将模型权重下载到多节点的共享目录中，例如 `/root/.cache/`。\n\n## 安装\n\n```bash\nexport IMAGE=quay.io/ascend/vllm-ascend:v0.30.0-a3\ndocker run --rm \\\n    --name vllm-ascend \\\n    --shm-size=512g \\\n    --net=host \\\n    --privileged=true \\\n    --device /dev/davinci0 \\\n    --device /dev/davinci1 \\\n    --device /dev/davinci2 \\\n    --device /dev/davinci3 \\\n    --device /dev/davinci4 \\\n    --device /dev/davinci5 \\\n    --device /dev/davinci6 \\\n    --device /dev/davinci7 \\\n    --device /dev/davinci8 \\\n    --device /dev/davinci9 \\\n    --device /dev/davinci10 \\\n    --device /dev/davinci11 \\\n    --device /dev/davinci12 \\\n    --device /dev/davinci13 \\\n    --device /dev/davinci14 \\\n    --device /dev/davinci15 \\\n    --device /dev/davinci_manager \\\n    --device /dev/devmm_svm \\\n    --device /dev/hisi_hdc \\\n    -v /usr/local/dcmi:/usr/local/dcmi \\\n    -v /usr/local/Ascend/driver/tools/hccn_tool:/usr/local/Ascend/driver/tools/hccn_tool \\\n    -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n    -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n    -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n    -v /etc/ascend_install.info:/etc/ascend_install.info \\\n    -v /etc/hccn.conf:/etc/hccn.conf \\\n    -v /root/.cache:/root/.cache \\\n    -it $IMAGE bash\n```\n\n## 部署\n\n```bash\n# nic_name is the network interface that owns local_ip on the current node.\nnic_name=\"xxx\"\nlocal_ip=\"xxx\"\n\n# node0_ip must be the local_ip of Node0 on every node.\nnode0_ip=\"xxxx\"\n\nexport HCCL_IF_IP=$local_ip\nexport GLOO_SOCKET_IFNAME=$nic_name\nexport TP_SOCKET_IFNAME=$nic_name\nexport HCCL_SOCKET_IFNAME=$nic_name\nexport HCCL_OP_EXPANSION_MODE=\"AIV\"\nexport HCCL_BUFFSIZE=1024\nexport HCCL_CONNECT_TIMEOUT=1200\nexport HCCL_EXEC_TIMEOUT=2040\nexport VLLM_EXECUTE_MODEL_TIMEOUT_SECONDS=3000\nexport ASCEND_CONNECT_TIMEOUT=10000\nexport ASCEND_TRANSFER_TIMEOUT=10000\nexport PYTORCH_NPU_ALLOC_CONF=expandable_segments:True\nexport OMP_PROC_BIND=false\nexport OMP_NUM_THREADS=10\nexport TASK_QUEUE_ENABLE=1\nexport VLLM_USE_V2_MODEL_RUNNER=0\nexport LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/\n\nvllm serve /path/to/DeepSeek-V4-Pro-0813-w4a8 \\\n  --host 0.0.0.0 \\\n  --port 8000 \\\n  --data-parallel-address $node0_ip \\\n  --data-parallel-rpc-port 13399 \\\n  --data-parallel-size 2 \\\n  --data-parallel-size-local 1 \\\n  --tensor-parallel-size 16 \\\n  --enable-expert-parallel \\\n  --served-model-name dsv4 \\\n  --max-model-len 135000 \\\n  --max-num-batched-tokens 4096 \\\n  --max-num-seqs 16 \\\n  --gpu-memory-utilization 0.9 \\\n  --block-size 32 \\\n  --tokenizer-mode deepseek_v4 \\\n  --tool-call-parser deepseek_v4 \\\n  --enable-auto-tool-choice \\\n  --reasoning-parser deepseek_v4 \\\n  --attention_config.indexer_kv_dtype int8 \\\n  --model-loader-extra-config='{\"enable_multithread_load\": true, \"num_threads\": 128}' \\\n  --quantization ascend \\\n  --speculative-config '{\"num_speculative_tokens\":5,\"method\":\"dspark\",\"enforce_eager\":true}' \\\n  --compilation-config '{\"cudagraph_mode\":\"FULL_DECODE_ONLY\"}' \\\n  --additional-config '{\n    \"ascend_compilation_config\": {\n        \"enable_npugraph_ex\": true,\n        \"enable_static_kernel\": false\n    },\n    \"enable_cpu_binding\": true,\n    \"enable_flashcomm1\": true,\n    \"multistream_overlap_shared_expert\": true\n  }'\n```\n\n> 来源：https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html（v0.30.0，A3 系列搭配 DSpark tab）\n",
@@ -703,82 +304,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=single 对应的部署小节（deploy-miss），同型号的 multi 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表没有 W8A8 行，仅提供 W4A8 与 W4A4C8 权重。"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=single 对应的部署小节（deploy-miss），同型号的 multi 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4-Pro.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表没有 W8A8 行，仅提供 W4A8 与 W4A4C8 权重。"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -797,25 +322,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v4-1-flash",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4.1-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块。"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -854,44 +360,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-1-flash",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4.1-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "源码安装小节只有链接说明，没有可引用的代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-1-flash",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/DeepSeek-V4.1-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "源码安装小节只有链接说明，没有可引用的代码块"
- },
- {
   "cardId": "ascend-950dt-pr",
   "modelId": "glm-5-1",
   "frameworkId": "vllm",
@@ -914,25 +382,6 @@
   "modelId": "glm-5-1",
   "frameworkId": "vllm",
   "quantId": "bf16",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=multi 对应的部署小节（no-matching-tab），同型号的 single 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
   "mode": "bare",
   "scene": "single",
   "osVersion": "openEuler 24.03 LTS SP4",
@@ -945,101 +394,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=multi 对应的部署小节（no-matching-tab），同型号的 single 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表中 950DT 只有 w4a4c8-mxfp4，没有 W8A8 权重"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=multi 对应的部署小节（no-matching-tab），同型号的 single 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "无 950DT W8A8 权重，且源码安装小节没有代码块"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=multi 对应的部署小节（no-matching-tab），同型号的 single 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -1112,25 +466,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "A2 单机部署小节的权重是 w4a8，w8a8 权重表要求 2 台节点"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -1149,44 +484,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "源码安装小节只有链接说明，没有可引用的代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "源码安装小节只有链接说明，没有可引用的代码块"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -1298,120 +595,6 @@
  },
  {
   "cardId": "atlas-800i-a3",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "源码安装小节只有链接说明，没有可引用的代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "源码安装小节只有链接说明，没有可引用的代码块"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "glm-5-2",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.2.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "950DT 单机部署小节只有 w4a4c8-mxfp4；mxfp8 权重要求 2 节点同机部署"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-5-2",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.2.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表中 GLM-5.2 没有 BF16 权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-5-2",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.2.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "A2 只有多节点部署标签页，没有 A2 单机部署小节"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm-5-2",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.2.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表中 GLM-5.2 没有 BF16 权重"
- },
- {
-  "cardId": "atlas-800i-a3",
   "modelId": "glm-5-2",
   "frameworkId": "vllm",
   "quantId": "w8a8",
@@ -1447,44 +630,6 @@
   }
  },
  {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "glm-5-3-flash",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.3-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "950DT PD 标签页只有代理启动一个代码块，Prefill/Decode 启动脚本以行内文本给出"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-5-3-flash",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.3-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=single 对应的部署小节（no-matching-tab），同型号的 multi 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
   "cardId": "atlas-800i-a2",
   "modelId": "glm-5-3-flash",
   "frameworkId": "vllm",
@@ -1501,25 +646,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-5-3-flash",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.3-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=single 对应的部署小节（no-matching-tab），同型号的 multi 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -1561,25 +687,6 @@
   "cardId": "atlas-800i-a3",
   "modelId": "glm-5-3-flash",
   "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.3-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=multi 对应的部署小节（no-matching-tab），同型号的 single 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm-5-3-flash",
-  "frameworkId": "vllm",
   "quantId": "w8a8",
   "mode": "image",
   "scene": "single",
@@ -1593,25 +700,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm-5-3-flash",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/GLM5.3-Flash.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "文档没有与本记录 scene=multi 对应的部署小节（no-matching-tab），同型号的 single 记录已承载该硬件的部署指导；为避免与既有记录重复，本条置空。"
  },
  {
   "cardId": "ascend-950dt-pr",
@@ -1813,158 +901,6 @@
  },
  {
   "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-vl",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen-VL-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表中该模型的 w8a8 行只对应 950DT，300I DUO 只有 BF16 权重行"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-vl",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen-VL-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "同一原因：300I DUO 无 w8a8 权重行"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen-VL-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表中该模型的 w8a8 行只对应 950DT，A2 只有 BF16 权重行"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen-VL-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "同一原因：A2 无 w8a8 权重行"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-vl",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen-VL-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表中该模型的 w8a8 行只对应 950DT，A3 只有 BF16 权重行"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-vl",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen-VL-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "同一原因：A3 无 w8a8 权重行"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-30b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-30B-A3B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表 BF16 行只列 A3/A2，300I DUO 仅有 w8a8-QuaRot-310"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-30b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-30B-A3B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "同一原因：300I DUO 无 BF16 权重"
- },
- {
-  "cardId": "atlas-300i-duo",
   "modelId": "qwen3-30b-a3b",
   "frameworkId": "vllm",
   "quantId": "w8a8",
@@ -1980,25 +916,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-30b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-30B-A3B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "源码安装小节的安装命令为正文内联文本，可引用块只有 triton 卸载与 pip show 校验"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -2022,25 +939,6 @@
   "cardId": "atlas-800i-a2",
   "modelId": "qwen3-30b-a3b",
   "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-30B-A3B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "源码安装小节无可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-30b-a3b",
-  "frameworkId": "vllm",
   "quantId": "w8a8",
   "mode": "image",
   "scene": "single",
@@ -2144,82 +1042,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-dense",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表 BF16 行只列 A3/A2，300I DUO 仅有 W8A8SC 量化版本"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-dense",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "BF16 权重量表仅列 A3/A2，无 300I DUO 行"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-dense",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表 300I DUO 仅有 W8A8SC 权重，无 W8A8 行"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-dense",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表 300I DUO 仅有 W8A8SC 权重，无 W8A8 行"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -2274,25 +1096,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-dense",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "4.2 源码安装仅有 pip show 校验块，无可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -2350,101 +1153,6 @@
  },
  {
   "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-dense",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-Dense.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "4.2 源码安装仅有 pip show 校验块，无可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl-30b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-VL-30B-A3B-Instruct.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "5.1 的 A2 系列 tab 只有文字说明复用 A3 脚本，没有代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl-30b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-VL-30B-A3B-Instruct.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "5.1 的 A2 系列 tab 只有文字说明复用 A3 脚本，没有代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl-30b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-VL-30B-A3B-Instruct.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表无 A2 的 W8A8 行，仅 BF16 与 950DT 的 w8a8-mxfp8"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl-30b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-VL-30B-A3B-Instruct.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表无 A2 的 W8A8 行，仅 BF16 与 950DT 的 w8a8-mxfp8"
- },
- {
-  "cardId": "atlas-800i-a3",
   "modelId": "qwen3-vl-30b-a3b",
   "frameworkId": "vllm",
   "quantId": "bf16",
@@ -2478,44 +1186,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-vl-30b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-VL-30B-A3B-Instruct.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表无 A3 的 W8A8 行，仅 BF16 与 950DT 的 w8a8-mxfp8"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-vl-30b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3-VL-30B-A3B-Instruct.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "权重量表无 A3 的 W8A8 行，仅 BF16 与 950DT 的 w8a8-mxfp8"
  },
  {
   "cardId": "atlas-300i-duo",
@@ -2572,25 +1242,6 @@
   }
  },
  {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-6-27b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-27B-Qwen3.6-27B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "4.2 源码安装命令为行内文本，无代码围栏可引用"
- },
- {
   "cardId": "ascend-950dt-pr",
   "modelId": "qwen3-6-27b",
   "frameworkId": "vllm",
@@ -2607,25 +1258,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-6-27b",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-27B-Qwen3.6-27B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "4.2 源码安装命令为行内文本，无代码围栏可引用"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -2682,25 +1314,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-6-27b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-27B-Qwen3.6-27B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "4.2 源码安装命令为行内文本，无代码围栏可引用"
- },
- {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-6-27b",
   "frameworkId": "vllm",
@@ -2755,25 +1368,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-6-27b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-27B-Qwen3.6-27B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "4.2 源码安装只有行内 git clone/pip install 文本和一个 pip show 校验块，没有可引用的安装代码块"
- },
- {
   "cardId": "ascend-950dt-pr",
   "modelId": "qwen3-5-397b-a17b",
   "frameworkId": "vllm",
@@ -2792,82 +1386,6 @@
   }
  },
  {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "950DT 多节点部署只有 W4A8C8（w4a8c8-mxfp）的 PD 双机方案，无 MXFP8 权重"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块"
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "A2 单节点部署 tab 无代码块，BF16 权重要求 4 个 A2 节点"
- },
- {
   "cardId": "atlas-800i-a2",
   "modelId": "qwen3-5-397b-a17b",
   "frameworkId": "vllm",
@@ -2891,25 +1409,6 @@
   "frameworkId": "vllm",
   "quantId": "bf16",
   "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
   "scene": "multi",
   "osVersion": "openEuler 24.03 LTS SP1",
   "guideMd": "## 前提条件\n\n- 硬件：4 个 Atlas 800I A2（64 GB x 8）。\n- 权重：Qwen3.5-397B-A17B（BF16 版本），基线使用 auto 下载。\n- 路径：路径说明：将模型权重下载到您选择的目录并记录该目录。确保后续部署命令中的模型路径与该目录一致。\n\n## 安装\n\n```bash\nexport IMAGE=quay.io/ascend/vllm-ascend:v0.30.0\nexport NAME=vllm-ascend\n\ndocker run --rm \\\n  --name $NAME \\\n  --net=host \\\n  --shm-size=64g \\\n  --ulimit memlock=-1 \\\n  --device /dev/davinci0 \\\n  --device /dev/davinci1 \\\n  --device /dev/davinci2 \\\n  --device /dev/davinci3 \\\n  --device /dev/davinci4 \\\n  --device /dev/davinci5 \\\n  --device /dev/davinci6 \\\n  --device /dev/davinci7 \\\n  --device /dev/davinci_manager \\\n  --device /dev/devmm_svm \\\n  --device /dev/hisi_hdc \\\n  -v /usr/local/dcmi:/usr/local/dcmi \\\n  -v /usr/local/Ascend/driver/tools/hccn_tool:/usr/local/Ascend/driver/tools/hccn_tool \\\n  -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \\\n  -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \\\n  -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \\\n  -v /etc/ascend_install.info:/etc/ascend_install.info \\\n  -v /root/.cache:/root/.cache \\\n  -it $IMAGE bash\n```\n\n## 部署\n\n```shell\n#!/bin/sh\n\n# Get these values through ifconfig.\n# nic_name is the network interface name corresponding to local_ip.\nnic_name=\"xxxx\"\nlocal_ip=\"xxxx\"\nexport IP_ADDRESS=\"${local_ip}\"\nexport NETWORK_CARD_NAME=\"${nic_name}\"\n\nexport VLLM_USE_MODELSCOPE=True\nexport HCCL_BUFFSIZE=1024\nexport HCCL_IF_IP=$local_ip\nexport HCCL_SOCKET_IFNAME=$nic_name\nexport GLOO_SOCKET_IFNAME=$nic_name\n\n# Ensure the model path matches the directory recorded during download\nvllm serve Eco-Tech/Qwen3.5-397B-A17B-w8a8-mtp \\\n  --host 0.0.0.0 \\\n  --port 8000 \\\n  --data-parallel-size 2 \\\n  --api-server-count 2 \\\n  --data-parallel-size-local 1 \\\n  --data-parallel-address $local_ip \\\n  --data-parallel-rpc-port 13389 \\\n  --seed 1024 \\\n  --served-model-name qwen3.5 \\\n  --tensor-parallel-size 8 \\\n  --enable-expert-parallel \\\n  --max-num-seqs 16 \\\n  --max-model-len 32768 \\\n  --max-num-batched-tokens 4096 \\\n  --trust-remote-code \\\n  --gpu-memory-utilization 0.90 \\\n  --no-enable-prefix-caching \\\n  --quantization ascend \\\n  --speculative-config '{\"method\": \"qwen3_5_mtp\", \"num_speculative_tokens\": 3}' \\\n  --compilation-config '{\"cudagraph_mode\":\"FULL_DECODE_ONLY\"}' \\\n  --additional-config '{\"enable_cpu_binding\":true, \"multistream_overlap_shared_expert\": true}'\n```\n\n> 来源：https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html\n",
@@ -2921,25 +1420,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "A2 单节点部署 tab 无代码块，原文说明 W8A8 需要 2 个 A2 节点"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -2958,44 +1438,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -3088,63 +1530,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文多节点部署小节只覆盖 2 个 A2 的 MP 部署，A3 无多节点部署命令"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.5-397B-A17B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文 4.2 源码安装仅指向安装指南，没有可引用的代码块"
- },
- {
   "cardId": "atlas-300i-duo",
   "modelId": "qwen3-6-35b-a3b",
   "frameworkId": "vllm",
@@ -3166,25 +1551,6 @@
   "cardId": "atlas-300i-duo",
   "modelId": "qwen3-6-35b-a3b",
   "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.6-35B-A3B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "4.2 源码安装只有一条 triton 卸载命令，没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-6-35b-a3b",
-  "frameworkId": "vllm",
   "quantId": "w8a8",
   "mode": "image",
   "scene": "single",
@@ -3198,25 +1564,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-6-35b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.6-35B-A3B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "4.2 源码安装只有一条 triton 卸载命令，没有可引用的安装代码块"
  },
  {
   "cardId": "ascend-950dt-pr",
@@ -3235,25 +1582,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-6-35b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "mxfp8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.6-35B-A3B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "950",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -3277,25 +1605,6 @@
   "cardId": "atlas-800i-a2",
   "modelId": "qwen3-6-35b-a3b",
   "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.6-35B-A3B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-6-35b-a3b",
-  "frameworkId": "vllm",
   "quantId": "w8a8",
   "mode": "image",
   "scene": "single",
@@ -3309,25 +1618,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-6-35b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.6-35B-A3B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -3351,25 +1641,6 @@
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-6-35b-a3b",
   "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.6-35B-A3B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-6-35b-a3b",
-  "frameworkId": "vllm",
   "quantId": "w8a8",
   "mode": "image",
   "scene": "single",
@@ -3383,25 +1654,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "vLLM Ascend 稳定版逐模型教程"
   }
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-6-35b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.6-35B-A3B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-300i-duo",
@@ -3422,63 +1674,6 @@
   }
  },
  {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-8-27b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.8-27B.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-8-flash-next",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.8-Flash-Next.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-8-flash-next",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.8-Flash-Next.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-8-flash-next",
   "frameworkId": "vllm",
@@ -3497,101 +1692,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-8-flash-next",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/Qwen3.8-Flash-Next.html",
-   "version": "v0.30.0",
-   "hardwareTab": "A3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "siglip2",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/SigLIP2.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "siglip2",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/SigLIP2.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "siglip2",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/SigLIP2.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "siglip2",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/tutorials/models/SigLIP2.html",
-   "version": "v0.30.0",
-   "hardwareTab": "300I",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "vLLM Ascend 稳定版逐模型教程"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-800i-a2",
   "modelId": "deepseek-r1-distill-llama-8b",
   "frameworkId": "mindie",
@@ -3626,82 +1726,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-distill-llama-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Llama-8B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "该量化权重仅支持 Atlas 800I A2，当前 Atlas 800I A3 无权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-distill-llama-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Llama-8B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "deepseek-r1-distill-llama-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Llama-8B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文仅提供 Atlas 300I DUO 稀疏 W8A8S/W8A8SC 量化，未提供队列所需 W8A8 权重与对应部署小节"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "deepseek-r1-distill-llama-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Llama-8B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -3723,63 +1747,6 @@
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-r1-distill-llama-70b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Llama-70B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-distill-llama-70b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Llama-70B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文特性矩阵仅支持 Atlas 800I A2，Atlas 800I A3 无对应部署支持"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-distill-llama-70b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Llama-70B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
   "modelId": "deepseek-r1-distill-qwen-14b",
   "frameworkId": "mindie",
   "quantId": "w8a8",
@@ -3795,101 +1762,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-r1-distill-qwen-14b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Qwen-14B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-distill-qwen-14b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Qwen-14B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文特性矩阵未支持 Atlas 800I A3 部署"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-distill-qwen-14b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Qwen-14B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "deepseek-r1-distill-qwen-14b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Qwen-14B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "deepseek-r1-distill-qwen-14b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Qwen-14B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -3911,101 +1783,6 @@
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-r1-distill-qwen-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Qwen-32B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-distill-qwen-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Qwen-32B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-distill-qwen-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Qwen-32B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "deepseek-r1-distill-qwen-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Qwen-32B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "deepseek-r1-distill-qwen-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1-distill/DeepSeek-R1-Distill-Qwen-32B.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
   "modelId": "deepseek-v3-0324",
   "frameworkId": "mindie",
   "quantId": "w8a8",
@@ -4021,139 +1798,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-0324",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-0324",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-0324",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-0324",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-0324",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-0324",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-0324",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -4175,139 +1819,6 @@
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-r1-0528",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-r1-0528",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-r1-0528",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-0528",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-0528",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-0528",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-r1-0528",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-r1/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
   "modelId": "deepseek-v3-1",
   "frameworkId": "mindie",
   "quantId": "w8a8",
@@ -4326,139 +1837,6 @@
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-1",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-1",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-1",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-1",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-1",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-1",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-1",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
   "modelId": "deepseek-v3-1-terminus",
   "frameworkId": "mindie",
   "quantId": "w8a8",
@@ -4474,63 +1852,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-1-terminus",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-1-terminus",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-1-terminus",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -4551,63 +1872,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-1-terminus",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-1-terminus",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-1-terminus",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/deepseek-v3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-800i-a2",
   "modelId": "deepseek-v3-2",
   "frameworkId": "mindie",
@@ -4624,25 +1888,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-2",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://mindie-llm-doc.readthedocs.io/zh-cn/latest/user_guide/models/deepseek/deepseek_v3.2/",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -4663,25 +1908,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v3-2",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://mindie-llm-doc.readthedocs.io/zh-cn/latest/user_guide/models/deepseek/deepseek_v3.2/",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-800i-a2",
   "modelId": "qwen2-7b-instruct",
   "frameworkId": "mindie",
@@ -4700,63 +1926,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-7b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-7b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-7b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-300i-duo",
   "modelId": "qwen2-7b-instruct",
   "frameworkId": "mindie",
@@ -4773,25 +1942,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen2-7b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -4815,25 +1965,6 @@
   "cardId": "atlas-800i-a2",
   "modelId": "qwen2-72b-instruct",
   "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-72b-instruct",
-  "frameworkId": "mindie",
   "quantId": "w8a16",
   "mode": "image",
   "scene": "single",
@@ -4847,25 +1978,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-72b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -5516,82 +2628,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-235b-a22b-instruct-2507",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-235b-a22b-instruct-2507",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-235b-a22b-instruct-2507",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-235b-a22b-instruct-2507",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-300i-duo",
   "modelId": "qwen3-235b-a22b-instruct-2507",
   "frameworkId": "mindie",
@@ -5608,25 +2644,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-235b-a22b-instruct-2507",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -5647,25 +2664,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-coder-30b-a3b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-coder-30b-a3b-instruct",
   "frameworkId": "mindie",
@@ -5682,25 +2680,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-coder-30b-a3b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-300i-duo",
@@ -5721,25 +2700,6 @@
   }
  },
  {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-coder-30b-a3b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-800i-a2",
   "modelId": "qwen3-coder-480b-a35b-instruct",
   "frameworkId": "mindie",
@@ -5756,25 +2716,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-coder-480b-a35b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -5795,25 +2736,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-coder-480b-a35b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-300i-duo",
   "modelId": "qwen3-coder-480b-a35b-instruct",
   "frameworkId": "mindie",
@@ -5830,443 +2752,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-coder-480b-a35b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "llama3-70b",
-  "frameworkId": "mindie",
-  "quantId": "w8a16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "llama3-70b",
-  "frameworkId": "mindie",
-  "quantId": "w8a16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "llama3-70b",
-  "frameworkId": "mindie",
-  "quantId": "w8a16",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "llama3-70b",
-  "frameworkId": "mindie",
-  "quantId": "w8a16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "llama3-1-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "llama3-1-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "llama3-1-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "llama3-1-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "llama3-1-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "llama3-1-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "llama3-1-70b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "llama3-1-70b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "llama3-1-70b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "llama3-1-70b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "llama3-1-405b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "llama3-1-405b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "llama3-1-405b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "llama3-1-405b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/llama3/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "ernie-4-5-300b-a47b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/ernie_moe/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "ernie-4-5-300b-a47b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/ernie_moe/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "ernie-4-5-300b-a47b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/ernie_moe/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "ernie-4-5-300b-a47b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/ernie_moe/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -6288,139 +2773,6 @@
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "kimi-k2-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "kimi-k2-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "kimi-k2-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "kimi-k2-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "kimi-k2-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "kimi-k2-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "kimi-k2-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
   "modelId": "kimi-k2-thinking",
   "frameworkId": "mindie",
   "quantId": "w8a8",
@@ -6436,481 +2788,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "kimi-k2-thinking",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "kimi-k2-thinking",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "kimi-k2-thinking",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "kimi-k2-thinking",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "kimi-k2-thinking",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "kimi-k2-thinking",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "image",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "kimi-k2-thinking",
-  "frameworkId": "mindie",
-  "quantId": "w4a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/kimi_k2/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "chatglm2-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v2_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "chatglm2-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v2_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "chatglm2-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v2_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "chatglm2-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v2_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "chatglm2-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v2_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "chatglm2-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v2_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "chatglm3-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v3_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "chatglm3-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v3_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "chatglm3-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v3_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "chatglm3-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v3_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "chatglm3-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v3_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "chatglm3-6b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v3_6b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm4-9b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v4_9b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm4-9b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v4_9b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm4-9b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v4_9b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm4-9b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v4_9b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "glm4-9b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v4_9b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "glm4-9b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/chatglm/v4_9b/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -6931,25 +2808,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-4-5",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "multi",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/glm41v/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-800i-a3",
   "modelId": "glm-4-5",
   "frameworkId": "mindie",
@@ -6966,25 +2824,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm-4-5",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/glm41v/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -7005,25 +2844,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a2",
-  "modelId": "baichuan2-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/baichuan/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-800i-a3",
   "modelId": "baichuan2-7b",
   "frameworkId": "mindie",
@@ -7042,25 +2862,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a3",
-  "modelId": "baichuan2-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/baichuan/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-300i-duo",
   "modelId": "baichuan2-7b",
   "frameworkId": "mindie",
@@ -7077,25 +2878,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "baichuan2-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/baichuan/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -7119,25 +2901,6 @@
   "cardId": "atlas-800i-a2",
   "modelId": "baichuan2-13b",
   "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/baichuan/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "baichuan2-13b",
-  "frameworkId": "mindie",
   "quantId": "w8a16",
   "mode": "image",
   "scene": "single",
@@ -7151,25 +2914,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "baichuan2-13b",
-  "frameworkId": "mindie",
-  "quantId": "w8a16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/baichuan/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a3",
@@ -7193,25 +2937,6 @@
   "cardId": "atlas-800i-a3",
   "modelId": "baichuan2-13b",
   "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/baichuan/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "baichuan2-13b",
-  "frameworkId": "mindie",
   "quantId": "w8a16",
   "mode": "image",
   "scene": "single",
@@ -7225,25 +2950,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "baichuan2-13b",
-  "frameworkId": "mindie",
-  "quantId": "w8a16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/baichuan/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-300i-duo",
@@ -7267,25 +2973,6 @@
   "cardId": "atlas-300i-duo",
   "modelId": "baichuan2-13b",
   "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/baichuan/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "baichuan2-13b",
-  "frameworkId": "mindie",
   "quantId": "w8a16",
   "mode": "image",
   "scene": "single",
@@ -7299,709 +2986,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "baichuan2-13b",
-  "frameworkId": "mindie",
-  "quantId": "w8a16",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/baichuan/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-vl-2b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-vl-2b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-vl-2b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-vl-2b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-vl-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-vl-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-vl-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-vl-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-vl-72b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-vl-72b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-vl-72b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-vl-72b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-5-vl-3b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-5-vl-3b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-5-vl-3b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-5-vl-3b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen2-5-vl-3b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen2-5-vl-3b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-5-vl-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-5-vl-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-5-vl-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-5-vl-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen2-5-vl-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen2-5-vl-7b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-5-vl-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-5-vl-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-5-vl-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-5-vl-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen2-5-vl-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen2-5-vl-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-5-vl-72b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-5-vl-72b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-5-vl-72b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen2-5-vl-72b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen2-5-vl-72b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文该卡该量化没有可引用的部署代码块或无对应权重"
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen2-5-vl-72b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/master/examples/atb_models/examples/models/qwen2_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -8022,25 +3006,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/qwen3_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-300i-duo",
   "modelId": "qwen3-vl-8b",
   "frameworkId": "mindie",
@@ -8059,25 +3024,6 @@
   }
  },
  {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-vl-8b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/qwen3_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-800i-a2",
   "modelId": "qwen3-vl-32b",
   "frameworkId": "mindie",
@@ -8094,25 +3040,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/qwen3_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-300i-duo",
@@ -8134,63 +3061,6 @@
  },
  {
   "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-vl-32b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/qwen3_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl-30b-a3b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "image",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/qwen3_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "权重量表无 A2 的 W8A8 行，仅 BF16 与 950DT 的 w8a8-mxfp8"
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl-30b-a3b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/qwen3_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "权重量表无 A2 的 W8A8 行，仅 BF16 与 950DT 的 w8a8-mxfp8"
- },
- {
-  "cardId": "atlas-300i-duo",
   "modelId": "qwen3-vl-30b-a3b",
   "frameworkId": "mindie",
   "quantId": "w8a8",
@@ -8206,25 +3076,6 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-vl-30b-a3b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/blob/dev/examples/atb_models/examples/models/qwen3_vl/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  },
  {
   "cardId": "atlas-800i-a2",
@@ -8245,25 +3096,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-4-1v-9b-thinking",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/tree/master/examples/atb_models/examples/models/glm41v/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a2",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-800i-a3",
   "modelId": "glm-4-1v-9b-thinking",
   "frameworkId": "mindie",
@@ -8282,25 +3114,6 @@
   }
  },
  {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm-4-1v-9b-thinking",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 24.03 LTS SP1",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/tree/master/examples/atb_models/examples/models/glm41v/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-800i-a3",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
- },
- {
   "cardId": "atlas-300i-duo",
   "modelId": "glm-4-1v-9b-thinking",
   "frameworkId": "mindie",
@@ -8317,24 +3130,5 @@
    "fetchedAt": "2026-11-06T16:09:10",
    "note": "模型 README + 官方安装指南（镜像/物理机）"
   }
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "glm-4-1v-9b-thinking",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "mode": "bare",
-  "scene": "single",
-  "osVersion": "openEuler 22.03 LTS SP4",
-  "guideMd": "",
-  "guideKey": null,
-  "source": {
-   "url": "https://gitcode.com/Ascend/MindIE-LLM/tree/master/examples/atb_models/examples/models/glm41v/README.md",
-   "version": "MindIE-LLM latest",
-   "hardwareTab": "atlas-300i-duo",
-   "fetchedAt": "2026-11-06T16:09:10",
-   "note": "模型 README + 官方安装指南（镜像/物理机）"
-  },
-  "guideEmptyReason": "原文无源码/裸机安装小节或没有可引用的安装代码块"
  }
 ]
