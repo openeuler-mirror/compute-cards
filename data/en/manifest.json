@@ -1,6 +1,6 @@
 {
  "version": "2026-11-05",
- "generatedAt": "2026-11-10T11:33:13",
+ "generatedAt": "2026-11-11T21:34:15",
  "language": "en",
  "counts": {
   "ai_card_os": 18,
@@ -23,8 +23,8 @@
   "image_variants": 36,
   "image_verify_steps": 19,
   "images": 32,
-  "infer_commands": 212,
-  "infer_deploy_commands": 448,
+  "infer_commands": 120,
+  "infer_deploy_commands": 174,
   "model_series": 161,
   "models": 223,
   "quant_levels": 5,
