@@ -1,6 +1,6 @@
 {
  "version": "2026-11-05",
- "generatedAt": "2026-11-11T21:34:15",
+ "generatedAt": "2026-11-17T14:29:21",
  "language": "en",
  "counts": {
   "ai_card_os": 18,
@@ -10,7 +10,7 @@
   "card_framework_os": 37,
   "card_frameworks": 28,
   "card_images": 106,
-  "card_model_supports": 860,
+  "card_model_supports": 466,
   "driver_version_os": 18,
   "driver_versions": 7,
   "frameworks": 4,
@@ -24,15 +24,16 @@
   "image_verify_steps": 19,
   "images": 32,
   "infer_commands": 120,
-  "infer_deploy_commands": 174,
-  "model_series": 161,
-  "models": 223,
+  "infer_deploy_commands": 105,
+  "model_series": 157,
+  "models": 194,
   "quant_levels": 5,
   "roadmap_items": 34,
-  "train_commands": 728,
-  "train_deploy_commands": 2912,
-  "infer_deploy_guides": 150,
-  "train_deploy_guides": 49
+  "train_commands": 411,
+  "train_deploy_commands": 596,
+  "infer_deploy_guides": 104,
+  "train_deploy_guides": 471,
+  "supports": 466
  },
  "sources": {
   "vllm": "https://docs.vllm.ai/projects/ascend/en/v0.30.0/",

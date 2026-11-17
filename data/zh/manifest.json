@@ -1,6 +1,6 @@
 {
  "version": "2026-11-05",
- "generatedAt": "2026-11-11T21:34:15",
+ "generatedAt": "2026-11-17T14:29:21",
  "frameworkSeats": {
   "vllm": "infer",
   "mindie": "infer",
@@ -15,7 +15,7 @@
   "cardFrameworkOs": 37,
   "cardFrameworks": 28,
   "cardImages": 106,
-  "supports": 860,
+  "supports": 466,
   "driverVersionOs": 18,
   "driverVersions": 7,
   "frameworks": 4,
@@ -29,15 +29,15 @@
   "imageVerifySteps": 19,
   "images": 32,
   "inferCommands": 120,
-  "inferDeployCommands": 174,
-  "series": 161,
-  "models": 223,
+  "inferDeployCommands": 105,
+  "series": 157,
+  "models": 194,
   "quantLevels": 5,
   "roadmapItems": 34,
-  "trainCommands": 728,
-  "trainDeployCommands": 2912,
-  "inferDeployGuides": 150,
-  "trainDeployGuides": 49
+  "trainCommands": 411,
+  "trainDeployCommands": 596,
+  "inferDeployGuides": 104,
+  "trainDeployGuides": 447
  },
  "sources": {
   "vllm": "https://docs.vllm.ai/projects/ascend/zh-cn/v0.30.0/",

@@ -308,10 +308,6 @@
   "name": "LLaMA3"
  },
  {
-  "id": "llama3-1",
-  "name": "LLaMA3.1"
- },
- {
   "id": "llama3-2",
   "name": "LLaMA3.2"
  },
@@ -322,10 +318,6 @@
  {
   "id": "qwen",
   "name": "Qwen"
- },
- {
-  "id": "qwen1-5",
-  "name": "Qwen1.5"
  },
  {
   "id": "codeqwen1-5",
@@ -354,10 +346,6 @@
  {
   "id": "codeqwen2-5",
   "name": "CodeQwen2.5"
- },
- {
-  "id": "yi",
-  "name": "Yi"
  },
  {
   "id": "yi1-5",
@@ -554,10 +542,6 @@
  {
   "id": "qwen-vl",
   "name": "Qwen-VL"
- },
- {
-  "id": "telechat",
-  "name": "TeleChat"
  },
  {
   "id": "whisper",

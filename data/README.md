@@ -23,7 +23,9 @@
 | `ai_cards.json` | 7 | `id` | 卡型号；`primaryOs` 是该卡 guide 绑定的主 OS |
 | `ai_card_os.json` | 18 | `(cardId, osVersion)` | 卡已认证的 OS |
 | `ai_card_products.json` | 7 | `cardId` | 卡所属产品线 |
-| `card_model_supports.json` | 860 | `(cardId, modelId)` | 卡 × 模型支持关系；`sortOrder` 为卡内展示顺序（1..N 连续） |
+| `card_model_supports.json` | 466 | `(cardId, modelId)` | 卡 × 模型支持关系，**由部署表派生**（只收有部署指导的模型）；`sortOrder` 为卡内展示顺序（1..N 连续） |
+
+卡 × 模型支持关系不再手工维护，统一由 `build/derive_supports.py` 从 `infer_deploy_commands` / `train_deploy_commands` 派生：某卡有该模型的部署指导才收录，补抓指导后会随之自动增长。
 | `card_frameworks.json` | 28 | `(cardId, frameworkId)` | 卡上有数据的框架 |
 | `card_framework_os.json` | 37 | `(cardId, frameworkId, osVersion)` | 该框架在该卡上覆盖的**全部** openEuler OS |
 
@@ -31,17 +33,17 @@
 
 | 文件 | 行数 | 主键 | 说明 |
 |---|---:|---|---|
-| `model_series.json` | 161 | `id` | 模型系列 |
-| `models.json` | 223 | `id` | 模型；`id` 为 slug（如 `qwen3-8b`） |
+| `model_series.json` | 157 | `id` | 模型系列 |
+| `models.json` | 194 | `id` | 模型；`id` 为 slug（如 `qwen3-8b`） |
 
 ## 四、命令与安装部署指导
 
 | 文件 | 行数 | 主键 | 说明 |
 |---|---:|---|---|
 | `infer_commands.json` | 120 | 自增 | 推理命令（短文本）；与 deploy 表一一对应，只保留有 guide 的组合；`recommended` 当前全为 `false` |
-| `train_commands.json` | 728 | 自增 | 训练命令（短文本） |
-| `infer_deploy_commands.json` | 174 | `(modelId, cardId, quantId, mode, scene)` | 推理安装部署指导；**空 guide 的记录已删除** |
-| `train_deploy_commands.json` | 2912 | `(cardId, modelId, frameworkId, mode, scene, osVersion)` | 训练安装部署指导（训练无量化维度）；**2912 行只有 49 篇不同内容**，去重翻译后按行各存一份，`guideKey` 标记属于哪一篇 |
+| `train_commands.json` | 411 | 自增 | 训练命令（短文本） |
+| `infer_deploy_commands.json` | 105 | `(modelId, cardId, quantId, mode, scene)` | 推理安装部署指导；**空 guide 的记录已删除** |
+| `train_deploy_commands.json` | 596 | `(cardId, modelId, frameworkId, mode, scene, osVersion)` | 训练安装部署指导（训练无量化维度）；**1852 行只有 108 篇不同内容**，去重翻译后按行各存一份，`guideKey` 标记属于哪一篇 |
 
 ### `guideMd` 的约定
 
@@ -146,5 +148,5 @@ steps 的 `arch` 与其所属 variant 完全一致。
 1. 卡的认证 OS 与镜像 tag 只保留 openEuler，接口本身仍接受任意 OS
 2. `ai_cards.recordedOn` 填的是抓取日期（无官方收录日期可用）；`driver_versions.certifiedOn` 用配套表批次日期
 3. MindIE 没有英文版，逐模型 README 为机器翻译（代码块原样保留）
-4. 训练指导的内容粒度到「框架 × 卡 × 安装方式 × 场景」，同一组合下不同模型的指导相同（官方文档只到框架级），因此 2912 行只有 49 篇不同内容
+4. 训练指导的内容粒度到「框架 × 卡 × 安装方式 × 场景」，同一组合下不同模型的指导相同（官方文档只到框架级），因此 1852 行只有 108 篇不同内容
 5. 驱动只保留当前版本，不保留历史版本
