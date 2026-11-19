@@ -13,7 +13,7 @@
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "本地构建（可选）",
-  "body": "   docker build --no-cache -t dpu-exporter:v26.2.0 ./ -f Dockerfile"
+  "body": "docker build --no-cache -t dpu-exporter:v26.2.0 ./ -f Dockerfile"
  },
  {
   "imageId": "0bc31428b0984445a39496fdcfce7c2b",
@@ -29,7 +29,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t infer-operator:v26.2.0 ./ -f Dockerfile.ubuntu"
+  "body": "docker build --no-cache -t infer-operator:v26.2.0 ./ -f Dockerfile.openeuler"
  },
  {
   "imageId": "13f3dee71712420d8b583b9275c04899",
@@ -37,7 +37,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64.zip"
+  "body": "wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64.zip"
  },
  {
   "imageId": "13f3dee71712420d8b583b9275c04899",
@@ -45,7 +45,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   unzip Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64"
+  "body": "unzip Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64"
  },
  {
   "imageId": "13f3dee71712420d8b583b9275c04899",
@@ -53,7 +53,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   cd Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64"
+  "body": "cd Ascend-mindxdl-infer-operator_26.0.0_linux-aarch64"
  },
  {
   "imageId": "13f3dee71712420d8b583b9275c04899",
@@ -61,7 +61,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t infer-operator:v26.0.0 ./ -f Dockerfile"
+  "body": "docker build --no-cache -t infer-operator:v26.0.0 ./ -f Dockerfile"
  },
  {
   "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
@@ -69,7 +69,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "昇腾 NPU 调度插件 v26.1.0 及更高版本本地镜像构建流程",
-  "body": "   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.alpine\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.alpine"
+  "body": "# 构建调度器镜像\ndocker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.openeuler\n\n# 构建控制器镜像\ndocker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.openeuler"
  },
  {
   "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
@@ -77,7 +77,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
-  "body": "   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip"
+  "body": "wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip"
  },
  {
   "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
@@ -85,7 +85,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
-  "body": "   unzip Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-volcano_26.0.0_linux-aarch64"
+  "body": "unzip Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-volcano_26.0.0_linux-aarch64"
  },
  {
   "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
@@ -93,7 +93,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
-  "body": "   cd Ascend-mindxdl-volcano_26.0.0_linux-aarch64/volcano-v1.9.0"
+  "body": "cd Ascend-mindxdl-volcano_26.0.0_linux-aarch64/volcano-v1.9.0"
  },
  {
   "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
@@ -101,15 +101,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
-  "body": "   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller"
- },
- {
-  "imageId": "17da20d1c2b6493cb38765adeba85884",
-  "os": "openEuler 22.03",
-  "arch": "x86_64 / aarch64",
-  "sortOrder": 1,
-  "title": "如何本地构建",
-  "body": "git clone https://github.com/Ascend/cann-container-image.git\ncd cann-container-image\nexport CANN_REPO=my-cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n#需安装buildx\ndocker buildx build -t $CANN_REPO:$CANN_TAG -f cann/$CANN_TAG/Dockerfile ."
+  "body": "# 构建调度器镜像\ndocker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n# 构建控制器镜像\ndocker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller"
  },
  {
   "imageId": "17da20d1c2b6493cb38765adeba85884",
@@ -117,7 +109,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "如何本地构建",
-  "body": "git clone https://github.com/Ascend/cann-container-image.git\ncd cann-container-image\nexport CANN_REPO=my-cann\nexport CANN_TAG=9.2.1-a3-ubuntu22.04-py3.12\n#需安装buildx\ndocker buildx build -t $CANN_REPO:$CANN_TAG -f cann/$CANN_TAG/Dockerfile ."
+  "body": "git clone https://github.com/Ascend/cann-container-image.git\ncd cann-container-image\nexport CANN_REPO=my-cann\nexport CANN_TAG=9.2.1-a3-openeuler24.03-py3.12\n#需安装buildx\ndocker buildx build -t $CANN_REPO:$CANN_TAG -f cann/$CANN_TAG/Dockerfile ."
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
@@ -125,7 +117,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t npu-exporter:v26.2.0 ./ -f Dockerfile.ubuntu"
+  "body": "docker build --no-cache -t npu-exporter:v26.2.0 ./ -f Dockerfile.openeuler"
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
@@ -133,7 +125,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64.zip"
+  "body": "wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64.zip"
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
@@ -141,7 +133,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   unzip Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64"
+  "body": "unzip Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64"
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
@@ -149,7 +141,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   cd Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64"
+  "body": "cd Ascend-mindxdl-npu-exporter_26.0.0_linux-aarch64"
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
@@ -157,7 +149,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t npu-exporter:v26.0.0 ./ -f Dockerfile"
+  "body": "docker build --no-cache -t npu-exporter:v26.0.0 ./ -f Dockerfile"
  },
  {
   "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
@@ -165,7 +157,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "构建 TorchNPU 镜像",
-  "body": "docker build \\\n  --build-arg CHIP_ARCH=a3 \\\n  --build-arg OS=ubuntu \\\n  --build-arg OS_VERSION=22.04 \\\n  --build-arg PY_VERSION=3.11 \\\n  --build-arg CANN_VERSION=9.2.0 \\\n  --build-arg ARCH=arm \\\n  --build-arg PY_TAG=cp311 \\\n  --build-arg TORCH_NPU_RELEASE_TAG=v26.2.0-pytorch2.14.0 \\\n  --build-arg TORCH_NPU_PATCH_TAG=2.14.0 \\\n  -t image_name:tag \\\n  -f Dockerfile ."
+  "body": "docker build \\\n  --build-arg CHIP_ARCH=a3 \\\n  --build-arg OS=openeuler \\\n  --build-arg OS_VERSION=24.03 \\\n  --build-arg PY_VERSION=3.11 \\\n  --build-arg CANN_VERSION=9.2.0 \\\n  --build-arg ARCH=arm \\\n  --build-arg PY_TAG=cp311 \\\n  --build-arg TORCH_NPU_RELEASE_TAG=v26.2.0-pytorch2.14.0 \\\n  --build-arg TORCH_NPU_PATCH_TAG=2.14.0 \\\n  -t image_name:tag \\\n  -f Dockerfile ."
  },
  {
   "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
@@ -181,7 +173,7 @@
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "如何本地构建",
-  "body": "docker build --platform linux/arm64 \\\n  -f faiss/npu/docker/Dockerfile.910b.ubuntu \\\n  -t faiss-ascend:1.13.2-26.2.0-cann9.2.0-910b-ubuntu22.04-py3.12-aarch64 \\\n  ."
+  "body": "docker build --platform linux/arm64 \\\n  -f faiss/npu/docker/Dockerfile.910b.openeuler \\\n  -t faiss-ascend:1.13.2-26.2.0-cann9.2.0-910b-openeuler24.03-py3.12-aarch64 \\\n  ."
  },
  {
   "imageId": "45564313da53416dbd14f214d80e33b3",
@@ -197,7 +189,7 @@
   "arch": "aarch64",
   "sortOrder": 3,
   "title": "如何本地构建",
-  "body": "docker build --platform linux/arm64 \\\n  --build-arg FAISS_BUILD_JOBS=16 \\\n  -f faiss/npu/docker/Dockerfile.910b.ubuntu \\\n  -t faiss-ascend:9.2.0-910b-ubuntu22.04-py3.12-aarch64 \\\n  ."
+  "body": "docker build --platform linux/arm64 \\\n  --build-arg FAISS_BUILD_JOBS=16 \\\n  -f faiss/npu/docker/Dockerfile.910b.openeuler \\\n  -t faiss-ascend:9.2.0-910b-openeuler24.03-py3.12-aarch64 \\\n  ."
  },
  {
   "imageId": "45564313da53416dbd14f214d80e33b3",
@@ -205,7 +197,7 @@
   "arch": "aarch64",
   "sortOrder": 4,
   "title": "如何本地构建",
-  "body": "docker build --platform linux/arm64 \\\n  --build-arg FAISS_PIP_INDEX_URL=https://pypi.org/simple \\\n  --build-arg FAISS_PIP_DEFAULT_TIMEOUT=180 \\\n  --build-arg FAISS_PIP_RETRIES=5 \\\n  -f faiss/npu/docker/Dockerfile.910b.ubuntu \\\n  -t faiss-ascend:9.2.0-910b-ubuntu22.04-py3.12-aarch64 \\\n  ."
+  "body": "docker build --platform linux/arm64 \\\n  --build-arg FAISS_PIP_INDEX_URL=https://pypi.org/simple \\\n  --build-arg FAISS_PIP_DEFAULT_TIMEOUT=180 \\\n  --build-arg FAISS_PIP_RETRIES=5 \\\n  -f faiss/npu/docker/Dockerfile.910b.openeuler \\\n  -t faiss-ascend:9.2.0-910b-openeuler24.03-py3.12-aarch64 \\\n  ."
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
@@ -213,7 +205,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "昇腾 NPU 调度插件 v26.1.0 及更高版本本地镜像构建流程",
-  "body": "   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.alpine\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.alpine"
+  "body": "# 构建调度器镜像\ndocker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler.openeuler\n\n# 构建控制器镜像\ndocker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller.openeuler"
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
@@ -221,7 +213,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
-  "body": "   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip"
+  "body": "wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip"
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
@@ -229,7 +221,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
-  "body": "   unzip Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-volcano_26.0.0_linux-aarch64"
+  "body": "unzip Ascend-mindxdl-volcano_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-volcano_26.0.0_linux-aarch64"
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
@@ -237,7 +229,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
-  "body": "   cd Ascend-mindxdl-volcano_26.0.0_linux-aarch64/volcano-v1.9.0"
+  "body": "cd Ascend-mindxdl-volcano_26.0.0_linux-aarch64/volcano-v1.9.0"
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
@@ -245,31 +237,31 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
-  "body": "   # 构建调度器镜像\n   docker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n   # 构建控制器镜像\n   docker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller"
+  "body": "# 构建调度器镜像\ndocker build --no-cache -t  volcanosh/vc-scheduler:v1.9.0 ./  -f Dockerfile-scheduler\n\n# 构建控制器镜像\ndocker build --no-cache -t volcanosh/vc-controller-manager:v1.9.0 ./  -f Dockerfile-controller"
  },
  {
   "imageId": "66155ae6a2f34eff9142f069612da088",
   "os": "openEuler 22.03",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
-  "title": "本地构建镜像 / PyTorch 镜像（以 ubuntu22.04 为例）",
-  "body": "# 构建时通过 --build-arg CORE_TYPE 指定芯片平台，tag 中对应替换 {chip} 为 910/a3/950\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_pt:26.1.0-cann9.1.0-910-ubuntu22.04-py3.11-pt -f docker/Dockerfile.26.1.0-cann9.1.0-ubuntu22.04-py3.11-pt ."
+  "title": "本地构建镜像 / PyTorch 镜像（以 openEuler22.03 为例）",
+  "body": "# 构建时通过 --build-arg CORE_TYPE 指定芯片平台，tag 中对应替换 {chip} 为 910/a3/950\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_pt:26.1.0-cann9.1.0-910b-openeuler22.03-py3.11-pt -f docker/Dockerfile.26.1.0-cann9.1.0-openEuler22.03-py3.11-pt ."
  },
  {
   "imageId": "66155ae6a2f34eff9142f069612da088",
   "os": "openEuler 22.03",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
-  "title": "本地构建镜像 / TensorFlow 镜像（以 ubuntu20.04 为例）",
-  "body": "docker build --build-arg CORE_TYPE=a2 -t recsdk_tf:26.1.0-cann9.1.0-910-ubuntu20.04-py3.7-tf -f docker/Dockerfile.26.1.0-cann9.1.0-ubuntu20.04-py3.7-tf ."
+  "title": "本地构建镜像 / TensorFlow 镜像（以 openEuler22.03 为例）",
+  "body": "docker build --build-arg CORE_TYPE=a2 -t recsdk_tf:26.1.0-cann9.1.0-910b-openeuler22.03-py3.7-tf -f docker/Dockerfile.26.1.0-cann9.1.0-openEuler22.03-py3.7-tf ."
  },
  {
   "imageId": "66155ae6a2f34eff9142f069612da088",
   "os": "openEuler 22.03",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
-  "title": "本地构建镜像 / TensorFlow 镜像（以 ubuntu20.04 为例）",
-  "body": "# CORE_TYPE可选a2/a3/a5，以下以 TensorFlow 镜像为例，PyTorch 镜像同理\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_tf:26.1.0-cann9.1.0-910-ubuntu20.04-py3.7-tf -f docker/Dockerfile.26.1.0-cann9.1.0-ubuntu20.04-py3.7-tf ."
+  "title": "本地构建镜像 / TensorFlow 镜像（以 openEuler22.03 为例）",
+  "body": "# CORE_TYPE可选a2/a3/a5，以下以 TensorFlow 镜像为例，PyTorch 镜像同理\ndocker build --build-arg CORE_TYPE=a2 -t recsdk_tf:26.1.0-cann9.1.0-910b-openeuler22.03-py3.7-tf -f docker/Dockerfile.26.1.0-cann9.1.0-openEuler22.03-py3.7-tf ."
  },
  {
   "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
@@ -277,23 +269,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "基础构建示例",
-  "body": "cd docker\n\n# 构建 A3 + openEuler 镜像\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11\n\n# 构建 910B + Ubuntu 镜像\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-910b-ubuntu22.04-py3.11\n\n# 构建 950 + openEuler 镜像，并指定 conda base 环境为 Python 3.12\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.1.0-950-openeuler24.03-py3.12 --python-version 3.12\n\n# 指定 PyTorch 版本构建\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 --torch-version 2.7.1 --torch-npu-version 2.7.1.post4\n\n# 指定版本构建\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 -v 26.1.0\n\n# 构建 CI 镜像（在 dev 镜像基础上，tag 追加 -ci）\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 --build-ci"
- },
- {
-  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
-  "os": "openEuler 22.03",
-  "arch": "x86_64 / aarch64",
-  "sortOrder": 1,
-  "title": "如何本地构建",
-  "body": "docker buildx build \\\n    -t drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 \\\n    -f docker/26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11/Dockerfile ."
- },
- {
-  "imageId": "696b50584fa04d4a8e99f7894f8eb176",
-  "os": "openEuler 22.03",
-  "arch": "x86_64 / aarch64",
-  "sortOrder": 2,
-  "title": "如何二次开发",
-  "body": "docker buildx build -t drivingsdk:devel -f docker/devel/Dockerfile ."
+  "body": "cd docker\n\n# 构建 A3 + openEuler 镜像\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11\n\n# 构建 950 + openEuler 镜像，并指定 conda base 环境为 Python 3.12\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.1.0-950-openeuler24.03-py3.12 --python-version 3.12\n\n# 指定 PyTorch 版本构建\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 --torch-version 2.7.1 --torch-npu-version 2.7.1.post4\n\n# 指定版本构建\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 -v 26.1.0\n\n# 构建 CI 镜像（在 dev 镜像基础上，tag 追加 -ci）\nbash build.sh --base-image swr.cn-south-1.myhuaweicloud.com/ascendhub/cann:9.0.0-a3-openeuler24.03-py3.11 --build-ci"
  },
  {
   "imageId": "696b50584fa04d4a8e99f7894f8eb176",
@@ -301,7 +277,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "如何本地构建",
-  "body": "docker buildx build \\\n    -t drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11 \\\n    -f docker/26.2.0-9.2.0-torch_npu2.7.1.post11-910b-ubuntu22.04-py3.11/Dockerfile ."
+  "body": "docker buildx build \\\n    -t drivingsdk:26.2.0-9.2.0-torch_npu2.7.1.post11-910b-openeuler24.03-py3.11 \\\n    -f docker/26.2.0-9.2.0-torch_npu2.7.1.post11-910b-openeuler24.03-py3.11/Dockerfile ."
  },
  {
   "imageId": "696b50584fa04d4a8e99f7894f8eb176",
@@ -333,7 +309,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t ascend-operator:v26.2.0 ./ -f Dockerfile.ubuntu"
+  "body": "docker build --no-cache -t ascend-operator:v26.2.0 ./ -f Dockerfile.openeuler"
  },
  {
   "imageId": "a066319600634cf6a1e522856a63a1c5",
@@ -341,7 +317,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64.zip"
+  "body": "wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64.zip"
  },
  {
   "imageId": "a066319600634cf6a1e522856a63a1c5",
@@ -349,7 +325,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   unzip Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64"
+  "body": "unzip Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64"
  },
  {
   "imageId": "a066319600634cf6a1e522856a63a1c5",
@@ -357,7 +333,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   cd Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64"
+  "body": "cd Ascend-mindxdl-ascend-operator_26.0.0_linux-aarch64"
  },
  {
   "imageId": "a066319600634cf6a1e522856a63a1c5",
@@ -365,7 +341,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t ascend-operator:v26.0.0 ./ -f Dockerfile"
+  "body": "docker build --no-cache -t ascend-operator:v26.0.0 ./ -f Dockerfile"
  },
  {
   "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
@@ -373,7 +349,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t ascend-k8sdeviceplugin:v26.2.0 ./ -f Dockerfile.ubuntu"
+  "body": "docker build --no-cache -t ascend-k8sdeviceplugin:v26.2.0 ./ -f Dockerfile.openeuler"
  },
  {
   "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
@@ -381,7 +357,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64.zip"
+  "body": "wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64.zip"
  },
  {
   "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
@@ -389,7 +365,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   unzip Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64"
+  "body": "unzip Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64"
  },
  {
   "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
@@ -397,7 +373,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   cd Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64"
+  "body": "cd Ascend-mindxdl-device-plugin_26.0.0_linux-aarch64"
  },
  {
   "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
@@ -405,7 +381,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t ascend-k8sdeviceplugin:v26.0.0 ./ -f Dockerfile"
+  "body": "docker build --no-cache -t ascend-k8sdeviceplugin:v26.0.0 ./ -f Dockerfile"
  },
  {
   "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
@@ -413,7 +389,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "构建 MindIE 镜像",
-  "body": "# 完整参数示例（whl 包，默认 Python 3.11.10）\nbash build.sh \\\n    --os=ubuntu \\\n    --chip=910 \\\n    --arch=x86_64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0\n\n# 使用 run 包 + 自定义 Python 版本\nbash build.sh \\\n    --os=openeuler \\\n    --chip=310 \\\n    --arch=aarch64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0 \\\n    --type=run \\\n    --python=3.11.6\n\n# 仅校验参数，不执行构建\nbash build.sh \\\n    --os=ubuntu \\\n    --chip=910 \\\n    --arch=x86_64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0 \\\n    --dry-run"
+  "body": "# 完整参数示例（whl 包，默认 Python 3.11.10）\nbash build.sh \\\n    --os=openeuler \\\n    --chip=910 \\\n    --arch=x86_64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0\n\n# 使用 run 包 + 自定义 Python 版本\nbash build.sh \\\n    --os=openeuler \\\n    --chip=310 \\\n    --arch=aarch64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0 \\\n    --type=run \\\n    --python=3.11.6\n\n# 仅校验参数，不执行构建\nbash build.sh \\\n    --os=openeuler \\\n    --chip=910 \\\n    --arch=x86_64 \\\n    --mindie=3.0.0 \\\n    --cann=9.0.0 \\\n    --pta-tag=v26.0.0-pytorch2.9.0 \\\n    --dry-run"
  },
  {
   "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
@@ -421,7 +397,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "Dockerfile 多阶段构建图",
-  "body": "base-ubuntu ──┐\n              ├──> base ──> cann ──> pta ──> mindstudio ──> mindie\nbase-openeuler┘"
+  "body": "base-openeuler ──> base ──> cann ──> pta ──> mindstudio ──> mindie"
  },
  {
   "imageId": "b554929b470747448924bc786b5ab95d",
@@ -429,7 +405,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t clusterd:v26.2.0 ./ -f Dockerfile.ubuntu"
+  "body": "docker build --no-cache -t clusterd:v26.2.0 ./ -f Dockerfile.openeuler"
  },
  {
   "imageId": "b554929b470747448924bc786b5ab95d",
@@ -437,7 +413,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-clusterd_26.0.0_linux-aarch64.zip"
+  "body": "wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-clusterd_26.0.0_linux-aarch64.zip"
  },
  {
   "imageId": "b554929b470747448924bc786b5ab95d",
@@ -445,7 +421,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   unzip Ascend-mindxdl-clusterd_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-clusterd_26.0.0_linux-aarch64"
+  "body": "unzip Ascend-mindxdl-clusterd_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-clusterd_26.0.0_linux-aarch64"
  },
  {
   "imageId": "b554929b470747448924bc786b5ab95d",
@@ -453,7 +429,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   cd Ascend-mindxdl-clusterd_26.0.0_linux-aarch64"
+  "body": "cd Ascend-mindxdl-clusterd_26.0.0_linux-aarch64"
  },
  {
   "imageId": "b554929b470747448924bc786b5ab95d",
@@ -461,7 +437,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t clusterd:v26.0.0 ./ -f Dockerfile"
+  "body": "docker build --no-cache -t clusterd:v26.0.0 ./ -f Dockerfile"
  },
  {
   "imageId": "b875f781df984480b0385a96fa1b03c9",
@@ -477,7 +453,7 @@
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "本地构建",
-  "body": "   docker build --no-cache -t k8s-rdma-shared-dev-plugin:v26.2.0 ./ -f Dockerfile.ubuntu"
+  "body": "docker build --no-cache -t k8s-rdma-shared-dev-plugin:v26.2.0 ./ -f Dockerfile.openeuler"
  },
  {
   "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
@@ -485,7 +461,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t noded:v26.2.0 ./ -f Dockerfile.ubuntu"
+  "body": "docker build --no-cache -t noded:v26.2.0 ./ -f Dockerfile.openeuler"
  },
  {
   "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
@@ -493,7 +469,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-noded_26.0.0_linux-aarch64.zip"
+  "body": "wget https://gitcode.com/Ascend/mind-cluster/releases/download/v26.0.0/Ascend-mindxdl-noded_26.0.0_linux-aarch64.zip"
  },
  {
   "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
@@ -501,7 +477,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   unzip Ascend-mindxdl-noded_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-noded_26.0.0_linux-aarch64"
+  "body": "unzip Ascend-mindxdl-noded_26.0.0_linux-aarch64.zip -d Ascend-mindxdl-noded_26.0.0_linux-aarch64"
  },
  {
   "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
@@ -509,7 +485,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   cd Ascend-mindxdl-noded_26.0.0_linux-aarch64"
+  "body": "cd Ascend-mindxdl-noded_26.0.0_linux-aarch64"
  },
  {
   "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
@@ -517,7 +493,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
-  "body": "   docker build --no-cache -t noded:v26.0.0 ./ -f Dockerfile"
+  "body": "docker build --no-cache -t noded:v26.0.0 ./ -f Dockerfile"
  },
  {
   "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
@@ -525,7 +501,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "本地构建",
-  "body": "# 基础构建\nbash docker/build_image.sh --tag v3.1-20260522-master\n\n# 指定 OS 和 Python 版本\nbash docker/build_image.sh --tag v3.1-20260522-master --os ubuntu22.04 --py-version py310\n\n# 构建并推送到远程仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1\n\n# 构建、推送并上传离线包到 OBS\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1 --upload 1\n\n# 使用缓存构建（加速重复构建）\nbash docker/build_image.sh --tag v3.1-20260522-master --use-cache 1\n\n# 指定自定义镜像仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --hub-repo docker.io/myuser/myimage"
+  "body": "# 基础构建\nbash docker/build_image.sh --tag v3.1-20260522-master\n\n# 指定 OS 和 Python 版本\nbash docker/build_image.sh --tag v3.1-20260522-master --os openeuler22.03 --py-version py310\n\n# 构建并推送到远程仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1\n\n# 构建、推送并上传离线包到 OBS\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1 --upload 1\n\n# 使用缓存构建（加速重复构建）\nbash docker/build_image.sh --tag v3.1-20260522-master --use-cache 1\n\n# 指定自定义镜像仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --hub-repo docker.io/myuser/myimage"
  },
  {
   "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
@@ -533,7 +509,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "二次开发 / runtime 阶段",
-  "body": "docker build \\\n    --network host \\\n    --build-arg GIT_TAG=v1.0.0 \\\n    -f docker/ubuntu/Dockerfile.py310.ubuntu22.04 \\\n    -t myimage:latest \\\n    docker/"
+  "body": "docker build \\\n    --network host \\\n    --build-arg GIT_TAG=v1.0.0 \\\n    -f docker/openeuler/Dockerfile.py310.openeuler22.03 \\\n    -t myimage:latest \\\n    docker/"
  },
  {
   "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
@@ -541,7 +517,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "本地构建",
-  "body": "# 基础构建\nbash docker/build_image.sh --tag v3.1-20260522-master\n\n# 指定 OS 和 Python 版本\nbash docker/build_image.sh --tag v3.1-20260522-master --os ubuntu22.04 --py-version py310\n\n# 构建并推送到远程仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1\n\n# 构建、推送并上传离线包到 OBS\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1 --upload 1\n\n# 使用缓存构建（加速重复构建）\nbash docker/build_image.sh --tag v3.1-20260522-master --use-cache 1\n\n# 指定自定义镜像仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --hub-repo docker.io/myuser/myimage"
+  "body": "# 基础构建\nbash docker/build_image.sh --tag v3.1-20260522-master\n\n# 指定 OS 和 Python 版本\nbash docker/build_image.sh --tag v3.1-20260522-master --os openeuler24.03 --py-version py311\n\n# 构建并推送到远程仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1\n\n# 构建、推送并上传离线包到 OBS\nbash docker/build_image.sh --tag v3.1-20260522-master --push 1 --upload 1\n\n# 使用缓存构建（加速重复构建）\nbash docker/build_image.sh --tag v3.1-20260522-master --use-cache 1\n\n# 指定自定义镜像仓库\nbash docker/build_image.sh --tag v3.1-20260522-master --hub-repo docker.io/myuser/myimage"
  },
  {
   "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
@@ -549,7 +525,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "二次开发 / runtime 阶段",
-  "body": "docker build \\\n    --network host \\\n    --build-arg GIT_TAG=v1.0.0 \\\n    -f docker/ubuntu/Dockerfile.py310.ubuntu22.04 \\\n    -t myimage:latest \\\n    docker/"
+  "body": "docker build \\\n    --network host \\\n    --build-arg GIT_TAG=v1.0.0 \\\n    -f docker/openeuler/Dockerfile.py311.openeuler24.03 \\\n    -t myimage:latest \\\n    docker/"
  },
  {
   "imageId": "e0081aa3c4dd441dbd6a379bee8cc4c9",
@@ -565,7 +541,7 @@
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "基础构建示例",
-  "body": "cd docker\n\n# 使用全部默认值构建（910b + openEuler24.03）\nbash image_build.sh\n\n# 自定义 NPU 类型和操作系统\nbash image_build.sh -t 950 -o ubuntu22.04\n\n# 自定义 CANN、PyTorch 和 TorchNPU 软件包版本\nbash image_build.sh \\\n  --base-image-version 9.1.0 \\\n  --torch-version 2.7.1 \\\n  --torch-npu-version 2.7.1.post8\n\n# 修改源码分支\nbash image_build.sh \\\n  --mindspeed-llm-branch 26.1.0 \\\n  --mindspeed-branch 26.1.0_core_r0.12.1 \\\n  --megatron-branch core_v0.12.1\n\n# 修改输出镜像名称\nbash image_build.sh -i myproject/mindspeed-llm:custom"
+  "body": "cd docker\n\n# 使用全部默认值构建（910b + openEuler24.03）\nbash image_build.sh\n\n# 自定义 NPU 类型和操作系统\nbash image_build.sh -t 950 -o openeuler24.03\n\n# 自定义 CANN、PyTorch 和 TorchNPU 软件包版本\nbash image_build.sh \\\n  --base-image-version 9.1.0 \\\n  --torch-version 2.7.1 \\\n  --torch-npu-version 2.7.1.post8\n\n# 修改源码分支\nbash image_build.sh \\\n  --mindspeed-llm-branch 26.1.0 \\\n  --mindspeed-branch 26.1.0_core_r0.12.1 \\\n  --megatron-branch core_v0.12.1\n\n# 修改输出镜像名称\nbash image_build.sh -i myproject/mindspeed-llm:custom"
  },
  {
   "imageId": "e26da9266559438b93354792f25b2f4a",
@@ -581,7 +557,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "基础构建示例",
-  "body": "cd docker\n\n# 使用全部默认值构建（910b + openEuler24.03）\nbash image_build.sh\n\n# 自定义 NPU 类型和操作系统\nbash image_build.sh -t 950 -o ubuntu22.04\n\n# 自定义 CANN、PyTorch 和 TorchNPU 软件包版本\nbash image_build.sh \\\n  --base-image-version 9.1.0 \\\n  --torch-version 2.7.1 \\\n  --torch-npu-version 2.7.1.post8\n\n# 修改源码分支\nbash image_build.sh \\\n  --mindspeed-llm-branch 26.1.0 \\\n  --mindspeed-branch 26.1.0_core_r0.12.1 \\\n  --megatron-branch core_v0.12.1\n\n# 修改输出镜像名称\nbash image_build.sh -i myproject/mindspeed-llm:custom"
+  "body": "cd docker\n\n# 使用全部默认值构建（910b + openEuler24.03）\nbash image_build.sh\n\n# 自定义 NPU 类型和操作系统\nbash image_build.sh -t 950 -o openeuler24.03\n\n# 自定义 CANN、PyTorch 和 TorchNPU 软件包版本\nbash image_build.sh \\\n  --base-image-version 9.1.0 \\\n  --torch-version 2.7.1 \\\n  --torch-npu-version 2.7.1.post8\n\n# 修改源码分支\nbash image_build.sh \\\n  --mindspeed-llm-branch 26.1.0 \\\n  --mindspeed-branch 26.1.0_core_r0.12.1 \\\n  --megatron-branch core_v0.12.1\n\n# 修改输出镜像名称\nbash image_build.sh -i myproject/mindspeed-llm:custom"
  },
  {
   "imageId": "e26da9266559438b93354792f25b2f4a",
@@ -597,7 +573,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "构建 MindSpore 镜像",
-  "body": "docker build \\\n    --build-arg CANN_VERSION=9.2.0 \\\n    --build-arg CHIP_ARCH=910b \\\n    --build-arg OS_SYSTEM=ubuntu22.04 \\\n    --build-arg PY_VERSION=py3.12 \\\n    --build-arg MINDSPORE_VERSION=2.11.0 \\\n    --build-arg PIP_INDEX_URL=https://mirrors.huaweicloud.com/repository/pypi/simple \\\n    -t mindspore:2.11.0-cann9.2.0-910b-ubuntu22.04-py3.12 \\\n    -f Dockerfile ."
+  "body": "docker build \\\n    --build-arg CANN_VERSION=9.2.0 \\\n    --build-arg CHIP_ARCH=910b \\\n    --build-arg OS_SYSTEM=openeuler24.03 \\\n    --build-arg PY_VERSION=py3.12 \\\n    --build-arg MINDSPORE_VERSION=2.11.0 \\\n    --build-arg PIP_INDEX_URL=https://mirrors.huaweicloud.com/repository/pypi/simple \\\n    -t mindspore:2.11.0-cann9.2.0-910b-openeuler24.03-py3.12 \\\n    -f Dockerfile ."
  },
  {
   "imageId": "e40957c8eb4245e3a189b818b2408eb1",
@@ -612,8 +588,8 @@
   "os": "openEuler 24.03",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
-  "title": "构建 Ubuntu 镜像",
-  "body": "cd docker\n\ndocker build \\\n  -f Dockerfile.ubuntu \\\n  --build-arg VERSION={version} \\\n  --build-arg TAG={tag} \\\n  --build-arg TARGETARCH={arch} \\\n  -t {msinsight_tag} ."
+  "title": "构建 openEuler 镜像",
+  "body": "cd docker\n\ndocker build \\\n  -f Dockerfile.openEuler \\\n  --build-arg VERSION={version} \\\n  --build-arg TAG={tag} \\\n  --build-arg TARGETARCH={arch} \\\n  -t {msinsight_tag} ."
  },
  {
   "imageId": "e40957c8eb4245e3a189b818b2408eb1",
@@ -624,19 +600,11 @@
   "body": "cd docker\n\ndocker build \\\n  -f Dockerfile.openEuler \\\n  --build-arg VERSION={version} \\\n  --build-arg TAG={tag} \\\n  --build-arg TARGETARCH={arch} \\\n  -t {msinsight_tag} ."
  },
  {
-  "imageId": "f1690465f39847a8b0a1f9e5b36a03c4",
-  "os": "openEuler 24.03",
-  "arch": "x86_64 / aarch64",
-  "sortOrder": 1,
-  "title": "如何本地构建",
-  "body": "TAG=\"3.2.0-sglang0.5.21-a3-ubuntu22.04-py3.12\"\n\ndocker build --network=host \\\n    --platform=linux/arm64 \\\n    -t \"mindie-motor:${TAG}\" \\\n    -f \"docker/mindie-motor-vllm/${TAG}/Dockerfile\" \\\n    ."
- },
- {
   "imageId": "f1b460e88aae4993b8522b611af07100",
   "os": "openEuler 24.03",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "构建 MindSpore Transformers 镜像",
-  "body": "docker build \\\n--build-arg CANN_VERSION=8.5.0 \\\n--build-arg CHIP_ARCH=910b \\\n--build-arg OS_SYSTEM=ubuntu22.04 \\\n--build-arg PY_VERSION=py3.11 \\\n--build-arg MINDSPORE_VERSION=2.7.2 \\\n--build-arg MINDFORMERS_VERSION=1.8.0 \\\n--build-arg PIP_INDEX_URL=https://mirrors.huaweicloud.com/repository/pypi/simple \\\n-t mindformers:1.8.0-910b-ubuntu22.04-py3.11 \\\n-f Dockerfile ."
+  "body": "docker build \\\n--build-arg CANN_VERSION=8.5.0 \\\n--build-arg CHIP_ARCH=910b \\\n--build-arg OS_SYSTEM=openeuler24.03 \\\n--build-arg PY_VERSION=py3.11 \\\n--build-arg MINDSPORE_VERSION=2.7.2 \\\n--build-arg MINDFORMERS_VERSION=1.8.0 \\\n--build-arg PIP_INDEX_URL=https://mirrors.huaweicloud.com/repository/pypi/simple \\\n-t mindformers:1.8.0-910b-openeuler24.03-py3.11 \\\n-f Dockerfile ."
  }
 ]

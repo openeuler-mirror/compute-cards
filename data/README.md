@@ -23,7 +23,7 @@
 | `ai_cards.json` | 7 | `id` | 卡型号；`primaryOs` 是该卡 guide 绑定的主 OS |
 | `ai_card_os.json` | 18 | `(cardId, osVersion)` | 卡已认证的 OS |
 | `ai_card_products.json` | 7 | `cardId` | 卡所属产品线 |
-| `card_model_supports.json` | 466 | `(cardId, modelId)` | 卡 × 模型支持关系，**由部署表派生**（只收有部署指导的模型）；`sortOrder` 为卡内展示顺序（1..N 连续） |
+| `card_model_supports.json` | 374 | `(cardId, modelId)` | 卡 × 模型支持关系，**由部署表派生**（只收有部署指导的模型）；`sortOrder` 为卡内展示顺序（1..N 连续） |
 
 卡 × 模型支持关系不再手工维护，统一由 `build/derive_supports.py` 从 `infer_deploy_commands` / `train_deploy_commands` 派生：某卡有该模型的部署指导才收录，补抓指导后会随之自动增长。
 | `card_frameworks.json` | 28 | `(cardId, frameworkId)` | 卡上有数据的框架 |
@@ -33,17 +33,17 @@
 
 | 文件 | 行数 | 主键 | 说明 |
 |---|---:|---|---|
-| `model_series.json` | 157 | `id` | 模型系列 |
-| `models.json` | 194 | `id` | 模型；`id` 为 slug（如 `qwen3-8b`） |
+| `model_series.json` | 92 | `id` | 模型系列 |
+| `models.json` | 125 | `id` | 模型；`id` 为 slug（如 `qwen3-8b`） |
 
 ## 四、命令与安装部署指导
 
 | 文件 | 行数 | 主键 | 说明 |
 |---|---:|---|---|
-| `infer_commands.json` | 120 | 自增 | 推理命令（短文本）；与 deploy 表一一对应，只保留有 guide 的组合；`recommended` 当前全为 `false` |
-| `train_commands.json` | 411 | 自增 | 训练命令（短文本） |
-| `infer_deploy_commands.json` | 105 | `(modelId, cardId, quantId, mode, scene)` | 推理安装部署指导；**空 guide 的记录已删除** |
-| `train_deploy_commands.json` | 596 | `(cardId, modelId, frameworkId, mode, scene, osVersion)` | 训练安装部署指导（训练无量化维度）；**1852 行只有 108 篇不同内容**，去重翻译后按行各存一份，`guideKey` 标记属于哪一篇 |
+| `infer_commands.json` | 86 | 自增 | 推理命令（短文本）；与 deploy 表一一对应，只保留有 guide 的组合；`recommended` 当前全为 `false` |
+| `train_commands.json` | 289 | 自增 | 训练命令（短文本） |
+| `infer_deploy_commands.json` | 108 | `(modelId, cardId, quantId, mode, scene)` | 推理安装部署指导；**空 guide 的记录已删除** |
+| `train_deploy_commands.json` | 402 | `(cardId, modelId, frameworkId, mode, scene, osVersion)` | 训练安装部署指导（训练无量化维度）；**1852 行只有 108 篇不同内容**，去重翻译后按行各存一份，`guideKey` 标记属于哪一篇 |
 
 ### `guideMd` 的约定
 
@@ -78,10 +78,10 @@
 | `images.json` | 32 | `id` | 镜像仓库 |
 | `image_tags.json` | 561 | `(imageId, tag)` | 镜像 tag，只保留 openEuler |
 | `card_images.json` | 106 | `(cardId, imageId)` | 镜像适用于哪些卡 |
-| `image_variants.json` | 36 | `(imageId, os, arch)` | 变体；**同一 (imageId, os) 只有一行** |
-| `image_build_steps.json` | 80 | `(imageId, os, arch, sortOrder)` | 构建步骤（仓库级，复制到各 variant） |
+| `image_variants.json` | 34 | `(imageId, os, arch)` | 变体；**同一 (imageId, os) 只有一行** |
+| `image_build_steps.json` | 76 | `(imageId, os, arch, sortOrder)` | 构建步骤（仓库级，复制到各 variant） |
 | `image_verify_steps.json` | 19 | `(imageId, os, arch, sortOrder)` | 验证步骤，只有少数仓库有 |
-| `image_dockerfiles.json` | 50 | `(imageId, tag)` | Dockerfile 原文 |
+| `image_dockerfiles.json` | 40 | `(imageId, tag)` | Dockerfile 原文 |
 | `image_env_vars.json` | 6 | 自增 | 环境变量说明 |
 | `image_build_params.json` | 52 | 自增 | 构建参数 |
 | `image_layers.json` | 2805 | 自增 | 镜像层 |
@@ -106,6 +106,8 @@ steps 的 `arch` 与其所属 variant 完全一致。
 | `sourceUrl` | Dockerfile 文件地址 |
 | `sourceRepo` | 仓库，如 `Ascend/cann-container-image` |
 | `sourceKind` | `cann-baseline`（官方 CANN 基线）或 `product`（业务仓库自建镜像） |
+| `product` | 镜像对应的芯片标识：`310p` / `910` / `910b` / `950` / `a3`；`null` 表示不分芯片 |
+| `arch` | 架构：`x86_64` / `aarch64` / `x86_64 / aarch64`，同 tags 侧口径；`null` 表示未知 |
 
 这些 Dockerfile **不是同一镜像的多个版本**：一部分来自官方 CANN 基线镜像仓库，其余来自 mind-cluster、DrivingSDK、IndexSDK 等业务仓库。
 

@@ -11,28 +11,6 @@
   "suggestMulti": false
  },
  {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "568 GB",
-  "vram": "817 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "568 GB",
-  "vram": "817 GB",
-  "suggestMulti": true
- },
- {
   "cardId": "atlas-800i-a2",
   "modelId": "deepseek-v4-flash",
   "frameworkId": "vllm",
@@ -41,17 +19,6 @@
   "recommended": false,
   "weightSize": "284 GB",
   "vram": "490 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-flash",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "568 GB",
-  "vram": "817 GB",
   "suggestMulti": true
  },
  {
@@ -70,28 +37,6 @@
   "modelId": "deepseek-v4-pro",
   "frameworkId": "vllm",
   "quantId": "w4a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "1729 GB",
-  "vram": "2273 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "1729 GB",
-  "vram": "2273 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "deepseek-v4-pro",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
   "enabled": true,
   "recommended": false,
   "weightSize": "1729 GB",
@@ -132,50 +77,6 @@
   "suggestMulti": true
  },
  {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "1508 GB",
-  "vram": "1787 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "754 GB",
-  "vram": "920 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "1508 GB",
-  "vram": "1787 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm-5-1",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "754 GB",
-  "vram": "920 GB",
-  "suggestMulti": true
- },
- {
   "cardId": "atlas-800i-a3",
   "modelId": "glm-5-2",
   "frameworkId": "vllm",
@@ -201,33 +102,11 @@
   "cardId": "atlas-800i-a2",
   "modelId": "glm-5-3-flash",
   "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "657 GB",
-  "vram": "779 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "glm-5-3-flash",
-  "frameworkId": "vllm",
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
   "weightSize": "328 GB",
   "vram": "402 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm-5-3-flash",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "657 GB",
-  "vram": "779 GB",
   "suggestMulti": true
  },
  {
@@ -272,17 +151,6 @@
   "recommended": false,
   "weightSize": "62 GB",
   "vram": "87 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "minimax-m3",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "854 GB",
-  "vram": "1183 GB",
   "suggestMulti": true
  },
  {
@@ -418,83 +286,6 @@
   "suggestMulti": true
  },
  {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-6-27b",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "54 GB",
-  "vram": "77 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-6-27b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "27 GB",
-  "vram": "46 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-6-27b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "54 GB",
-  "vram": "77 GB",
-  "suggestMulti": false
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-6-27b",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "54 GB",
-  "vram": "77 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-6-27b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "27 GB",
-  "vram": "46 GB",
-  "suggestMulti": false
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-6-27b",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "54 GB",
-  "vram": "77 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-6-27b",
-  "frameworkId": "vllm",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "27 GB",
-  "vram": "46 GB",
-  "suggestMulti": false
- },
- {
   "cardId": "ascend-950dt-pr",
   "modelId": "qwen3-5-397b-a17b",
   "frameworkId": "vllm",
@@ -509,17 +300,6 @@
   "cardId": "atlas-800i-a2",
   "modelId": "qwen3-5-397b-a17b",
   "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "794 GB",
-  "vram": "1099 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
@@ -531,33 +311,11 @@
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-5-397b-a17b",
   "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "794 GB",
-  "vram": "1099 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-5-397b-a17b",
-  "frameworkId": "vllm",
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
   "weightSize": "397 GB",
   "vram": "643 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-6-35b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "70 GB",
-  "vram": "90 GB",
   "suggestMulti": true
  },
  {
@@ -586,34 +344,12 @@
   "cardId": "atlas-800i-a2",
   "modelId": "qwen3-6-35b-a3b",
   "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "70 GB",
-  "vram": "90 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-6-35b-a3b",
-  "frameworkId": "vllm",
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
   "weightSize": "35 GB",
   "vram": "50 GB",
   "suggestMulti": false
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-6-35b-a3b",
-  "frameworkId": "vllm",
-  "quantId": "bf16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "70 GB",
-  "vram": "90 GB",
-  "suggestMulti": true
  },
  {
   "cardId": "atlas-800i-a3",
@@ -716,17 +452,6 @@
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-1",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "689 GB",
-  "vram": "825 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a2",
   "modelId": "deepseek-v3-1-terminus",
   "frameworkId": "mindie",
   "quantId": "w8a8",
@@ -745,17 +470,6 @@
   "recommended": false,
   "weightSize": "689 GB",
   "vram": "825 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-2",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "689 GB",
-  "vram": "811 GB",
   "suggestMulti": true
  },
  {
@@ -1012,28 +726,6 @@
   "suggestMulti": true
  },
  {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-235b-a22b-instruct-2507",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "235 GB",
-  "vram": "291 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-coder-30b-a3b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "30 GB",
-  "vram": "43 GB",
-  "suggestMulti": false
- },
- {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-coder-30b-a3b-instruct",
   "frameworkId": "mindie",
@@ -1054,39 +746,6 @@
   "weightSize": "30 GB",
   "vram": "43 GB",
   "suggestMulti": false
- },
- {
-  "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-coder-480b-a35b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "480 GB",
-  "vram": "580 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-coder-480b-a35b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "480 GB",
-  "vram": "580 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "qwen3-coder-480b-a35b-instruct",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "480 GB",
-  "vram": "580 GB",
-  "suggestMulti": true
  },
  {
   "cardId": "atlas-800i-a2",
@@ -1112,28 +771,6 @@
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "glm-4-5",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "355 GB",
-  "vram": "433 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a3",
-  "modelId": "glm-4-5",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "355 GB",
-  "vram": "433 GB",
-  "suggestMulti": true
- },
- {
-  "cardId": "atlas-800i-a2",
   "modelId": "baichuan2-7b",
   "frameworkId": "mindie",
   "quantId": "w8a8",
@@ -1203,17 +840,6 @@
   "modelId": "baichuan2-13b",
   "frameworkId": "mindie",
   "quantId": "w8a16",
-  "enabled": true,
-  "recommended": false,
-  "weightSize": "13 GB",
-  "vram": "17 GB",
-  "suggestMulti": false
- },
- {
-  "cardId": "atlas-300i-duo",
-  "modelId": "baichuan2-13b",
-  "frameworkId": "mindie",
-  "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
   "weightSize": "13 GB",

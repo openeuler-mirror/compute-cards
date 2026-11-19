@@ -72,14 +72,6 @@
   "paramsValue": 427.09
  },
  {
-  "id": "qwen3-vl",
-  "seriesId": "qwen3-vl",
-  "name": "Qwen3-VL",
-  "vendor": null,
-  "params": "8.77B",
-  "paramsValue": 8.77
- },
- {
   "id": "qwen3-30b-a3b",
   "seriesId": "qwen3",
   "name": "Qwen3",
@@ -97,48 +89,40 @@
  },
  {
   "id": "qwen3-vl-30b-a3b",
-  "seriesId": "qwen3-vl-30b-a3b",
-  "name": "Qwen3-VL-30B-A3B",
+  "seriesId": "qwen3-vl",
+  "name": "Qwen3-VL",
   "vendor": null,
   "params": "30B-A3B",
   "paramsValue": 30.0
  },
  {
   "id": "qwen3-6-27b",
-  "seriesId": "qwen3-6-27b",
-  "name": "Qwen3.6-27B",
+  "seriesId": "qwen3-6",
+  "name": "Qwen3.6",
   "vendor": null,
   "params": "27B",
   "paramsValue": 27.0
  },
  {
   "id": "qwen3-5-397b-a17b",
-  "seriesId": "qwen3-5-397b-a17b",
-  "name": "Qwen3.5-397B-A17B",
+  "seriesId": "qwen3-5",
+  "name": "Qwen3.5",
   "vendor": null,
   "params": "397B-A17B",
   "paramsValue": 397.0
  },
  {
-  "id": "qwen3-5-dense",
-  "seriesId": "qwen3-5-dense",
-  "name": "Qwen3.5-Dense",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
   "id": "qwen3-6-35b-a3b",
-  "seriesId": "qwen3-6-35b-a3b",
-  "name": "Qwen3.6-35B-A3B",
+  "seriesId": "qwen3-6",
+  "name": "Qwen3.6",
   "vendor": null,
   "params": "35B-A3B",
   "paramsValue": 35.0
  },
  {
   "id": "qwen3-8-27b",
-  "seriesId": "qwen3-8-27b",
-  "name": "Qwen3.8-27B",
+  "seriesId": "qwen3-8",
+  "name": "Qwen3.8",
   "vendor": null,
   "params": "27B",
   "paramsValue": 27.0
@@ -150,14 +134,6 @@
   "vendor": null,
   "params": "176B",
   "paramsValue": 176.0
- },
- {
-  "id": "siglip2",
-  "seriesId": "siglip2",
-  "name": "SigLIP2",
-  "vendor": null,
-  "params": "0.4B",
-  "paramsValue": 0.4
  },
  {
   "id": "deepseek-r1-distill-llama-8b",
@@ -201,7 +177,7 @@
  },
  {
   "id": "deepseek-r1-0528",
-  "seriesId": "deepseek-r1-0528",
+  "seriesId": "deepseek-r1",
   "name": "DeepSeek-R1-0528",
   "vendor": null,
   "params": "671B",
@@ -228,45 +204,45 @@
   "seriesId": "deepseek-v3-2",
   "name": "DeepSeek-V3.2",
   "vendor": null,
-  "params": "689B",
-  "paramsValue": 689.48
+  "params": "671B",
+  "paramsValue": 671.0
  },
  {
   "id": "qwen2-7b-instruct",
-  "seriesId": "qwen2-7b-instruct",
-  "name": "Qwen2-7B-Instruct",
+  "seriesId": "qwen2-instruct",
+  "name": "Qwen2-Instruct",
   "vendor": null,
   "params": "7B",
   "paramsValue": 7.0
  },
  {
   "id": "qwen2-72b-instruct",
-  "seriesId": "qwen2-72b-instruct",
-  "name": "Qwen2-72B-Instruct",
+  "seriesId": "qwen2-instruct",
+  "name": "Qwen2-Instruct",
   "vendor": null,
   "params": "72B",
   "paramsValue": 72.0
  },
  {
   "id": "qwen2-5-7b-instruct",
-  "seriesId": "qwen2-5-7b-instruct",
-  "name": "Qwen2.5-7B-Instruct",
+  "seriesId": "qwen2-5-instruct",
+  "name": "Qwen2.5-Instruct",
   "vendor": null,
   "params": "7B",
   "paramsValue": 7.0
  },
  {
   "id": "qwen2-5-14b-instruct",
-  "seriesId": "qwen2-5-14b-instruct",
-  "name": "Qwen2.5-14B-Instruct",
+  "seriesId": "qwen2-5-instruct",
+  "name": "Qwen2.5-Instruct",
   "vendor": null,
   "params": "14B",
   "paramsValue": 14.0
  },
  {
   "id": "qwen2-5-32b-instruct",
-  "seriesId": "qwen2-5-32b-instruct",
-  "name": "Qwen2.5-32B-Instruct",
+  "seriesId": "qwen2-5-instruct",
+  "name": "Qwen2.5-Instruct",
   "vendor": null,
   "params": "32B",
   "paramsValue": 32.0
@@ -289,43 +265,27 @@
  },
  {
   "id": "qwen3-235b-a22b-instruct-2507",
-  "seriesId": "qwen3-235b-a22b-instruct-2507",
-  "name": "Qwen3-235B-A22B-Instruct-2507",
+  "seriesId": "qwen3-instruct-2507",
+  "name": "Qwen3-Instruct-2507",
   "vendor": null,
   "params": "235B-A22B",
   "paramsValue": 235.0
  },
  {
   "id": "qwen3-coder-30b-a3b-instruct",
-  "seriesId": "qwen3-coder-30b-a3b-instruct",
-  "name": "Qwen3-Coder-30B-A3B-Instruct",
+  "seriesId": "qwen3-coder-instruct",
+  "name": "Qwen3-Coder-Instruct",
   "vendor": null,
   "params": "30B-A3B",
   "paramsValue": 30.0
  },
  {
   "id": "qwen3-coder-480b-a35b-instruct",
-  "seriesId": "qwen3-coder-480b-a35b-instruct",
-  "name": "Qwen3-Coder-480B-A35B-Instruct",
+  "seriesId": "qwen3-coder-instruct",
+  "name": "Qwen3-Coder-Instruct",
   "vendor": null,
   "params": "480B-A35B",
   "paramsValue": 480.0
- },
- {
-  "id": "llama3-70b",
-  "seriesId": "llama3",
-  "name": "LLaMA3",
-  "vendor": null,
-  "params": "70B",
-  "paramsValue": 70.0
- },
- {
-  "id": "ernie-4-5-300b-a47b",
-  "seriesId": "ernie-4-5-300b-a47b",
-  "name": "ERNIE-4.5-300B-A47B",
-  "vendor": null,
-  "params": "300B-A47B",
-  "paramsValue": 300.0
  },
  {
   "id": "kimi-k2-instruct",
@@ -344,28 +304,12 @@
   "paramsValue": 1040.0
  },
  {
-  "id": "chatglm2-6b",
-  "seriesId": "chatglm2-6b",
-  "name": "ChatGLM2-6B",
-  "vendor": null,
-  "params": "6B",
-  "paramsValue": 6.0
- },
- {
   "id": "chatglm3-6b",
   "seriesId": "chatglm3",
   "name": "ChatGLM3",
   "vendor": null,
   "params": "6B",
   "paramsValue": 6.0
- },
- {
-  "id": "glm4-9b",
-  "seriesId": "glm4",
-  "name": "GLM4",
-  "vendor": null,
-  "params": "9B",
-  "paramsValue": 9.0
  },
  {
   "id": "glm-4-5",
@@ -392,81 +336,25 @@
   "paramsValue": 13.0
  },
  {
-  "id": "qwen2-vl-2b",
-  "seriesId": "qwen2-vl-2b",
-  "name": "Qwen2-VL-2B",
-  "vendor": null,
-  "params": "2B",
-  "paramsValue": 2.0
- },
- {
-  "id": "qwen2-vl-7b",
-  "seriesId": "qwen2-vl-7b",
-  "name": "Qwen2-VL-7B",
-  "vendor": null,
-  "params": "7B",
-  "paramsValue": 7.0
- },
- {
-  "id": "qwen2-vl-72b",
-  "seriesId": "qwen2-vl-72b",
-  "name": "Qwen2-VL-72B",
-  "vendor": null,
-  "params": "72B",
-  "paramsValue": 72.0
- },
- {
-  "id": "qwen2-5-vl-3b",
-  "seriesId": "qwen2-5-vl-3b",
-  "name": "Qwen2.5-VL-3B",
-  "vendor": null,
-  "params": "3B",
-  "paramsValue": 3.0
- },
- {
-  "id": "qwen2-5-vl-7b",
-  "seriesId": "qwen2-5-vl-7b",
-  "name": "Qwen2.5-VL-7B",
-  "vendor": null,
-  "params": "7B",
-  "paramsValue": 7.0
- },
- {
-  "id": "qwen2-5-vl-32b",
-  "seriesId": "qwen2-5-vl-32b",
-  "name": "Qwen2.5-VL-32B",
-  "vendor": null,
-  "params": "32B",
-  "paramsValue": 32.0
- },
- {
-  "id": "qwen2-5-vl-72b",
-  "seriesId": "qwen2-5-vl-72b",
-  "name": "Qwen2.5-VL-72B",
-  "vendor": null,
-  "params": "72B",
-  "paramsValue": 72.0
- },
- {
   "id": "qwen3-vl-8b",
-  "seriesId": "qwen3-vl-8b",
-  "name": "Qwen3-VL-8B",
+  "seriesId": "qwen3-vl",
+  "name": "Qwen3-VL",
   "vendor": null,
   "params": "8B",
   "paramsValue": 8.0
  },
  {
   "id": "qwen3-vl-32b",
-  "seriesId": "qwen3-vl-32b",
-  "name": "Qwen3-VL-32B",
+  "seriesId": "qwen3-vl",
+  "name": "Qwen3-VL",
   "vendor": null,
   "params": "32B",
   "paramsValue": 32.0
  },
  {
   "id": "glm-4-1v-9b-thinking",
-  "seriesId": "glm-4-1v-9b-thinking",
-  "name": "GLM-4.1V-9B-Thinking",
+  "seriesId": "glm-4-1v-thinking",
+  "name": "GLM-4.1V-Thinking",
   "vendor": null,
   "params": "9B",
   "paramsValue": 9.0
@@ -475,14 +363,6 @@
   "id": "aquila-7b",
   "seriesId": "aquila",
   "name": "Aquila",
-  "vendor": null,
-  "params": "7B",
-  "paramsValue": 7.0
- },
- {
-  "id": "aquila2-7b",
-  "seriesId": "aquila2",
-  "name": "Aquila2",
   "vendor": null,
   "params": "7B",
   "paramsValue": 7.0
@@ -568,14 +448,6 @@
   "paramsValue": 7.0
  },
  {
-  "id": "internlm2-5-20b",
-  "seriesId": "internlm2-5",
-  "name": "InternLM2.5",
-  "vendor": null,
-  "params": "20B",
-  "paramsValue": 20.0
- },
- {
   "id": "internlm3-8b",
   "seriesId": "internlm3",
   "name": "InternLM3",
@@ -624,60 +496,12 @@
   "paramsValue": 7.0
  },
  {
-  "id": "llama2-13b",
-  "seriesId": "llama2",
-  "name": "LLaMA2",
-  "vendor": null,
-  "params": "13B",
-  "paramsValue": 13.0
- },
- {
-  "id": "llama2-34b",
-  "seriesId": "llama2",
-  "name": "LLaMA2",
-  "vendor": null,
-  "params": "34B",
-  "paramsValue": 34.0
- },
- {
-  "id": "llama2-70b",
-  "seriesId": "llama2",
-  "name": "LLaMA2",
-  "vendor": null,
-  "params": "70B",
-  "paramsValue": 70.0
- },
- {
   "id": "llama3-8b",
   "seriesId": "llama3",
   "name": "LLaMA3",
   "vendor": null,
   "params": "8B",
   "paramsValue": 8.0
- },
- {
-  "id": "llama3-2-1b",
-  "seriesId": "llama3-2",
-  "name": "LLaMA3.2",
-  "vendor": null,
-  "params": "1B",
-  "paramsValue": 1.0
- },
- {
-  "id": "llama3-2-3b",
-  "seriesId": "llama3-2",
-  "name": "Llama3.2",
-  "vendor": null,
-  "params": "3B",
-  "paramsValue": 3.0
- },
- {
-  "id": "llama3-3-70b-instruct",
-  "seriesId": "llama3-3",
-  "name": "LLaMA3.3",
-  "vendor": null,
-  "params": "70B",
-  "paramsValue": 70.0
  },
  {
   "id": "qwen-7b",
@@ -744,60 +568,12 @@
   "paramsValue": 72.0
  },
  {
-  "id": "qwen2-5-0-5b",
-  "seriesId": "qwen2-5",
-  "name": "Qwen2.5",
-  "vendor": null,
-  "params": "0.5B",
-  "paramsValue": 0.5
- },
- {
-  "id": "qwen2-5-1-5b",
-  "seriesId": "qwen2-5",
-  "name": "Qwen2.5",
-  "vendor": null,
-  "params": "1.5B",
-  "paramsValue": 1.5
- },
- {
-  "id": "qwen2-5-3b",
-  "seriesId": "qwen2-5",
-  "name": "Qwen2.5",
-  "vendor": null,
-  "params": "3B",
-  "paramsValue": 3.0
- },
- {
   "id": "qwen2-5-7b",
   "seriesId": "qwen2-5",
   "name": "Qwen2.5",
   "vendor": null,
   "params": "7B",
   "paramsValue": 7.0
- },
- {
-  "id": "qwen2-5-14b",
-  "seriesId": "qwen2-5",
-  "name": "Qwen2.5",
-  "vendor": null,
-  "params": "14B",
-  "paramsValue": 14.0
- },
- {
-  "id": "qwen2-5-32b",
-  "seriesId": "qwen2-5",
-  "name": "Qwen2.5",
-  "vendor": null,
-  "params": "32B",
-  "paramsValue": 32.0
- },
- {
-  "id": "qwen2-5-72b",
-  "seriesId": "qwen2-5",
-  "name": "Qwen2.5",
-  "vendor": null,
-  "params": "72B",
-  "paramsValue": 72.0
  },
  {
   "id": "qwen3-0-6b",
@@ -840,30 +616,6 @@
   "paramsValue": 32.0
  },
  {
-  "id": "qwen2-5-math-1-5b",
-  "seriesId": "qwen2-5-math",
-  "name": "Qwen2.5-Math",
-  "vendor": null,
-  "params": "1.5B",
-  "paramsValue": 1.5
- },
- {
-  "id": "qwen2-5-math-7b",
-  "seriesId": "qwen2-5-math",
-  "name": "Qwen2.5-Math",
-  "vendor": null,
-  "params": "7B",
-  "paramsValue": 7.0
- },
- {
-  "id": "qwen2-5-math-72b",
-  "seriesId": "qwen2-5-math",
-  "name": "Qwen2.5-Math",
-  "vendor": null,
-  "params": "72B",
-  "paramsValue": 72.0
- },
- {
   "id": "codeqwen2-5-7b",
   "seriesId": "codeqwen2-5",
   "name": "CodeQwen2.5",
@@ -886,14 +638,6 @@
   "vendor": null,
   "params": "9B",
   "paramsValue": 9.0
- },
- {
-  "id": "yi1-5-34b",
-  "seriesId": "yi1-5",
-  "name": "Yi1.5",
-  "vendor": null,
-  "params": "34B",
-  "paramsValue": 34.0
  },
  {
   "id": "mistral-7b",
@@ -928,14 +672,6 @@
   "paramsValue": 9.0
  },
  {
-  "id": "gemma2-27b",
-  "seriesId": "gemma2",
-  "name": "Gemma2",
-  "vendor": null,
-  "params": "27B",
-  "paramsValue": 27.0
- },
- {
   "id": "minicpm-2b",
   "seriesId": "minicpm",
   "name": "MiniCPM",
@@ -953,8 +689,8 @@
  },
  {
   "id": "phi3-5-mini-instruct",
-  "seriesId": "phi3-5",
-  "name": "Phi3.5",
+  "seriesId": "phi3-5-mini-instruct",
+  "name": "Phi3.5-Mini-Instruct",
   "vendor": null,
   "params": "3.8B",
   "paramsValue": 3.8
@@ -1032,44 +768,12 @@
   "paramsValue": 80.0
  },
  {
-  "id": "qwen2-57b-a14b",
-  "seriesId": "qwen2",
-  "name": "Qwen2",
-  "vendor": null,
-  "params": "57B-A14B",
-  "paramsValue": 57.0
- },
- {
-  "id": "grok-1-40b",
-  "seriesId": "grok-1",
-  "name": "Grok-1",
-  "vendor": null,
-  "params": "40B",
-  "paramsValue": 40.0
- },
- {
   "id": "mixtral-8x22b",
   "seriesId": "mixtral",
   "name": "Mixtral",
   "vendor": null,
   "params": "8x22B",
   "paramsValue": 176.0
- },
- {
-  "id": "deepseek-v2-236b",
-  "seriesId": "deepseek-v2",
-  "name": "DeepSeek-V2",
-  "vendor": null,
-  "params": "236B",
-  "paramsValue": 236.0
- },
- {
-  "id": "deepseek-v2-coder-236b",
-  "seriesId": "deepseek-v2-coder",
-  "name": "DeepSeek-V2-coder",
-  "vendor": null,
-  "params": "236B",
-  "paramsValue": 236.0
  },
  {
   "id": "deepseek-v2-lite-16b",
@@ -1080,14 +784,6 @@
   "paramsValue": 16.0
  },
  {
-  "id": "deepseek-v2-5-236b",
-  "seriesId": "deepseek-v2-5",
-  "name": "DeepSeek-V2.5",
-  "vendor": null,
-  "params": "236B",
-  "paramsValue": 236.0
- },
- {
   "id": "deepseek-v3-671b",
   "seriesId": "deepseek-v3",
   "name": "DeepSeek-V3",
@@ -1096,49 +792,9 @@
   "paramsValue": 671.0
  },
  {
-  "id": "deepseek-v3-2-671b",
-  "seriesId": "deepseek-v3-2",
-  "name": "DeepSeek-V3.2",
-  "vendor": null,
-  "params": "671B",
-  "paramsValue": 671.0
- },
- {
-  "id": "deepseek-v4-flash-284b",
-  "seriesId": "deepseek-v4-flash",
-  "name": "DeepSeek-V4-Flash",
-  "vendor": null,
-  "params": "284B",
-  "paramsValue": 284.0
- },
- {
-  "id": "minicpm-8x2b",
-  "seriesId": "minicpm",
-  "name": "MiniCPM",
-  "vendor": null,
-  "params": "8x2B",
-  "paramsValue": 16.0
- },
- {
-  "id": "ling-mini-2-0-16b",
-  "seriesId": "ling-mini-2-0",
-  "name": "Ling-mini-2.0",
-  "vendor": null,
-  "params": "16B",
-  "paramsValue": 16.0
- },
- {
-  "id": "ring-1t",
-  "seriesId": "ring",
-  "name": "Ring",
-  "vendor": null,
-  "params": "1T",
-  "paramsValue": 1000.0
- },
- {
   "id": "phi3-5-moe-instruct",
-  "seriesId": "phi3-5",
-  "name": "Phi3.5",
+  "seriesId": "phi3-5-moe-instruct",
+  "name": "Phi3.5-MoE-Instruct",
   "vendor": null,
   "params": "MoE-42B",
   "paramsValue": 42.0
@@ -1171,14 +827,6 @@
   "id": "glm5-moe-744b",
   "seriesId": "glm5",
   "name": "GLM5",
-  "vendor": null,
-  "params": "MoE-744B",
-  "paramsValue": 744.0
- },
- {
-  "id": "glm5-2-moe-744b",
-  "seriesId": "glm5-2",
-  "name": "GLM5.2",
   "vendor": null,
   "params": "MoE-744B",
   "paramsValue": 744.0
@@ -1217,8 +865,8 @@
  },
  {
   "id": "mamba2-2-7b",
-  "seriesId": "mamba2",
-  "name": "Mamba2",
+  "seriesId": "mamba2-2",
+  "name": "Mamba2.2",
   "vendor": null,
   "params": "2.7B",
   "paramsValue": 2.7
@@ -1232,22 +880,6 @@
   "paramsValue": 8.0
  },
  {
-  "id": "mamba2hybrid-8b",
-  "seriesId": "mamba2hybrid",
-  "name": "Mamba2Hybrid",
-  "vendor": null,
-  "params": "8B",
-  "paramsValue": 8.0
- },
- {
-  "id": "mamba3",
-  "seriesId": "mamba3",
-  "name": "Mamba3",
-  "vendor": null,
-  "params": "443M",
-  "paramsValue": 0.443
- },
- {
   "id": "telechat3-36b",
   "seriesId": "telechat3",
   "name": "TeleChat3",
@@ -1256,59 +888,19 @@
   "paramsValue": 36.0
  },
  {
-  "id": "telechat3-moe-105b-a4-7b",
-  "seriesId": "telechat3-moe",
-  "name": "TeleChat3-MoE",
-  "vendor": null,
-  "params": "105B-A4.7B",
-  "paramsValue": 105.0
- },
- {
-  "id": "qwen3",
-  "seriesId": "qwen3",
-  "name": "Qwen3",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "qwen3-moe",
+  "id": "qwen3-moe-30b-a3b",
   "seriesId": "qwen3-moe",
   "name": "Qwen3-MoE",
   "vendor": null,
-  "params": null,
+  "params": "30B-A3B",
   "paramsValue": null
  },
  {
-  "id": "glm4-5",
-  "seriesId": "glm4-5",
-  "name": "GLM4.5",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "qwen2-5",
-  "seriesId": "qwen2-5",
-  "name": "Qwen2.5",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "telechat2",
+  "id": "telechat2-115b",
   "seriesId": "telechat2",
   "name": "TeleChat2",
   "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "internlm2",
-  "seriesId": "internlm2",
-  "name": "InternLM2",
-  "vendor": null,
-  "params": null,
+  "params": "115B",
   "paramsValue": null
  },
  {
@@ -1320,44 +912,12 @@
   "paramsValue": 11.0
  },
  {
-  "id": "llama3",
-  "seriesId": "llama3",
-  "name": "Llama3",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "qwen2",
-  "seriesId": "qwen2",
-  "name": "Qwen2",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
   "id": "yizhao-12b",
   "seriesId": "yizhao",
   "name": "YiZhao",
   "vendor": null,
   "params": "12B",
   "paramsValue": 12.0
- },
- {
-  "id": "llama2",
-  "seriesId": "llama2",
-  "name": "Llama2",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "baichuan2",
-  "seriesId": "baichuan2",
-  "name": "Baichuan2",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
  },
  {
   "id": "glm2-6b",
@@ -1368,27 +928,11 @@
   "paramsValue": 6.0
  },
  {
-  "id": "gpt2",
+  "id": "gpt2-small",
   "seriesId": "gpt2",
   "name": "GPT2",
   "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "internlm",
-  "seriesId": "internlm",
-  "name": "InternLM",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "qwen",
-  "seriesId": "qwen",
-  "name": "Qwen",
-  "vendor": null,
-  "params": null,
+  "params": "124M",
   "paramsValue": null
  },
  {
@@ -1408,44 +952,12 @@
   "paramsValue": 15.0
  },
  {
-  "id": "baichuan",
-  "seriesId": "baichuan",
-  "name": "Baichuan",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
   "id": "blip2-8-1b",
   "seriesId": "blip2",
   "name": "Blip2",
   "vendor": null,
   "params": "8.1B",
   "paramsValue": 8.1
- },
- {
-  "id": "bloom",
-  "seriesId": "bloom",
-  "name": "Bloom",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "clip",
-  "seriesId": "clip",
-  "name": "Clip",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "codegeex-13b",
-  "seriesId": "codegeex",
-  "name": "CodeGeex",
-  "vendor": null,
-  "params": "13B",
-  "paramsValue": 13.0
  },
  {
   "id": "glm-6b",
@@ -1464,43 +976,11 @@
   "paramsValue": 13.0
  },
  {
-  "id": "llama",
-  "seriesId": "llama",
-  "name": "Llama",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "mae-86m",
-  "seriesId": "mae",
-  "name": "MAE",
-  "vendor": null,
-  "params": "86M",
-  "paramsValue": 0.086
- },
- {
-  "id": "mengzi3-13b",
-  "seriesId": "mengzi3",
-  "name": "Mengzi3",
-  "vendor": null,
-  "params": "13B",
-  "paramsValue": 13.0
- },
- {
-  "id": "pangualpha",
+  "id": "pangualpha-2-6b",
   "seriesId": "pangualpha",
   "name": "PanguAlpha",
   "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "sam",
-  "seriesId": "sam",
-  "name": "SAM",
-  "vendor": null,
-  "params": null,
+  "params": "2.6B",
   "paramsValue": null
  },
  {
@@ -1512,43 +992,11 @@
   "paramsValue": 13.0
  },
  {
-  "id": "swin-88m",
-  "seriesId": "swin",
-  "name": "Swin",
-  "vendor": null,
-  "params": "88M",
-  "paramsValue": 0.088
- },
- {
-  "id": "t5",
-  "seriesId": "t5",
-  "name": "T5",
-  "vendor": null,
-  "params": null,
-  "paramsValue": null
- },
- {
-  "id": "visualglm-6b",
-  "seriesId": "visualglm",
-  "name": "VisualGLM",
-  "vendor": null,
-  "params": "6B",
-  "paramsValue": 6.0
- },
- {
-  "id": "ziya-13b",
-  "seriesId": "ziya",
-  "name": "Ziya",
-  "vendor": null,
-  "params": "13B",
-  "paramsValue": 13.0
- },
- {
-  "id": "bert",
+  "id": "bert-base",
   "seriesId": "bert",
   "name": "Bert",
   "vendor": null,
-  "params": null,
+  "params": "110M",
   "paramsValue": null
  }
 ]
