@@ -26,448 +26,358 @@
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "aquila2-7b",
+  "modelId": "aquila2-34b",
   "sortOrder": 6
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "aquila2-34b",
+  "modelId": "baichuan-7b",
   "sortOrder": 7
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "baichuan-7b",
+  "modelId": "baichuan-13b",
   "sortOrder": 8
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "baichuan-13b",
+  "modelId": "baichuan2-13b",
   "sortOrder": 9
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "baichuan2-7b",
+  "modelId": "bloom-7b1",
   "sortOrder": 10
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "baichuan2-13b",
+  "modelId": "bloom-176b",
   "sortOrder": 11
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "bloom-7b1",
+  "modelId": "chatglm3-6b",
   "sortOrder": 12
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "bloom-176b",
+  "modelId": "internlm-7b",
   "sortOrder": 13
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "chatglm3-6b",
+  "modelId": "internlm-65b",
   "sortOrder": 14
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "internlm-7b",
+  "modelId": "internlm2-20b",
   "sortOrder": 15
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "internlm-65b",
+  "modelId": "internlm2-5-1-8b",
   "sortOrder": 16
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "internlm2-20b",
+  "modelId": "internlm2-5-7b",
   "sortOrder": 17
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "internlm2-5-1-8b",
+  "modelId": "internlm3-8b",
   "sortOrder": 18
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "internlm2-5-7b",
+  "modelId": "llama-7b",
   "sortOrder": 19
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "internlm2-5-20b",
+  "modelId": "llama-13b",
   "sortOrder": 20
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "internlm3-8b",
+  "modelId": "llama-33b",
   "sortOrder": 21
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "llama-7b",
+  "modelId": "llama-65b",
   "sortOrder": 22
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "llama-13b",
+  "modelId": "qwen-7b",
   "sortOrder": 23
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "llama-33b",
+  "modelId": "qwen-14b",
   "sortOrder": 24
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "llama-65b",
+  "modelId": "qwen-72b",
   "sortOrder": 25
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen-7b",
+  "modelId": "codeqwen1-5-7b",
   "sortOrder": 26
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen-14b",
+  "modelId": "qwen2-0-5b",
   "sortOrder": 27
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen-72b",
+  "modelId": "qwen2-1-5b",
   "sortOrder": 28
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "codeqwen1-5-7b",
+  "modelId": "qwen2-7b",
   "sortOrder": 29
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-0-5b",
+  "modelId": "qwen2-72b",
   "sortOrder": 30
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-1-5b",
+  "modelId": "qwen3-0-6b",
   "sortOrder": 31
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-7b",
+  "modelId": "qwen3-1-7b",
   "sortOrder": 32
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-72b",
+  "modelId": "qwen3-4b",
   "sortOrder": 33
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-5-0-5b",
+  "modelId": "qwen3-8b",
   "sortOrder": 34
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-5-1-5b",
+  "modelId": "qwen3-32b",
   "sortOrder": 35
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-5-7b",
+  "modelId": "qwq-32b",
   "sortOrder": 36
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-5-72b",
+  "modelId": "codeqwen2-5-7b",
   "sortOrder": 37
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-0-6b",
+  "modelId": "yi1-5-6b",
   "sortOrder": 38
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-1-7b",
+  "modelId": "yi1-5-9b",
   "sortOrder": 39
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-4b",
+  "modelId": "mistral-7b",
   "sortOrder": 40
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-8b",
+  "modelId": "gemma-2b",
   "sortOrder": 41
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-14b",
+  "modelId": "gemma-7b",
   "sortOrder": 42
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-32b",
+  "modelId": "gemma2-9b",
   "sortOrder": 43
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwq-32b",
+  "modelId": "minicpm-2b",
   "sortOrder": 44
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-5-math-1-5b",
+  "modelId": "minicpm3-4b",
   "sortOrder": 45
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-5-math-7b",
+  "modelId": "phi3-5-mini-instruct",
   "sortOrder": 46
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-5-math-72b",
+  "modelId": "deepseek-math-7b",
   "sortOrder": 47
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "codeqwen2-5-7b",
+  "modelId": "deepseek-r1-distill-qwen-1-5b",
   "sortOrder": 48
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "yi1-5-6b",
+  "modelId": "deepseek-r1-distill-qwen-7b",
   "sortOrder": 49
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "yi1-5-9b",
+  "modelId": "deepseek-r1-distill-qwen-14b",
   "sortOrder": 50
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "yi1-5-34b",
+  "modelId": "deepseek-r1-distill-qwen-32b",
   "sortOrder": 51
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "mistral-7b",
+  "modelId": "deepseek-r1-distill-llama-8b",
   "sortOrder": 52
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "gemma-2b",
+  "modelId": "deepseek-r1-distill-llama-70b",
   "sortOrder": 53
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "gemma-7b",
+  "modelId": "seed-oss-36b",
   "sortOrder": 54
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "gemma2-9b",
+  "modelId": "magistral-24b",
   "sortOrder": 55
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "gemma2-27b",
+  "modelId": "plm-1-8b",
   "sortOrder": 56
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "minicpm-2b",
+  "modelId": "qwen3-30b-a3b",
   "sortOrder": 57
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "minicpm3-4b",
+  "modelId": "qwen3-235b-a22b",
   "sortOrder": 58
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "phi3-5-mini-instruct",
+  "modelId": "qwen3-next-80b-a3b",
   "sortOrder": 59
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-math-7b",
+  "modelId": "qwen3-coder-next-80b-a3b",
   "sortOrder": 60
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-r1-distill-qwen-1-5b",
+  "modelId": "mixtral-8x22b",
   "sortOrder": 61
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-r1-distill-qwen-7b",
+  "modelId": "deepseek-v2-lite-16b",
   "sortOrder": 62
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-r1-distill-qwen-14b",
+  "modelId": "deepseek-v3-671b",
   "sortOrder": 63
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-r1-distill-qwen-32b",
+  "modelId": "phi3-5-moe-instruct",
   "sortOrder": 64
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-r1-distill-llama-8b",
+  "modelId": "hunyuan-389b",
   "sortOrder": 65
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-r1-distill-llama-70b",
+  "modelId": "gpt4-moe-175b",
   "sortOrder": 66
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "seed-oss-36b",
+  "modelId": "glm4-5-air-moe-106b",
   "sortOrder": 67
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "magistral-24b",
+  "modelId": "glm5-moe-744b",
   "sortOrder": 68
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "plm-1-8b",
+  "modelId": "step3-5-flash-moe-196b",
   "sortOrder": 69
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-30b-a3b",
+  "modelId": "longcat-moe-560b",
   "sortOrder": 70
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-235b-a22b",
+  "modelId": "gpt-oss-moe-20b",
   "sortOrder": 71
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-next-80b-a3b",
+  "modelId": "minimax-m2-7-moe-229b",
   "sortOrder": 72
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen3-coder-next-80b-a3b",
+  "modelId": "mamba2-2-7b",
   "sortOrder": 73
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "qwen2-57b-a14b",
+  "modelId": "mamba2-8b",
   "sortOrder": 74
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "mixtral-8x22b",
+  "modelId": "deepseek-v4-pro",
   "sortOrder": 75
  },
  {
   "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v2-coder-236b",
+  "modelId": "gemma4",
   "sortOrder": 76
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v2-lite-16b",
-  "sortOrder": 77
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v2-5-236b",
-  "sortOrder": 78
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v3-671b",
-  "sortOrder": 79
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "deepseek-v3-2-671b",
-  "sortOrder": 80
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "minicpm-8x2b",
-  "sortOrder": 81
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "phi3-5-moe-instruct",
-  "sortOrder": 82
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "hunyuan-389b",
-  "sortOrder": 83
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "gpt4-moe-175b",
-  "sortOrder": 84
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "glm4-5-air-moe-106b",
-  "sortOrder": 85
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "glm5-moe-744b",
-  "sortOrder": 86
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "glm5-2-moe-744b",
-  "sortOrder": 87
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "step3-5-flash-moe-196b",
-  "sortOrder": 88
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "longcat-moe-560b",
-  "sortOrder": 89
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "gpt-oss-moe-20b",
-  "sortOrder": 90
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "minimax-m2-7-moe-229b",
-  "sortOrder": 91
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "mamba2-2-7b",
-  "sortOrder": 92
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "mamba2-8b",
-  "sortOrder": 93
- },
- {
-  "cardId": "ascend-950dt-pr",
-  "modelId": "mamba2hybrid-8b",
-  "sortOrder": 94
  },
  {
   "cardId": "atlas-300i-duo",
@@ -556,143 +466,148 @@
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-dense",
+  "modelId": "qwen3-30b-a3b",
   "sortOrder": 2
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-30b-a3b",
+  "modelId": "gemma4",
   "sortOrder": 3
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "gemma4",
+  "modelId": "qwen3-6-35b-a3b",
   "sortOrder": 4
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-6-35b-a3b",
+  "modelId": "cohere-transcribe",
   "sortOrder": 5
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "cohere-transcribe",
+  "modelId": "deepseek-r1-distill-llama-8b",
   "sortOrder": 6
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-r1-distill-llama-8b",
+  "modelId": "deepseek-r1-distill-llama-70b",
   "sortOrder": 7
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-r1-distill-llama-70b",
+  "modelId": "deepseek-r1-distill-qwen-14b",
   "sortOrder": 8
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-r1-distill-qwen-14b",
+  "modelId": "deepseek-r1-distill-qwen-32b",
   "sortOrder": 9
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-r1-distill-qwen-32b",
+  "modelId": "deepseek-v3-0324",
   "sortOrder": 10
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-0324",
+  "modelId": "deepseek-r1-0528",
   "sortOrder": 11
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-r1-0528",
+  "modelId": "deepseek-v3-1-terminus",
   "sortOrder": 12
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-1",
+  "modelId": "qwen2-7b-instruct",
   "sortOrder": 13
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-1-terminus",
+  "modelId": "qwen2-72b-instruct",
   "sortOrder": 14
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "deepseek-v3-2",
+  "modelId": "qwen2-5-7b-instruct",
   "sortOrder": 15
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-7b-instruct",
+  "modelId": "qwen2-5-14b-instruct",
   "sortOrder": 16
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-72b-instruct",
+  "modelId": "qwen2-5-32b-instruct",
   "sortOrder": 17
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-5-7b-instruct",
+  "modelId": "qwen3-14b",
   "sortOrder": 18
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-5-14b-instruct",
+  "modelId": "qwen3-32b",
   "sortOrder": 19
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen2-5-32b-instruct",
+  "modelId": "kimi-k2-instruct",
   "sortOrder": 20
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-14b",
+  "modelId": "kimi-k2-thinking",
   "sortOrder": 21
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-32b",
+  "modelId": "baichuan2-7b",
   "sortOrder": 22
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "kimi-k2-instruct",
+  "modelId": "baichuan2-13b",
   "sortOrder": 23
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "kimi-k2-thinking",
+  "modelId": "qwen3-vl-8b",
   "sortOrder": 24
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "baichuan2-7b",
+  "modelId": "qwen3-vl-32b",
   "sortOrder": 25
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "baichuan2-13b",
+  "modelId": "glm-4-1v-9b-thinking",
   "sortOrder": 26
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl-8b",
+  "modelId": "deepseek-v4-1-flash",
   "sortOrder": 27
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "qwen3-vl-32b",
+  "modelId": "qwen3-5-397b-a17b",
   "sortOrder": 28
  },
  {
   "cardId": "atlas-800i-a2",
-  "modelId": "glm-4-1v-9b-thinking",
+  "modelId": "glm-5-3-flash",
   "sortOrder": 29
+ },
+ {
+  "cardId": "atlas-800i-a2",
+  "modelId": "qwen3-dense",
+  "sortOrder": 30
  },
  {
   "cardId": "atlas-800i-a3",
@@ -701,117 +616,117 @@
  },
  {
   "cardId": "atlas-800i-a3",
-  "modelId": "qwen3-dense",
-  "sortOrder": 2
- },
- {
-  "cardId": "atlas-800i-a3",
   "modelId": "qwen3-30b-a3b",
-  "sortOrder": 3
+  "sortOrder": 2
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "glm-5-2",
-  "sortOrder": 4
+  "sortOrder": 3
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "gemma4",
-  "sortOrder": 5
+  "sortOrder": 4
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "glm-5-3-flash",
-  "sortOrder": 6
+  "sortOrder": 5
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-vl-30b-a3b",
-  "sortOrder": 7
+  "sortOrder": 6
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "deepseek-v4-1-flash",
-  "sortOrder": 8
+  "sortOrder": 7
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-5-397b-a17b",
-  "sortOrder": 9
+  "sortOrder": 8
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-6-35b-a3b",
-  "sortOrder": 10
+  "sortOrder": 9
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-8-flash-next",
-  "sortOrder": 11
+  "sortOrder": 10
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "minimax-m3",
-  "sortOrder": 12
+  "sortOrder": 11
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "deepseek-v3-1-terminus",
-  "sortOrder": 13
+  "sortOrder": 12
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "deepseek-v3-2",
-  "sortOrder": 14
+  "sortOrder": 13
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen2-72b-instruct",
-  "sortOrder": 15
+  "sortOrder": 14
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen2-5-7b-instruct",
-  "sortOrder": 16
+  "sortOrder": 15
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen2-5-14b-instruct",
-  "sortOrder": 17
+  "sortOrder": 16
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen2-5-32b-instruct",
-  "sortOrder": 18
+  "sortOrder": 17
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-14b",
-  "sortOrder": 19
+  "sortOrder": 18
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-32b",
-  "sortOrder": 20
+  "sortOrder": 19
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "qwen3-coder-30b-a3b-instruct",
-  "sortOrder": 21
+  "sortOrder": 20
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "baichuan2-7b",
-  "sortOrder": 22
+  "sortOrder": 21
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "baichuan2-13b",
-  "sortOrder": 23
+  "sortOrder": 22
  },
  {
   "cardId": "atlas-800i-a3",
   "modelId": "glm-4-1v-9b-thinking",
+  "sortOrder": 23
+ },
+ {
+  "cardId": "atlas-800i-a3",
+  "modelId": "qwen3-dense",
   "sortOrder": 24
  },
  {
@@ -821,603 +736,438 @@
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "aquila2-7b",
+  "modelId": "aquila2-34b",
   "sortOrder": 2
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "aquila2-34b",
+  "modelId": "baichuan-7b",
   "sortOrder": 3
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "baichuan-7b",
+  "modelId": "baichuan-13b",
   "sortOrder": 4
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "baichuan-13b",
+  "modelId": "baichuan2-13b",
   "sortOrder": 5
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "baichuan2-7b",
+  "modelId": "bloom-176b",
   "sortOrder": 6
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "baichuan2-13b",
+  "modelId": "chatglm3-6b",
   "sortOrder": 7
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "bloom-176b",
+  "modelId": "internlm-7b",
   "sortOrder": 8
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "chatglm3-6b",
+  "modelId": "internlm-65b",
   "sortOrder": 9
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "internlm-7b",
+  "modelId": "internlm2-20b",
   "sortOrder": 10
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "internlm-65b",
+  "modelId": "internlm2-5-1-8b",
   "sortOrder": 11
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "internlm2-20b",
+  "modelId": "internlm2-5-7b",
   "sortOrder": 12
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "internlm2-5-1-8b",
+  "modelId": "internlm3-8b",
   "sortOrder": 13
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "internlm2-5-7b",
+  "modelId": "llama-7b",
   "sortOrder": 14
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "internlm2-5-20b",
+  "modelId": "llama-13b",
   "sortOrder": 15
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "internlm3-8b",
+  "modelId": "llama-33b",
   "sortOrder": 16
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "llama-7b",
+  "modelId": "llama-65b",
   "sortOrder": 17
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "llama-13b",
+  "modelId": "qwen-7b",
   "sortOrder": 18
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "llama-33b",
+  "modelId": "qwen-14b",
   "sortOrder": 19
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "llama-65b",
+  "modelId": "qwen-72b",
   "sortOrder": 20
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen-7b",
+  "modelId": "codeqwen1-5-7b",
   "sortOrder": 21
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen-14b",
+  "modelId": "qwen2-0-5b",
   "sortOrder": 22
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen-72b",
+  "modelId": "qwen2-1-5b",
   "sortOrder": 23
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "codeqwen1-5-7b",
+  "modelId": "qwen2-7b",
   "sortOrder": 24
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-0-5b",
+  "modelId": "qwen2-72b",
   "sortOrder": 25
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-1-5b",
+  "modelId": "qwen3-0-6b",
   "sortOrder": 26
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-7b",
+  "modelId": "qwen3-1-7b",
   "sortOrder": 27
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-72b",
+  "modelId": "qwen3-4b",
   "sortOrder": 28
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-5-0-5b",
+  "modelId": "qwen3-8b",
   "sortOrder": 29
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-5-1-5b",
+  "modelId": "qwen3-32b",
   "sortOrder": 30
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-5-7b",
+  "modelId": "qwq-32b",
   "sortOrder": 31
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-5-72b",
+  "modelId": "codeqwen2-5-7b",
   "sortOrder": 32
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen3-0-6b",
+  "modelId": "yi1-5-6b",
   "sortOrder": 33
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen3-1-7b",
+  "modelId": "yi1-5-9b",
   "sortOrder": 34
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen3-4b",
+  "modelId": "mistral-7b",
   "sortOrder": 35
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen3-8b",
+  "modelId": "gemma-2b",
   "sortOrder": 36
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen3-14b",
+  "modelId": "gemma-7b",
   "sortOrder": 37
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen3-32b",
+  "modelId": "gemma2-9b",
   "sortOrder": 38
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwq-32b",
+  "modelId": "minicpm-2b",
   "sortOrder": 39
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-5-math-1-5b",
+  "modelId": "minicpm3-4b",
   "sortOrder": 40
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-5-math-7b",
+  "modelId": "phi3-5-mini-instruct",
   "sortOrder": 41
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-5-math-72b",
+  "modelId": "deepseek-r1-distill-qwen-1-5b",
   "sortOrder": 42
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "codeqwen2-5-7b",
+  "modelId": "deepseek-r1-distill-qwen-7b",
   "sortOrder": 43
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "yi1-5-6b",
+  "modelId": "deepseek-r1-distill-qwen-14b",
   "sortOrder": 44
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "yi1-5-9b",
+  "modelId": "deepseek-r1-distill-qwen-32b",
   "sortOrder": 45
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "yi1-5-34b",
+  "modelId": "deepseek-r1-distill-llama-8b",
   "sortOrder": 46
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "mistral-7b",
+  "modelId": "deepseek-r1-distill-llama-70b",
   "sortOrder": 47
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "gemma-2b",
+  "modelId": "seed-oss-36b",
   "sortOrder": 48
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "gemma-7b",
+  "modelId": "magistral-24b",
   "sortOrder": 49
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "gemma2-9b",
+  "modelId": "plm-1-8b",
   "sortOrder": 50
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "gemma2-27b",
+  "modelId": "qwen3-30b-a3b",
   "sortOrder": 51
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "minicpm-2b",
+  "modelId": "qwen3-235b-a22b",
   "sortOrder": 52
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "minicpm3-4b",
+  "modelId": "qwen3-next-80b-a3b",
   "sortOrder": 53
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "phi3-5-mini-instruct",
+  "modelId": "qwen3-coder-next-80b-a3b",
   "sortOrder": 54
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "deepseek-r1-distill-qwen-1-5b",
+  "modelId": "mixtral-8x22b",
   "sortOrder": 55
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "deepseek-r1-distill-qwen-7b",
+  "modelId": "deepseek-v2-lite-16b",
   "sortOrder": 56
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "deepseek-r1-distill-qwen-14b",
+  "modelId": "deepseek-v3-671b",
   "sortOrder": 57
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "deepseek-r1-distill-qwen-32b",
+  "modelId": "phi3-5-moe-instruct",
   "sortOrder": 58
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "deepseek-r1-distill-llama-8b",
+  "modelId": "hunyuan-389b",
   "sortOrder": 59
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "deepseek-r1-distill-llama-70b",
+  "modelId": "gpt4-moe-175b",
   "sortOrder": 60
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "seed-oss-36b",
+  "modelId": "glm4-5-air-moe-106b",
   "sortOrder": 61
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "magistral-24b",
+  "modelId": "glm5-moe-744b",
   "sortOrder": 62
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "plm-1-8b",
+  "modelId": "step3-5-flash-moe-196b",
   "sortOrder": 63
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen3-30b-a3b",
+  "modelId": "longcat-moe-560b",
   "sortOrder": 64
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen3-235b-a22b",
+  "modelId": "gpt-oss-moe-20b",
   "sortOrder": 65
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen3-next-80b-a3b",
+  "modelId": "minimax-m2-7-moe-229b",
   "sortOrder": 66
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen3-coder-next-80b-a3b",
+  "modelId": "mamba2-2-7b",
   "sortOrder": 67
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-57b-a14b",
+  "modelId": "mamba2-8b",
   "sortOrder": 68
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "mixtral-8x22b",
-  "sortOrder": 69
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "deepseek-v2-coder-236b",
-  "sortOrder": 70
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "deepseek-v2-lite-16b",
-  "sortOrder": 71
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "deepseek-v2-5-236b",
-  "sortOrder": 72
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "deepseek-v3-671b",
-  "sortOrder": 73
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "deepseek-v3-2-671b",
-  "sortOrder": 74
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "minicpm-8x2b",
-  "sortOrder": 75
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "phi3-5-moe-instruct",
-  "sortOrder": 76
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "hunyuan-389b",
-  "sortOrder": 77
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "gpt4-moe-175b",
-  "sortOrder": 78
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "glm4-5-air-moe-106b",
-  "sortOrder": 79
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "glm5-moe-744b",
-  "sortOrder": 80
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "glm5-2-moe-744b",
-  "sortOrder": 81
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "step3-5-flash-moe-196b",
-  "sortOrder": 82
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "longcat-moe-560b",
-  "sortOrder": 83
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "gpt-oss-moe-20b",
-  "sortOrder": 84
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "minimax-m2-7-moe-229b",
-  "sortOrder": 85
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "mamba2-2-7b",
-  "sortOrder": 86
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "mamba2-8b",
-  "sortOrder": 87
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "mamba2hybrid-8b",
-  "sortOrder": 88
- },
- {
-  "cardId": "atlas-800t-a2",
   "modelId": "telechat3-36b",
-  "sortOrder": 89
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "telechat3-moe-105b-a4-7b",
-  "sortOrder": 90
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "qwen3",
-  "sortOrder": 91
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "qwen3-moe",
-  "sortOrder": 92
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "qwen2-5",
-  "sortOrder": 93
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "telechat2",
-  "sortOrder": 94
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "internlm2",
-  "sortOrder": 95
+  "sortOrder": 69
  },
  {
   "cardId": "atlas-800t-a2",
   "modelId": "llama3-2-vision-11b",
-  "sortOrder": 96
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "llama3",
-  "sortOrder": 97
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "qwen2",
-  "sortOrder": 98
+  "sortOrder": 70
  },
  {
   "cardId": "atlas-800t-a2",
   "modelId": "yizhao-12b",
-  "sortOrder": 99
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "llama2",
-  "sortOrder": 100
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "baichuan2",
-  "sortOrder": 101
+  "sortOrder": 71
  },
  {
   "cardId": "atlas-800t-a2",
   "modelId": "glm2-6b",
-  "sortOrder": 102
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "gpt2",
-  "sortOrder": 103
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "internlm",
-  "sortOrder": 104
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "qwen",
-  "sortOrder": 105
+  "sortOrder": 72
  },
  {
   "cardId": "atlas-800t-a2",
   "modelId": "codegeex2-6b",
-  "sortOrder": 106
+  "sortOrder": 73
  },
  {
   "cardId": "atlas-800t-a2",
   "modelId": "wizardcoder-15b",
-  "sortOrder": 107
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "baichuan",
-  "sortOrder": 108
+  "sortOrder": 74
  },
  {
   "cardId": "atlas-800t-a2",
   "modelId": "blip2-8-1b",
-  "sortOrder": 109
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "bloom",
-  "sortOrder": 110
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "clip",
-  "sortOrder": 111
+  "sortOrder": 75
  },
  {
   "cardId": "atlas-800t-a2",
   "modelId": "glm-6b",
-  "sortOrder": 112
+  "sortOrder": 76
  },
  {
   "cardId": "atlas-800t-a2",
   "modelId": "iflytekspark-13b",
-  "sortOrder": 113
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "llama",
-  "sortOrder": 114
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "mae-86m",
-  "sortOrder": 115
- },
- {
-  "cardId": "atlas-800t-a2",
-  "modelId": "pangualpha",
-  "sortOrder": 116
+  "sortOrder": 77
  },
  {
   "cardId": "atlas-800t-a2",
   "modelId": "skywork-13b",
-  "sortOrder": 117
+  "sortOrder": 78
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "swin-88m",
-  "sortOrder": 118
+  "modelId": "llama3-8b",
+  "sortOrder": 79
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "t5",
-  "sortOrder": 119
+  "modelId": "bloom-7b1",
+  "sortOrder": 80
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "visualglm-6b",
-  "sortOrder": 120
+  "modelId": "baichuan2-7b",
+  "sortOrder": 81
  },
  {
   "cardId": "atlas-800t-a2",
-  "modelId": "bert",
-  "sortOrder": 121
+  "modelId": "llama2-7b",
+  "sortOrder": 82
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-7b",
+  "sortOrder": 83
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "bert-base",
+  "sortOrder": 84
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "gpt2-small",
+  "sortOrder": 85
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "pangualpha-2-6b",
+  "sortOrder": 86
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-moe-30b-a3b",
+  "sortOrder": 87
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "telechat2-115b",
+  "sortOrder": 88
  },
  {
   "cardId": "atlas-800t-a3",
@@ -1426,438 +1176,338 @@
  },
  {
   "cardId": "atlas-800t-a3",
-  "modelId": "aquila2-7b",
+  "modelId": "aquila2-34b",
   "sortOrder": 2
  },
  {
   "cardId": "atlas-800t-a3",
-  "modelId": "aquila2-34b",
+  "modelId": "baichuan-7b",
   "sortOrder": 3
  },
  {
   "cardId": "atlas-800t-a3",
-  "modelId": "baichuan-7b",
+  "modelId": "baichuan-13b",
   "sortOrder": 4
  },
  {
   "cardId": "atlas-800t-a3",
-  "modelId": "baichuan-13b",
-  "sortOrder": 5
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "baichuan2-7b",
-  "sortOrder": 6
- },
- {
-  "cardId": "atlas-800t-a3",
   "modelId": "baichuan2-13b",
-  "sortOrder": 7
+  "sortOrder": 5
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "bloom-176b",
-  "sortOrder": 8
+  "sortOrder": 6
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "chatglm3-6b",
-  "sortOrder": 9
+  "sortOrder": 7
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "internlm-7b",
-  "sortOrder": 10
+  "sortOrder": 8
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "internlm-65b",
-  "sortOrder": 11
+  "sortOrder": 9
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "internlm2-20b",
-  "sortOrder": 12
+  "sortOrder": 10
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "internlm2-5-1-8b",
-  "sortOrder": 13
+  "sortOrder": 11
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "internlm2-5-7b",
-  "sortOrder": 14
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "internlm2-5-20b",
-  "sortOrder": 15
+  "sortOrder": 12
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "internlm3-8b",
-  "sortOrder": 16
+  "sortOrder": 13
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "llama-7b",
-  "sortOrder": 17
+  "sortOrder": 14
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "llama-13b",
-  "sortOrder": 18
+  "sortOrder": 15
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "llama-33b",
-  "sortOrder": 19
+  "sortOrder": 16
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "llama-65b",
-  "sortOrder": 20
+  "sortOrder": 17
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen-7b",
-  "sortOrder": 21
+  "sortOrder": 18
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen-14b",
-  "sortOrder": 22
+  "sortOrder": 19
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen-72b",
-  "sortOrder": 23
+  "sortOrder": 20
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "codeqwen1-5-7b",
-  "sortOrder": 24
+  "sortOrder": 21
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen2-0-5b",
-  "sortOrder": 25
+  "sortOrder": 22
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen2-1-5b",
-  "sortOrder": 26
+  "sortOrder": 23
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen2-7b",
-  "sortOrder": 27
+  "sortOrder": 24
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen2-72b",
-  "sortOrder": 28
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "qwen2-5-0-5b",
-  "sortOrder": 29
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "qwen2-5-1-5b",
-  "sortOrder": 30
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "qwen2-5-7b",
-  "sortOrder": 31
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "qwen2-5-72b",
-  "sortOrder": 32
+  "sortOrder": 25
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen3-0-6b",
-  "sortOrder": 33
+  "sortOrder": 26
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen3-1-7b",
-  "sortOrder": 34
+  "sortOrder": 27
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen3-4b",
-  "sortOrder": 35
+  "sortOrder": 28
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen3-8b",
-  "sortOrder": 36
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "qwen3-14b",
-  "sortOrder": 37
+  "sortOrder": 29
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen3-32b",
-  "sortOrder": 38
+  "sortOrder": 30
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwq-32b",
-  "sortOrder": 39
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "qwen2-5-math-1-5b",
-  "sortOrder": 40
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "qwen2-5-math-7b",
-  "sortOrder": 41
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "qwen2-5-math-72b",
-  "sortOrder": 42
+  "sortOrder": 31
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "codeqwen2-5-7b",
-  "sortOrder": 43
+  "sortOrder": 32
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "yi1-5-6b",
-  "sortOrder": 44
+  "sortOrder": 33
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "yi1-5-9b",
-  "sortOrder": 45
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "yi1-5-34b",
-  "sortOrder": 46
+  "sortOrder": 34
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "mistral-7b",
-  "sortOrder": 47
+  "sortOrder": 35
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "gemma-2b",
-  "sortOrder": 48
+  "sortOrder": 36
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "gemma-7b",
-  "sortOrder": 49
+  "sortOrder": 37
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "gemma2-9b",
-  "sortOrder": 50
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "gemma2-27b",
-  "sortOrder": 51
+  "sortOrder": 38
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "minicpm-2b",
-  "sortOrder": 52
+  "sortOrder": 39
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "minicpm3-4b",
-  "sortOrder": 53
+  "sortOrder": 40
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "phi3-5-mini-instruct",
-  "sortOrder": 54
+  "sortOrder": 41
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "deepseek-r1-distill-qwen-1-5b",
-  "sortOrder": 55
+  "sortOrder": 42
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "deepseek-r1-distill-qwen-7b",
-  "sortOrder": 56
+  "sortOrder": 43
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "deepseek-r1-distill-qwen-14b",
-  "sortOrder": 57
+  "sortOrder": 44
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "deepseek-r1-distill-qwen-32b",
-  "sortOrder": 58
+  "sortOrder": 45
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "deepseek-r1-distill-llama-8b",
-  "sortOrder": 59
+  "sortOrder": 46
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "deepseek-r1-distill-llama-70b",
-  "sortOrder": 60
+  "sortOrder": 47
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "seed-oss-36b",
-  "sortOrder": 61
+  "sortOrder": 48
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "magistral-24b",
-  "sortOrder": 62
+  "sortOrder": 49
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "plm-1-8b",
-  "sortOrder": 63
+  "sortOrder": 50
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen3-30b-a3b",
-  "sortOrder": 64
+  "sortOrder": 51
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen3-235b-a22b",
-  "sortOrder": 65
+  "sortOrder": 52
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen3-next-80b-a3b",
-  "sortOrder": 66
+  "sortOrder": 53
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "qwen3-coder-next-80b-a3b",
-  "sortOrder": 67
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "qwen2-57b-a14b",
-  "sortOrder": 68
+  "sortOrder": 54
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "mixtral-8x22b",
-  "sortOrder": 69
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "deepseek-v2-coder-236b",
-  "sortOrder": 70
+  "sortOrder": 55
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "deepseek-v2-lite-16b",
-  "sortOrder": 71
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "deepseek-v2-5-236b",
-  "sortOrder": 72
+  "sortOrder": 56
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "deepseek-v3-671b",
-  "sortOrder": 73
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "deepseek-v3-2-671b",
-  "sortOrder": 74
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "minicpm-8x2b",
-  "sortOrder": 75
+  "sortOrder": 57
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "phi3-5-moe-instruct",
-  "sortOrder": 76
+  "sortOrder": 58
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "hunyuan-389b",
-  "sortOrder": 77
+  "sortOrder": 59
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "gpt4-moe-175b",
-  "sortOrder": 78
+  "sortOrder": 60
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "glm4-5-air-moe-106b",
-  "sortOrder": 79
+  "sortOrder": 61
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "glm5-moe-744b",
-  "sortOrder": 80
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "glm5-2-moe-744b",
-  "sortOrder": 81
+  "sortOrder": 62
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "step3-5-flash-moe-196b",
-  "sortOrder": 82
+  "sortOrder": 63
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "longcat-moe-560b",
-  "sortOrder": 83
+  "sortOrder": 64
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "gpt-oss-moe-20b",
-  "sortOrder": 84
+  "sortOrder": 65
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "minimax-m2-7-moe-229b",
-  "sortOrder": 85
+  "sortOrder": 66
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "mamba2-2-7b",
-  "sortOrder": 86
+  "sortOrder": 67
  },
  {
   "cardId": "atlas-800t-a3",
   "modelId": "mamba2-8b",
-  "sortOrder": 87
- },
- {
-  "cardId": "atlas-800t-a3",
-  "modelId": "mamba2hybrid-8b",
-  "sortOrder": 88
+  "sortOrder": 68
  },
  {
   "cardId": "atlas-900-a3-superpod",
@@ -1866,467 +1516,357 @@
  },
  {
   "cardId": "atlas-900-a3-superpod",
-  "modelId": "aquila2-7b",
+  "modelId": "aquila2-34b",
   "sortOrder": 2
  },
  {
   "cardId": "atlas-900-a3-superpod",
-  "modelId": "aquila2-34b",
+  "modelId": "baichuan-7b",
   "sortOrder": 3
  },
  {
   "cardId": "atlas-900-a3-superpod",
-  "modelId": "baichuan-7b",
+  "modelId": "baichuan-13b",
   "sortOrder": 4
  },
  {
   "cardId": "atlas-900-a3-superpod",
-  "modelId": "baichuan-13b",
-  "sortOrder": 5
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "baichuan2-7b",
-  "sortOrder": 6
- },
- {
-  "cardId": "atlas-900-a3-superpod",
   "modelId": "baichuan2-13b",
-  "sortOrder": 7
+  "sortOrder": 5
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "bloom-7b1",
-  "sortOrder": 8
+  "sortOrder": 6
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "bloom-176b",
-  "sortOrder": 9
+  "sortOrder": 7
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "chatglm3-6b",
-  "sortOrder": 10
+  "sortOrder": 8
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "internlm-7b",
-  "sortOrder": 11
+  "sortOrder": 9
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "internlm-65b",
-  "sortOrder": 12
+  "sortOrder": 10
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "internlm2-20b",
-  "sortOrder": 13
+  "sortOrder": 11
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "internlm2-5-1-8b",
-  "sortOrder": 14
+  "sortOrder": 12
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "internlm2-5-7b",
-  "sortOrder": 15
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "internlm2-5-20b",
-  "sortOrder": 16
+  "sortOrder": 13
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "internlm3-8b",
-  "sortOrder": 17
+  "sortOrder": 14
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "llama-7b",
-  "sortOrder": 18
+  "sortOrder": 15
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "llama-13b",
-  "sortOrder": 19
+  "sortOrder": 16
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "llama-33b",
-  "sortOrder": 20
+  "sortOrder": 17
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "llama-65b",
-  "sortOrder": 21
+  "sortOrder": 18
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen-7b",
-  "sortOrder": 22
+  "sortOrder": 19
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen-14b",
-  "sortOrder": 23
+  "sortOrder": 20
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen-72b",
-  "sortOrder": 24
+  "sortOrder": 21
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "codeqwen1-5-7b",
-  "sortOrder": 25
+  "sortOrder": 22
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen2-0-5b",
-  "sortOrder": 26
+  "sortOrder": 23
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen2-1-5b",
-  "sortOrder": 27
+  "sortOrder": 24
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen2-7b",
-  "sortOrder": 28
+  "sortOrder": 25
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen2-72b",
-  "sortOrder": 29
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "qwen2-5-0-5b",
-  "sortOrder": 30
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "qwen2-5-1-5b",
-  "sortOrder": 31
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "qwen2-5-7b",
-  "sortOrder": 32
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "qwen2-5-72b",
-  "sortOrder": 33
+  "sortOrder": 26
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen3-0-6b",
-  "sortOrder": 34
+  "sortOrder": 27
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen3-1-7b",
-  "sortOrder": 35
+  "sortOrder": 28
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen3-4b",
-  "sortOrder": 36
+  "sortOrder": 29
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen3-8b",
-  "sortOrder": 37
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "qwen3-14b",
-  "sortOrder": 38
+  "sortOrder": 30
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen3-32b",
-  "sortOrder": 39
+  "sortOrder": 31
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwq-32b",
-  "sortOrder": 40
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "qwen2-5-math-1-5b",
-  "sortOrder": 41
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "qwen2-5-math-7b",
-  "sortOrder": 42
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "qwen2-5-math-72b",
-  "sortOrder": 43
+  "sortOrder": 32
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "codeqwen2-5-7b",
-  "sortOrder": 44
+  "sortOrder": 33
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "yi1-5-6b",
-  "sortOrder": 45
+  "sortOrder": 34
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "yi1-5-9b",
-  "sortOrder": 46
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "yi1-5-34b",
-  "sortOrder": 47
+  "sortOrder": 35
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "mistral-7b",
-  "sortOrder": 48
+  "sortOrder": 36
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "gemma-2b",
-  "sortOrder": 49
+  "sortOrder": 37
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "gemma-7b",
-  "sortOrder": 50
+  "sortOrder": 38
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "gemma2-9b",
-  "sortOrder": 51
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "gemma2-27b",
-  "sortOrder": 52
+  "sortOrder": 39
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "minicpm-2b",
-  "sortOrder": 53
+  "sortOrder": 40
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "minicpm3-4b",
-  "sortOrder": 54
+  "sortOrder": 41
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "phi3-5-mini-instruct",
-  "sortOrder": 55
+  "sortOrder": 42
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "deepseek-math-7b",
-  "sortOrder": 56
+  "sortOrder": 43
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "deepseek-r1-distill-qwen-1-5b",
-  "sortOrder": 57
+  "sortOrder": 44
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "deepseek-r1-distill-qwen-7b",
-  "sortOrder": 58
+  "sortOrder": 45
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "deepseek-r1-distill-qwen-14b",
-  "sortOrder": 59
+  "sortOrder": 46
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "deepseek-r1-distill-qwen-32b",
-  "sortOrder": 60
+  "sortOrder": 47
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "deepseek-r1-distill-llama-8b",
-  "sortOrder": 61
+  "sortOrder": 48
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "deepseek-r1-distill-llama-70b",
-  "sortOrder": 62
+  "sortOrder": 49
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "seed-oss-36b",
-  "sortOrder": 63
+  "sortOrder": 50
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "magistral-24b",
-  "sortOrder": 64
+  "sortOrder": 51
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "plm-1-8b",
-  "sortOrder": 65
+  "sortOrder": 52
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen3-30b-a3b",
-  "sortOrder": 66
+  "sortOrder": 53
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen3-235b-a22b",
-  "sortOrder": 67
+  "sortOrder": 54
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen3-next-80b-a3b",
-  "sortOrder": 68
+  "sortOrder": 55
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "qwen3-coder-next-80b-a3b",
-  "sortOrder": 69
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "qwen2-57b-a14b",
-  "sortOrder": 70
+  "sortOrder": 56
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "mixtral-8x22b",
-  "sortOrder": 71
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "deepseek-v2-coder-236b",
-  "sortOrder": 72
+  "sortOrder": 57
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "deepseek-v2-lite-16b",
-  "sortOrder": 73
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "deepseek-v2-5-236b",
-  "sortOrder": 74
+  "sortOrder": 58
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "deepseek-v3-671b",
-  "sortOrder": 75
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "deepseek-v3-2-671b",
-  "sortOrder": 76
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "minicpm-8x2b",
-  "sortOrder": 77
+  "sortOrder": 59
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "phi3-5-moe-instruct",
-  "sortOrder": 78
+  "sortOrder": 60
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "hunyuan-389b",
-  "sortOrder": 79
+  "sortOrder": 61
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "gpt4-moe-175b",
-  "sortOrder": 80
+  "sortOrder": 62
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "glm4-5-air-moe-106b",
-  "sortOrder": 81
+  "sortOrder": 63
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "glm5-moe-744b",
-  "sortOrder": 82
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "glm5-2-moe-744b",
-  "sortOrder": 83
+  "sortOrder": 64
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "step3-5-flash-moe-196b",
-  "sortOrder": 84
+  "sortOrder": 65
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "longcat-moe-560b",
-  "sortOrder": 85
+  "sortOrder": 66
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "gpt-oss-moe-20b",
-  "sortOrder": 86
+  "sortOrder": 67
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "minimax-m2-7-moe-229b",
-  "sortOrder": 87
+  "sortOrder": 68
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "mamba2-2-7b",
-  "sortOrder": 88
+  "sortOrder": 69
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "mamba2-8b",
-  "sortOrder": 89
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "mamba2hybrid-8b",
-  "sortOrder": 90
+  "sortOrder": 70
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "modelId": "telechat3-36b",
-  "sortOrder": 91
+  "sortOrder": 71
  },
  {
   "cardId": "atlas-900-a3-superpod",
-  "modelId": "telechat3-moe-105b-a4-7b",
-  "sortOrder": 92
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "qwen3",
-  "sortOrder": 93
- },
- {
-  "cardId": "atlas-900-a3-superpod",
-  "modelId": "qwen3-moe",
-  "sortOrder": 94
+  "modelId": "qwen3-moe-30b-a3b",
+  "sortOrder": 72
  }
 ]
