@@ -1,6 +1,6 @@
 {
  "version": "2026-11-05",
- "generatedAt": "2026-11-19T11:31:48",
+ "generatedAt": "2026-11-20T09:34:57",
  "frameworkSeats": {
   "vllm": "infer",
   "mindie": "infer",
@@ -20,7 +20,7 @@
   "driverVersions": 7,
   "frameworks": 4,
   "imageBuildParams": 52,
-  "imageBuildSteps": 76,
+  "imageBuildSteps": 72,
   "imageDockerfiles": 40,
   "imageEnvVars": 6,
   "imageLayers": 2805,
@@ -34,7 +34,7 @@
   "models": 125,
   "quantLevels": 5,
   "roadmapItems": 34,
-  "trainCommands": 289,
+  "trainCommands": 306,
   "trainDeployCommands": 402,
   "inferDeployGuides": 108,
   "trainDeployGuides": 402

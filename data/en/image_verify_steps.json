@@ -5,7 +5,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "API test sample / Ranking model test",
-  "body": "curl 127.0.0.1:8080/v1/rerank \\\n    -X POST \\\n    -d '{\"query\":\"What is Deep Learning?\", \"documents\": [\"Deep Learning is not...\", \"Deep learning is...\"]}' \\\n    -H 'Content-Type: application/json'"
+  "body": "```bash\ncurl 127.0.0.1:8080/v1/rerank \\\n    -X POST \\\n    -d '{\"query\":\"What is Deep Learning?\", \"documents\": [\"Deep Learning is not...\", \"Deep learning is...\"]}' \\\n    -H 'Content-Type: application/json'\n```"
  },
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
@@ -13,7 +13,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "API test sample / Ranking model test",
-  "body": "curl 127.0.0.1:8080/rerank \\\n    -X POST \\\n    -d '{\"query\":\"What is Deep Learning?\", \"texts\": [\"Deep Learning is not...\", \"Deep learning is...\"]}' \\\n    -H 'Content-Type: application/json'"
+  "body": "```bash\ncurl 127.0.0.1:8080/rerank \\\n    -X POST \\\n    -d '{\"query\":\"What is Deep Learning?\", \"texts\": [\"Deep Learning is not...\", \"Deep learning is...\"]}' \\\n    -H 'Content-Type: application/json'\n```"
  },
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
@@ -21,7 +21,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "API test sample / Dense vector model test",
-  "body": "curl 127.0.0.1:8080/v1/embeddings \\\n    -X POST \\\n    -d '{\"input\":[\"The capital of China is Beijing.\"]}' \\\n    -H 'Content-Type: application/json'"
+  "body": "```bash\ncurl 127.0.0.1:8080/v1/embeddings \\\n    -X POST \\\n    -d '{\"input\":[\"The capital of China is Beijing.\"]}' \\\n    -H 'Content-Type: application/json'\n```"
  },
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
@@ -29,7 +29,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "API test sample / Dense vector model test",
-  "body": "curl 127.0.0.1:8080/embed \\\n    -X POST \\\n    -d '{\"inputs\":[\"The capital of China is Beijing.\"]}' \\\n    -H 'Content-Type: application/json'"
+  "body": "```bash\ncurl 127.0.0.1:8080/embed \\\n    -X POST \\\n    -d '{\"inputs\":[\"The capital of China is Beijing.\"]}' \\\n    -H 'Content-Type: application/json'\n```"
  },
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
@@ -37,7 +37,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "API test sample / Sequence classification model test",
-  "body": "curl 127.0.0.1:8080/predict \\\n    -X POST \\\n    -d '{\"inputs\":\"I like you.\"}' \\\n    -H 'Content-Type: application/json'"
+  "body": "```bash\ncurl 127.0.0.1:8080/predict \\\n    -X POST \\\n    -d '{\"inputs\":\"I like you.\"}' \\\n    -H 'Content-Type: application/json'\n```"
  },
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
@@ -45,7 +45,7 @@
   "arch": "x86_64 / aarch64",
   "sortOrder": 6,
   "title": "API test sample / Sparse vector model test",
-  "body": "curl 127.0.0.1:8080/embed_sparse \\\n    -X POST \\\n    -d '{\"inputs\":\"I like you.\"}' \\\n    -H 'Content-Type: application/json'"
+  "body": "```bash\ncurl 127.0.0.1:8080/embed_sparse \\\n    -X POST \\\n    -d '{\"inputs\":\"I like you.\"}' \\\n    -H 'Content-Type: application/json'\n```"
  },
  {
   "imageId": "08f948dc1dd745fd896501377ce73b2c",
@@ -69,7 +69,7 @@
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "Customization",
-  "body": "python3 -c \"import torch; import torch_npu; print(torch.npu.is_available())\""
+  "body": "```bash\npython3 -c \"import torch; import torch_npu; print(torch.npu.is_available())\"\n```"
  },
  {
   "imageId": "13f3dee71712420d8b583b9275c04899",

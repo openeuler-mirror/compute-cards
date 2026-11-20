@@ -160,44 +160,12 @@
   "body": "docker build \\\n  --build-arg CHIP_ARCH=a3 \\\n  --build-arg OS=openeuler \\\n  --build-arg OS_VERSION=24.03 \\\n  --build-arg PY_VERSION=3.11 \\\n  --build-arg CANN_VERSION=9.2.0 \\\n  --build-arg ARCH=arm \\\n  --build-arg PY_TAG=cp311 \\\n  --build-arg TORCH_NPU_RELEASE_TAG=v26.2.0-pytorch2.14.0 \\\n  --build-arg TORCH_NPU_PATCH_TAG=2.14.0 \\\n  -t image_name:tag \\\n  -f Dockerfile ."
  },
  {
-  "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
-  "os": "openEuler 24.03",
-  "arch": "x86_64 / aarch64",
-  "sortOrder": 2,
-  "title": "Build the TorchNPU image / Notes",
-  "body": "docker build \\\n  --build-arg HTTP_PROXY=http://proxy.example.com:8080 \\\n  --build-arg HTTPS_PROXY=http://proxy.example.com:8080 \\\n  --build-arg NO_PROXY=localhost,127.0.0.1 \\\n  ... \\\n  -f Dockerfile ."
- },
- {
   "imageId": "45564313da53416dbd14f214d80e33b3",
   "os": "openEuler 24.03",
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "How to build locally",
   "body": "docker build --platform linux/arm64 \\\n  -f faiss/npu/docker/Dockerfile.910b.openeuler \\\n  -t faiss-ascend:1.13.2-26.2.0-cann9.2.0-910b-openeuler24.03-py3.12-aarch64 \\\n  ."
- },
- {
-  "imageId": "45564313da53416dbd14f214d80e33b3",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "sortOrder": 2,
-  "title": "How to build locally",
-  "body": "docker build --platform linux/arm64 \\\n  --build-arg CANN_VERSION=9.2.0 \\\n  -f faiss/npu/docker/Dockerfile.a3.openeuler \\\n  -t faiss-ascend:9.2.0-a3-openeuler24.03-py3.12-aarch64 \\\n  ."
- },
- {
-  "imageId": "45564313da53416dbd14f214d80e33b3",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "sortOrder": 3,
-  "title": "How to build locally",
-  "body": "docker build --platform linux/arm64 \\\n  --build-arg FAISS_BUILD_JOBS=16 \\\n  -f faiss/npu/docker/Dockerfile.910b.openeuler \\\n  -t faiss-ascend:9.2.0-910b-openeuler24.03-py3.12-aarch64 \\\n  ."
- },
- {
-  "imageId": "45564313da53416dbd14f214d80e33b3",
-  "os": "openEuler 24.03",
-  "arch": "aarch64",
-  "sortOrder": 4,
-  "title": "How to build locally",
-  "body": "docker build --platform linux/arm64 \\\n  --build-arg FAISS_PIP_INDEX_URL=https://pypi.org/simple \\\n  --build-arg FAISS_PIP_DEFAULT_TIMEOUT=180 \\\n  --build-arg FAISS_PIP_RETRIES=5 \\\n  -f faiss/npu/docker/Dockerfile.910b.openeuler \\\n  -t faiss-ascend:9.2.0-910b-openeuler24.03-py3.12-aarch64 \\\n  ."
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
