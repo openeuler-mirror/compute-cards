@@ -41,7 +41,7 @@
 | 文件 | 行数 | 主键 | 说明 |
 |---|---:|---|---|
 | `infer_commands.json` | 86 | 自增 | 推理命令（短文本）；与 deploy 表一一对应，只保留有 guide 的组合；`recommended` 当前全为 `false` |
-| `train_commands.json` | 289 | 自增 | 训练命令（短文本） |
+| `train_commands.json` | 306 | 自增 | 训练命令（短文本） |
 | `infer_deploy_commands.json` | 108 | `(modelId, cardId, quantId, mode, scene)` | 推理安装部署指导；**空 guide 的记录已删除** |
 | `train_deploy_commands.json` | 402 | `(cardId, modelId, frameworkId, mode, scene, osVersion)` | 训练安装部署指导（训练无量化维度）；**1852 行只有 108 篇不同内容**，去重翻译后按行各存一份，`guideKey` 标记属于哪一篇 |
 

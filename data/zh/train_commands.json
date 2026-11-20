@@ -1391,6 +1391,26 @@
  },
  {
   "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-32b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-32b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen3-moe-30b-a3b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-900-a3-superpod",
+  "modelId": "qwen3-moe-30b-a3b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
   "modelId": "deepseek-v3-671b",
   "frameworkId": "mindspore"
  },
@@ -1401,7 +1421,27 @@
  },
  {
   "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-5-7b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "telechat2-115b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
   "modelId": "llama3-2-vision-11b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "llama3-8b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen2-7b",
   "frameworkId": "mindspore"
  },
  {
@@ -1411,7 +1451,32 @@
  },
  {
   "cardId": "atlas-800t-a2",
+  "modelId": "llama2-7b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "baichuan2-7b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
   "modelId": "glm2-6b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "gpt2-small",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "internlm-7b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "qwen-7b",
   "frameworkId": "mindspore"
  },
  {
@@ -1431,6 +1496,11 @@
  },
  {
   "cardId": "atlas-800t-a2",
+  "modelId": "bloom-7b1",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
   "modelId": "glm-6b",
   "frameworkId": "mindspore"
  },
@@ -1441,7 +1511,22 @@
  },
  {
   "cardId": "atlas-800t-a2",
+  "modelId": "llama-7b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "pangualpha-2-6b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
   "modelId": "skywork-13b",
+  "frameworkId": "mindspore"
+ },
+ {
+  "cardId": "atlas-800t-a2",
+  "modelId": "bert-base",
   "frameworkId": "mindspore"
  }
 ]
