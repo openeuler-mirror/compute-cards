@@ -1,12 +1,12 @@
 [
  {
   "driverVersionId": 1,
-  "osVersion": "openEuler 20.03",
+  "osVersion": "openEuler 20.03 LTS",
   "sortOrder": 1
  },
  {
   "driverVersionId": 1,
-  "osVersion": "openEuler 22.03",
+  "osVersion": "openEuler 22.03 LTS",
   "sortOrder": 2
  },
  {
@@ -16,12 +16,12 @@
  },
  {
   "driverVersionId": 2,
-  "osVersion": "openEuler 22.03",
+  "osVersion": "openEuler 22.03 LTS",
   "sortOrder": 1
  },
  {
   "driverVersionId": 2,
-  "osVersion": "openEuler 22.03 SP4",
+  "osVersion": "openEuler 22.03 LTS SP4",
   "sortOrder": 2
  },
  {
@@ -41,7 +41,7 @@
  },
  {
   "driverVersionId": 4,
-  "osVersion": "openEuler 22.03",
+  "osVersion": "openEuler 22.03 LTS",
   "sortOrder": 1
  },
  {
@@ -51,7 +51,7 @@
  },
  {
   "driverVersionId": 4,
-  "osVersion": "openEuler 22.03 SP4",
+  "osVersion": "openEuler 22.03 LTS SP4",
   "sortOrder": 3
  },
  {

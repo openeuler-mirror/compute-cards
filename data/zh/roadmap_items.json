@@ -67,7 +67,7 @@
  {
   "id": "R006",
   "zone": "south",
-  "title": "openEuler 22.03 SP4 适配 800T A3",
+  "title": "openEuler 22.03 LTS SP4 适配 800T A3",
   "description": "",
   "status": "done",
   "eventOn": "2025-06-03",
@@ -158,7 +158,7 @@
  {
   "id": "R013",
   "zone": "south",
-  "title": "openEuler 22.03 SP4 适配 900 A3 SuperPoD",
+  "title": "openEuler 22.03 LTS SP4 适配 900 A3 SuperPoD",
   "description": "",
   "status": "done",
   "eventOn": "2026-04-15",

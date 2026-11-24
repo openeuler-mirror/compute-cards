@@ -1,7 +1,7 @@
 [
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "如何构建容器镜像",
@@ -9,7 +9,7 @@
  },
  {
   "imageId": "08f948dc1dd745fd896501377ce73b2c",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "本地构建（可选）",
@@ -17,7 +17,7 @@
  },
  {
   "imageId": "0bc31428b0984445a39496fdcfce7c2b",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "以 Atlas 800I A2 openEuler 镜像为例",
@@ -25,7 +25,7 @@
  },
  {
   "imageId": "13f3dee71712420d8b583b9275c04899",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
@@ -33,7 +33,7 @@
  },
  {
   "imageId": "13f3dee71712420d8b583b9275c04899",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -41,7 +41,7 @@
  },
  {
   "imageId": "13f3dee71712420d8b583b9275c04899",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -49,7 +49,7 @@
  },
  {
   "imageId": "13f3dee71712420d8b583b9275c04899",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -57,7 +57,7 @@
  },
  {
   "imageId": "13f3dee71712420d8b583b9275c04899",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -65,7 +65,7 @@
  },
  {
   "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "昇腾 NPU 调度插件 v26.1.0 及更高版本本地镜像构建流程",
@@ -73,7 +73,7 @@
  },
  {
   "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
@@ -81,7 +81,7 @@
  },
  {
   "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
@@ -89,7 +89,7 @@
  },
  {
   "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
@@ -97,7 +97,7 @@
  },
  {
   "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
@@ -105,7 +105,7 @@
  },
  {
   "imageId": "17da20d1c2b6493cb38765adeba85884",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "如何本地构建",
@@ -113,7 +113,7 @@
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
@@ -121,7 +121,7 @@
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -129,7 +129,7 @@
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -137,7 +137,7 @@
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -145,7 +145,7 @@
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -153,7 +153,7 @@
  },
  {
   "imageId": "1bb1e5d9c8c64f6ea8db0d0ec5061531",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "构建 TorchNPU 镜像",
@@ -161,7 +161,7 @@
  },
  {
   "imageId": "45564313da53416dbd14f214d80e33b3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "如何本地构建",
@@ -169,7 +169,7 @@
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "昇腾 NPU 调度插件 v26.1.0 及更高版本本地镜像构建流程",
@@ -177,7 +177,7 @@
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
@@ -185,7 +185,7 @@
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
@@ -193,7 +193,7 @@
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
@@ -201,7 +201,7 @@
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "昇腾 NPU 调度插件 v26.1.0 之前版本本地镜像构建流程",
@@ -209,7 +209,7 @@
  },
  {
   "imageId": "66155ae6a2f34eff9142f069612da088",
-  "os": "openEuler 22.03",
+  "os": "openEuler 22.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "本地构建镜像 / PyTorch 镜像（以 openEuler22.03 为例）",
@@ -217,7 +217,7 @@
  },
  {
   "imageId": "66155ae6a2f34eff9142f069612da088",
-  "os": "openEuler 22.03",
+  "os": "openEuler 22.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "本地构建镜像 / TensorFlow 镜像（以 openEuler22.03 为例）",
@@ -225,7 +225,7 @@
  },
  {
   "imageId": "66155ae6a2f34eff9142f069612da088",
-  "os": "openEuler 22.03",
+  "os": "openEuler 22.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "本地构建镜像 / TensorFlow 镜像（以 openEuler22.03 为例）",
@@ -233,7 +233,7 @@
  },
  {
   "imageId": "6857f6fc2cfa4a678710a7075426ee5e",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "基础构建示例",
@@ -241,7 +241,7 @@
  },
  {
   "imageId": "696b50584fa04d4a8e99f7894f8eb176",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "如何本地构建",
@@ -249,7 +249,7 @@
  },
  {
   "imageId": "696b50584fa04d4a8e99f7894f8eb176",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "如何二次开发",
@@ -257,7 +257,7 @@
  },
  {
   "imageId": "7f91c3663b5d4a97b3ae40e3cabbb3a2",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "3.5 如何本地构建",
@@ -265,7 +265,7 @@
  },
  {
   "imageId": "9e0edaf9488b447b951072c5c61ce8f1",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "如何本地构建",
@@ -273,7 +273,7 @@
  },
  {
   "imageId": "a066319600634cf6a1e522856a63a1c5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
@@ -281,7 +281,7 @@
  },
  {
   "imageId": "a066319600634cf6a1e522856a63a1c5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -289,7 +289,7 @@
  },
  {
   "imageId": "a066319600634cf6a1e522856a63a1c5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -297,7 +297,7 @@
  },
  {
   "imageId": "a066319600634cf6a1e522856a63a1c5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -305,7 +305,7 @@
  },
  {
   "imageId": "a066319600634cf6a1e522856a63a1c5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -313,7 +313,7 @@
  },
  {
   "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
@@ -321,7 +321,7 @@
  },
  {
   "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -329,7 +329,7 @@
  },
  {
   "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -337,7 +337,7 @@
  },
  {
   "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -345,7 +345,7 @@
  },
  {
   "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -353,7 +353,7 @@
  },
  {
   "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "构建 MindIE 镜像",
@@ -361,7 +361,7 @@
  },
  {
   "imageId": "af85b724a7e5469ebd7ea13c3439d48f",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "Dockerfile 多阶段构建图",
@@ -369,7 +369,7 @@
  },
  {
   "imageId": "b554929b470747448924bc786b5ab95d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
@@ -377,7 +377,7 @@
  },
  {
   "imageId": "b554929b470747448924bc786b5ab95d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -385,7 +385,7 @@
  },
  {
   "imageId": "b554929b470747448924bc786b5ab95d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -393,7 +393,7 @@
  },
  {
   "imageId": "b554929b470747448924bc786b5ab95d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -401,7 +401,7 @@
  },
  {
   "imageId": "b554929b470747448924bc786b5ab95d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -409,7 +409,7 @@
  },
  {
   "imageId": "b875f781df984480b0385a96fa1b03c9",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "如何本地构建",
@@ -417,7 +417,7 @@
  },
  {
   "imageId": "c98c978f3a274ecbb0c844ed8405ab80",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "本地构建",
@@ -425,7 +425,7 @@
  },
  {
   "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "v26.1.0 及更高版本本地镜像构建流程",
@@ -433,7 +433,7 @@
  },
  {
   "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -441,7 +441,7 @@
  },
  {
   "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -449,7 +449,7 @@
  },
  {
   "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -457,7 +457,7 @@
  },
  {
   "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "v26.1.0 之前版本本地镜像构建流程",
@@ -465,7 +465,7 @@
  },
  {
   "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
-  "os": "openEuler 22.03",
+  "os": "openEuler 22.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "本地构建",
@@ -473,7 +473,7 @@
  },
  {
   "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
-  "os": "openEuler 22.03",
+  "os": "openEuler 22.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "二次开发 / runtime 阶段",
@@ -481,7 +481,7 @@
  },
  {
   "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "本地构建",
@@ -489,7 +489,7 @@
  },
  {
   "imageId": "d4b90d52b3a24fc1acf12d93353a79e6",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "二次开发 / runtime 阶段",
@@ -497,7 +497,7 @@
  },
  {
   "imageId": "e0081aa3c4dd441dbd6a379bee8cc4c9",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "如何本地构建",
@@ -505,7 +505,7 @@
  },
  {
   "imageId": "e26da9266559438b93354792f25b2f4a",
-  "os": "openEuler 22.03",
+  "os": "openEuler 22.03 LTS",
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "基础构建示例",
@@ -513,7 +513,7 @@
  },
  {
   "imageId": "e26da9266559438b93354792f25b2f4a",
-  "os": "openEuler 22.03",
+  "os": "openEuler 22.03 LTS",
   "arch": "aarch64",
   "sortOrder": 2,
   "title": "flash-linear-attention-npu 算子编译",
@@ -521,7 +521,7 @@
  },
  {
   "imageId": "e26da9266559438b93354792f25b2f4a",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "基础构建示例",
@@ -529,7 +529,7 @@
  },
  {
   "imageId": "e26da9266559438b93354792f25b2f4a",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "flash-linear-attention-npu 算子编译",
@@ -537,7 +537,7 @@
  },
  {
   "imageId": "e3be9b62ce23426ba1e3b526f12d264d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "构建 MindSpore 镜像",
@@ -545,7 +545,7 @@
  },
  {
   "imageId": "e40957c8eb4245e3a189b818b2408eb1",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "构建参数说明",
@@ -553,7 +553,7 @@
  },
  {
   "imageId": "e40957c8eb4245e3a189b818b2408eb1",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "构建 openEuler 镜像",
@@ -561,7 +561,7 @@
  },
  {
   "imageId": "e40957c8eb4245e3a189b818b2408eb1",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "构建 openEuler 镜像",
@@ -569,7 +569,7 @@
  },
  {
   "imageId": "f1b460e88aae4993b8522b611af07100",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "构建 MindSpore Transformers 镜像",
