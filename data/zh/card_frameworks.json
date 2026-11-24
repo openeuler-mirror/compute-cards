@@ -3,168 +3,168 @@
   "cardId": "atlas-300i-duo",
   "frameworkId": "vllm",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 vllm-ascend 插件接入，可跑推理"
  },
  {
   "cardId": "atlas-300i-duo",
   "frameworkId": "mindie",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持昇腾原生推理引擎"
  },
  {
   "cardId": "atlas-300i-duo",
   "frameworkId": "mindspeed",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为推理产品，不支持训练框架"
  },
  {
   "cardId": "atlas-300i-duo",
   "frameworkId": "mindspore",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为推理产品，不支持训练框架"
  },
  {
   "cardId": "atlas-800i-a2",
   "frameworkId": "vllm",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 vllm-ascend 插件接入，可跑推理"
  },
  {
   "cardId": "atlas-800i-a2",
   "frameworkId": "mindie",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持昇腾原生推理引擎"
  },
  {
   "cardId": "atlas-800i-a2",
   "frameworkId": "mindspeed",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为推理产品，不支持训练框架"
  },
  {
   "cardId": "atlas-800i-a2",
   "frameworkId": "mindspore",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为推理产品，不支持训练框架"
  },
  {
   "cardId": "atlas-800i-a3",
   "frameworkId": "vllm",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 vllm-ascend 插件接入，可跑推理"
  },
  {
   "cardId": "atlas-800i-a3",
   "frameworkId": "mindie",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持昇腾原生推理引擎"
  },
  {
   "cardId": "atlas-800i-a3",
   "frameworkId": "mindspeed",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为推理产品，不支持训练框架"
  },
  {
   "cardId": "atlas-800i-a3",
   "frameworkId": "mindspore",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为推理产品，不支持训练框架"
  },
  {
   "cardId": "atlas-800t-a2",
   "frameworkId": "vllm",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为训练产品，不支持推理框架"
  },
  {
   "cardId": "atlas-800t-a2",
   "frameworkId": "mindie",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为训练产品，不支持推理框架"
  },
  {
   "cardId": "atlas-800t-a2",
   "frameworkId": "mindspeed",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 MindSpeed-LLM 训练套件"
  },
  {
   "cardId": "atlas-800t-a2",
   "frameworkId": "mindspore",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 MindFormers 训练套件"
  },
  {
   "cardId": "atlas-800t-a3",
   "frameworkId": "vllm",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为训练产品，不支持推理框架"
  },
  {
   "cardId": "atlas-800t-a3",
   "frameworkId": "mindie",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为训练产品，不支持推理框架"
  },
  {
   "cardId": "atlas-800t-a3",
   "frameworkId": "mindspeed",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 MindSpeed-LLM 训练套件"
  },
  {
   "cardId": "atlas-800t-a3",
   "frameworkId": "mindspore",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 MindFormers 训练套件"
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "frameworkId": "vllm",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为训练产品，不支持推理框架"
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "frameworkId": "mindie",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "本卡为训练产品，不支持推理框架"
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "frameworkId": "mindspeed",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 MindSpeed-LLM 训练套件"
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "frameworkId": "mindspore",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 MindFormers 训练套件"
  },
  {
   "cardId": "ascend-950dt-pr",
   "frameworkId": "vllm",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 vllm-ascend 插件接入，可跑推理"
  },
  {
   "cardId": "ascend-950dt-pr",
   "frameworkId": "mindie",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "暂未适配该卡"
  },
  {
   "cardId": "ascend-950dt-pr",
   "frameworkId": "mindspeed",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 MindSpeed-LLM 训练套件"
  },
  {
   "cardId": "ascend-950dt-pr",
   "frameworkId": "mindspore",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "支持 MindFormers 训练套件"
  }
 ]

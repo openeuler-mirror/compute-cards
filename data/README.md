@@ -79,7 +79,7 @@
 | `image_tags.json` | 561 | `(imageId, tag)` | 镜像 tag，只保留 openEuler |
 | `card_images.json` | 106 | `(cardId, imageId)` | 镜像适用于哪些卡 |
 | `image_variants.json` | 34 | `(imageId, os, arch)` | 变体；**同一 (imageId, os) 只有一行** |
-| `image_build_steps.json` | 76 | `(imageId, os, arch, sortOrder)` | 构建步骤（仓库级，复制到各 variant） |
+| `image_build_steps.json` | 72 | `(imageId, os, arch, sortOrder)` | 构建步骤（仓库级，复制到各 variant） |
 | `image_verify_steps.json` | 19 | `(imageId, os, arch, sortOrder)` | 验证步骤，只有少数仓库有 |
 | `image_dockerfiles.json` | 40 | `(imageId, tag)` | Dockerfile 原文 |
 | `image_env_vars.json` | 6 | 自增 | 环境变量说明 |

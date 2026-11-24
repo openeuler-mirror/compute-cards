@@ -3,168 +3,168 @@
   "cardId": "atlas-300i-duo",
   "frameworkId": "vllm",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports vllm-ascend plugin integration for inference"
  },
  {
   "cardId": "atlas-300i-duo",
   "frameworkId": "mindie",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports the native Ascend inference engine"
  },
  {
   "cardId": "atlas-300i-duo",
   "frameworkId": "mindspeed",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Inference-only product; training frameworks are not supported"
  },
  {
   "cardId": "atlas-300i-duo",
   "frameworkId": "mindspore",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Inference-only product; training frameworks are not supported"
  },
  {
   "cardId": "atlas-800i-a2",
   "frameworkId": "vllm",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports vllm-ascend plugin integration for inference"
  },
  {
   "cardId": "atlas-800i-a2",
   "frameworkId": "mindie",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports the native Ascend inference engine"
  },
  {
   "cardId": "atlas-800i-a2",
   "frameworkId": "mindspeed",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Inference-only product; training frameworks are not supported"
  },
  {
   "cardId": "atlas-800i-a2",
   "frameworkId": "mindspore",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Inference-only product; training frameworks are not supported"
  },
  {
   "cardId": "atlas-800i-a3",
   "frameworkId": "vllm",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports vllm-ascend plugin integration for inference"
  },
  {
   "cardId": "atlas-800i-a3",
   "frameworkId": "mindie",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports the native Ascend inference engine"
  },
  {
   "cardId": "atlas-800i-a3",
   "frameworkId": "mindspeed",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Inference-only product; training frameworks are not supported"
  },
  {
   "cardId": "atlas-800i-a3",
   "frameworkId": "mindspore",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Inference-only product; training frameworks are not supported"
  },
  {
   "cardId": "atlas-800t-a2",
   "frameworkId": "vllm",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Training-only product; inference frameworks are not supported"
  },
  {
   "cardId": "atlas-800t-a2",
   "frameworkId": "mindie",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Training-only product; inference frameworks are not supported"
  },
  {
   "cardId": "atlas-800t-a2",
   "frameworkId": "mindspeed",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports the MindSpeed-LLM training suite"
  },
  {
   "cardId": "atlas-800t-a2",
   "frameworkId": "mindspore",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports the MindFormers training suite"
  },
  {
   "cardId": "atlas-800t-a3",
   "frameworkId": "vllm",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Training-only product; inference frameworks are not supported"
  },
  {
   "cardId": "atlas-800t-a3",
   "frameworkId": "mindie",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Training-only product; inference frameworks are not supported"
  },
  {
   "cardId": "atlas-800t-a3",
   "frameworkId": "mindspeed",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports the MindSpeed-LLM training suite"
  },
  {
   "cardId": "atlas-800t-a3",
   "frameworkId": "mindspore",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports the MindFormers training suite"
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "frameworkId": "vllm",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Training-only product; inference frameworks are not supported"
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "frameworkId": "mindie",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Training-only product; inference frameworks are not supported"
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "frameworkId": "mindspeed",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports the MindSpeed-LLM training suite"
  },
  {
   "cardId": "atlas-900-a3-superpod",
   "frameworkId": "mindspore",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports the MindFormers training suite"
  },
  {
   "cardId": "ascend-950dt-pr",
   "frameworkId": "vllm",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports vllm-ascend plugin integration for inference"
  },
  {
   "cardId": "ascend-950dt-pr",
   "frameworkId": "mindie",
   "status": "unsupported",
-  "statusNote": null
+  "statusNote": "Not yet adapted for this card"
  },
  {
   "cardId": "ascend-950dt-pr",
   "frameworkId": "mindspeed",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports the MindSpeed-LLM training suite"
  },
  {
   "cardId": "ascend-950dt-pr",
   "frameworkId": "mindspore",
   "status": "adapted",
-  "statusNote": null
+  "statusNote": "Supports the MindFormers training suite"
  }
 ]

@@ -1,7 +1,7 @@
 [
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "接口测试样例 / 排序模型测试",
@@ -9,7 +9,7 @@
  },
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "接口测试样例 / 排序模型测试",
@@ -17,7 +17,7 @@
  },
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 3,
   "title": "接口测试样例 / 稠密向量模型测试",
@@ -25,7 +25,7 @@
  },
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 4,
   "title": "接口测试样例 / 稠密向量模型测试",
@@ -33,7 +33,7 @@
  },
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 5,
   "title": "接口测试样例 / 序列分类模型测试",
@@ -41,7 +41,7 @@
  },
  {
   "imageId": "07a016975cc341f3a5ae131f2b52399d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 6,
   "title": "接口测试样例 / 稀疏向量模型测试",
@@ -49,7 +49,7 @@
  },
  {
   "imageId": "08f948dc1dd745fd896501377ce73b2c",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "部署 DPU Exporter",
@@ -57,7 +57,7 @@
  },
  {
   "imageId": "08f948dc1dd745fd896501377ce73b2c",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "aarch64",
   "sortOrder": 2,
   "title": "部署 DPU Exporter",
@@ -65,7 +65,7 @@
  },
  {
   "imageId": "0bc31428b0984445a39496fdcfce7c2b",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "二次开发",
@@ -73,7 +73,7 @@
  },
  {
   "imageId": "13f3dee71712420d8b583b9275c04899",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "部署 Infer Operator",
@@ -81,7 +81,7 @@
  },
  {
   "imageId": "16f17a3c95d54f9da710a9c51bfceaa3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "部署 Ascend for Volcano",
@@ -89,7 +89,7 @@
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "部署 NPU Exporter",
@@ -97,7 +97,7 @@
  },
  {
   "imageId": "1b1a8c3cc1ff4710bdb0222514a8a7a3",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 2,
   "title": "部署 NPU Exporter",
@@ -105,7 +105,7 @@
  },
  {
   "imageId": "54545fa4ff9f446e914bf44b85efdb61",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "部署 Ascend for Volcano",
@@ -113,7 +113,7 @@
  },
  {
   "imageId": "a066319600634cf6a1e522856a63a1c5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "部署 Ascend Operator",
@@ -121,7 +121,7 @@
  },
  {
   "imageId": "a592da7bd2ab4dffa8864abd4eac5068",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "部署 Ascend Device Plugin",
@@ -129,7 +129,7 @@
  },
  {
   "imageId": "b554929b470747448924bc786b5ab95d",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "部署 ClusterD",
@@ -137,7 +137,7 @@
  },
  {
   "imageId": "c98c978f3a274ecbb0c844ed8405ab80",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "aarch64",
   "sortOrder": 1,
   "title": "部署 K8s RDMA 共享设备插件",
@@ -145,7 +145,7 @@
  },
  {
   "imageId": "cc7e6c0a10834f1888d790174fba4bc5",
-  "os": "openEuler 24.03",
+  "os": "openEuler 24.03 LTS",
   "arch": "x86_64 / aarch64",
   "sortOrder": 1,
   "title": "部署 NodeD",
