@@ -1,6 +1,6 @@
 {
  "version": "2026-11-05",
- "generatedAt": "2026-11-25T14:54:14",
+ "generatedAt": "2026-11-25T15:23:28",
  "frameworkSeats": {
   "vllm": "infer",
   "mindie": "infer",
@@ -21,7 +21,7 @@
   "frameworks": 4,
   "imageBuildParams": 52,
   "imageBuildSteps": 72,
-  "imageDockerfiles": 40,
+  "imageDockerfiles": 39,
   "imageEnvVars": 6,
   "imageLayers": 2805,
   "imageTags": 561,
