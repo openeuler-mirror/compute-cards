@@ -1,6 +1,6 @@
 {
  "version": "2026-11-05",
- "generatedAt": "2026-11-24T10:57:16",
+ "generatedAt": "2026-11-25T16:01:33",
  "language": "en",
  "counts": {
   "ai_card_os": 18,
@@ -14,9 +14,9 @@
   "driver_version_os": 18,
   "driver_versions": 7,
   "frameworks": 4,
-  "image_build_params": 52,
+  "image_build_params": 48,
   "image_build_steps": 72,
-  "image_dockerfiles": 40,
+  "image_dockerfiles": 39,
   "image_env_vars": 6,
   "image_layers": 2805,
   "image_tags": 561,

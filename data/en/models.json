@@ -77,7 +77,7 @@
   "name": "Qwen3",
   "vendor": null,
   "params": "30B-A3B",
-  "paramsValue": 30.0
+  "paramsValue": 30.5
  },
  {
   "id": "qwen3-dense",

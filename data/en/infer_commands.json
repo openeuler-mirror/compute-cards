@@ -6,8 +6,8 @@
   "quantId": "bf16",
   "enabled": true,
   "recommended": false,
-  "weightSize": "4.1 GB",
-  "vram": "7.2 GB",
+  "weightSize": "4.0 GB",
+  "vram": "7.0 GB",
   "suggestMulti": false
  },
  {
@@ -39,8 +39,8 @@
   "quantId": "w4a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "1729 GB",
-  "vram": "2273 GB",
+  "weightSize": "850 GB",
+  "vram": "1364 GB",
   "suggestMulti": true
  },
  {
@@ -50,8 +50,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "510 GB",
-  "vram": "806 GB",
+  "weightSize": "552 GB",
+  "vram": "862 GB",
   "suggestMulti": true
  },
  {
@@ -61,8 +61,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "510 GB",
-  "vram": "806 GB",
+  "weightSize": "552 GB",
+  "vram": "862 GB",
   "suggestMulti": true
  },
  {
@@ -72,8 +72,8 @@
   "quantId": "w4a4",
   "enabled": true,
   "recommended": false,
-  "weightSize": "1508 GB",
-  "vram": "1787 GB",
+  "weightSize": "401 GB",
+  "vram": "514 GB",
   "suggestMulti": true
  },
  {
@@ -94,8 +94,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "657 GB",
-  "vram": "779 GB",
+  "weightSize": "320 GB",
+  "vram": "392 GB",
   "suggestMulti": true
  },
  {
@@ -105,8 +105,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "328 GB",
-  "vram": "402 GB",
+  "weightSize": "320 GB",
+  "vram": "392 GB",
   "suggestMulti": true
  },
  {
@@ -116,8 +116,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "328 GB",
-  "vram": "402 GB",
+  "weightSize": "320 GB",
+  "vram": "392 GB",
   "suggestMulti": true
  },
  {
@@ -182,8 +182,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "30 GB",
-  "vram": "38 GB",
+  "weightSize": "31 GB",
+  "vram": "39 GB",
   "suggestMulti": false
  },
  {
@@ -193,8 +193,8 @@
   "quantId": "bf16",
   "enabled": true,
   "recommended": false,
-  "weightSize": "60 GB",
-  "vram": "73 GB",
+  "weightSize": "61 GB",
+  "vram": "74 GB",
   "suggestMulti": true
  },
  {
@@ -204,8 +204,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "30 GB",
-  "vram": "38 GB",
+  "weightSize": "31 GB",
+  "vram": "39 GB",
   "suggestMulti": false
  },
  {
@@ -215,8 +215,8 @@
   "quantId": "bf16",
   "enabled": true,
   "recommended": false,
-  "weightSize": "60 GB",
-  "vram": "73 GB",
+  "weightSize": "61 GB",
+  "vram": "74 GB",
   "suggestMulti": true
  },
  {
@@ -226,8 +226,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "30 GB",
-  "vram": "38 GB",
+  "weightSize": "31 GB",
+  "vram": "39 GB",
   "suggestMulti": false
  },
  {
@@ -292,8 +292,8 @@
   "quantId": "w4a4",
   "enabled": true,
   "recommended": false,
-  "weightSize": "794 GB",
-  "vram": "1099 GB",
+  "weightSize": "211 GB",
+  "vram": "429 GB",
   "suggestMulti": true
  },
  {
@@ -336,8 +336,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "70 GB",
-  "vram": "90 GB",
+  "weightSize": "35 GB",
+  "vram": "50 GB",
   "suggestMulti": false
  },
  {
@@ -380,8 +380,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "180 GB",
-  "vram": "241 GB",
+  "weightSize": "176 GB",
+  "vram": "236 GB",
   "suggestMulti": true
  },
  {
@@ -435,8 +435,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "689 GB",
-  "vram": "825 GB",
+  "weightSize": "671 GB",
+  "vram": "805 GB",
   "suggestMulti": true
  },
  {
@@ -446,8 +446,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "689 GB",
-  "vram": "825 GB",
+  "weightSize": "671 GB",
+  "vram": "805 GB",
   "suggestMulti": true
  },
  {
@@ -457,8 +457,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "689 GB",
-  "vram": "825 GB",
+  "weightSize": "671 GB",
+  "vram": "805 GB",
   "suggestMulti": true
  },
  {
@@ -468,8 +468,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "689 GB",
-  "vram": "825 GB",
+  "weightSize": "671 GB",
+  "vram": "805 GB",
   "suggestMulti": true
  },
  {
@@ -479,8 +479,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "689 GB",
-  "vram": "811 GB",
+  "weightSize": "671 GB",
+  "vram": "789 GB",
   "suggestMulti": true
  },
  {
@@ -754,8 +754,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "1029 GB",
-  "vram": "1195 GB",
+  "weightSize": "1040 GB",
+  "vram": "1208 GB",
   "suggestMulti": true
  },
  {
@@ -765,8 +765,8 @@
   "quantId": "w8a8",
   "enabled": true,
   "recommended": false,
-  "weightSize": "297 GB",
-  "vram": "349 GB",
+  "weightSize": "1040 GB",
+  "vram": "1208 GB",
   "suggestMulti": true
  },
  {

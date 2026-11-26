@@ -1,6 +1,6 @@
 {
  "version": "2026-11-05",
- "generatedAt": "2026-11-24T10:57:16",
+ "generatedAt": "2026-11-25T16:01:33",
  "frameworkSeats": {
   "vllm": "infer",
   "mindie": "infer",
@@ -19,9 +19,9 @@
   "driverVersionOs": 18,
   "driverVersions": 7,
   "frameworks": 4,
-  "imageBuildParams": 52,
+  "imageBuildParams": 48,
   "imageBuildSteps": 72,
-  "imageDockerfiles": 40,
+  "imageDockerfiles": 39,
   "imageEnvVars": 6,
   "imageLayers": 2805,
   "imageTags": 561,
